@@ -1,18 +1,21 @@
 # First party imports 
 from screenshot import take_screenshot
+from vt import vtscan
 
+# Third party imports
+
+import time
+import ast
 import re
 import pandas as pd
 
-def extract_urls(tweet_text): # Function extracts URLs from tweet text
-    ignore_list=[] # Ignore list to filter out URLs hosted on Twitter's domain (t.co, twitter.com/...) etc
-    url_regex='http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+' 
+def extract_urls(url_data): # Function extracts URLs from URL entity in Twitter metadata
     try:
-        urls=[]
-        urls.append(re.findall(url_regex,tweet_text))        
-        print(urls)
+        x = ast.literal_eval(url_data)
+        dict=x[0]
+        expanded_url=dict['expanded_url']
+        return expanded_url
     except Exception as e:
-        print(e)
         pass
 
 def process_tweet(filename): # Function reads each tweet id from the file and grabs screenshots
@@ -21,10 +24,21 @@ def process_tweet(filename): # Function reads each tweet id from the file and gr
 
     file=pd.read_csv("/home/sayaksr/Desktop/git/blockchain_codebase/output/"+str(filename)+".csv")
     for index, row in file.iterrows():
+        
+        # From metadata csv
+
         tweet_id=row['id']
         tweet_text=row['text']
+        url_data=row['entities.urls']
+        
+        # Extracted data
+
+        extracted_url=extract_urls(url_data)
+
+        
+        
         print("Getting screenshot for tweet id:"+str(tweet_id))
         #take_screenshot(tweet_id)
-        extract_urls(tweet_text)
+        #extract_urls(tweet_text)
 
 process_tweet('NFT')

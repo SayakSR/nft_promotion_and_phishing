@@ -1,3 +1,4 @@
 twarc
 selenium
 pandas
+virustotal-python
