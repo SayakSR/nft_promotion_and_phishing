@@ -1,1 +1,4 @@
-output
+env
+**/find_promoter_accounts/raw_output/
+**/find_promoter_accounts/promoter_accounts/
+
