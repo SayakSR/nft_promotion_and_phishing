@@ -31,9 +31,10 @@ def insert_data_into_table(i_job_id,i_timestamp,i_user_id,i_user_name,i_profile_
 
     try:
         # Create 
-        query = User(job_id=i_job_id,timestamp=i_timestamp,user_id=i_user_id,user_name=i_user_name,is_account_promoter="NULL",profile_description=i_profile_description)  
+        query = User(job_id=i_job_id,timestamp=i_timestamp,user_id=i_user_id,user_name=i_user_name,is_account_promoter=None,profile_description=i_profile_description)  
         #query = User(job_id=1111,timestamp=1234,user_id=17689,user_name="hey",is_account_promoter="NULL",profile_description="test")  
         session.add(query)  
         session.commit()
-    except:
+    except Exception as e:
+        print(e)
         print("Error inserting data")

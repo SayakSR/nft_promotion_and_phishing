@@ -35,7 +35,7 @@ while page_num<=2:
     # print the users retrieved
     for user in users:
 
-        timestamp=fetch_time() # To be stored in database 
+        timestamp=fetch_date() # To be stored in database 
 
         user_id=str(user.id_str)
         user_name=str(user.name)
