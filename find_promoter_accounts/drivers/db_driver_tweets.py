@@ -9,20 +9,23 @@ db = create_engine('postgresql+psycopg2://sayaksr:HJ[bR`m49gHT~:{\
 
 base = declarative_base()
 
-class User(base): 
+class Tweet(base): 
 
-    __tablename__ = 'users' 
+    __tablename__ = 'tweets' 
 
     job_id = Column(Numeric,nullable=False)
     timestamp= Column(TIMESTAMP,nullable=False)
-    user_id = Column(Numeric, primary_key=True,nullable=False)
+    tweet_id = Column(Numeric, primary_key=True,nullable=False)
+    user_id = Column(Numeric,nullable=False)
     user_name=Column(Text,nullable=False)    
-    is_account_promoter=Column(Boolean,nullable=True)
-    profile_description = Column(Text,nullable=False)
+    tweet = Column(Text,nullable=False)
+    likes=Column(Numeric,nullable=False)
+    retweets=Column(Numeric,nullable=False)
+    reply_count=Column(Numeric,nullable=False)
 
 
 
-def insert_data_into_table(i_job_id,i_timestamp,i_user_id,i_user_name,i_profile_description):
+def insert_data_into_table(i_job_id,i_timestamp,i_tweet_id,i_user_id,i_user_name,i_tweet,i_likes,i_retweets,i_reply_count):
 
     Session = sessionmaker(db)  
     session = Session()
@@ -31,8 +34,7 @@ def insert_data_into_table(i_job_id,i_timestamp,i_user_id,i_user_name,i_profile_
 
     try:
         # Create 
-        query = User(job_id=i_job_id,timestamp=i_timestamp,user_id=i_user_id,user_name=i_user_name,is_account_promoter="NULL",profile_description=i_profile_description)  
-        #query = User(job_id=1111,timestamp=1234,user_id=17689,user_name="hey",is_account_promoter="NULL",profile_description="test")  
+        query = Tweet(job_id=i_job_id,timestamp=i_timestamp,tweet_id=i_tweet_id,user_id=i_user_id,user_name=i_user_name,tweet=i_tweet,likes=i_likes,retweets=i_retweets,reply_count=i_reply_count)  
         session.add(query)  
         session.commit()
     except:
