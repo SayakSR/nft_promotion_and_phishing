@@ -10,7 +10,7 @@ from drivers.db_driver_tweets import *
 from drivers.date_time_stamp import *
 
 def fetch_timeline_tweets(userid,filepath):
-    os.system(f"twarc2 timeline --limit 100 {userid} {filepath}/{userid}.json")
+    os.system(f"twarc2 timeline --user-search --limit 100 {userid} {filepath}/{userid}.json")
     os.system(f"twarc2 csv {filepath}/{userid}.json {filepath}/{userid}.csv")
 
 def process_timeline_tweets(userid,filepath):
