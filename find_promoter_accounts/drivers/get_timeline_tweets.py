@@ -6,8 +6,8 @@ from psycopg2 import Timestamp
 
 # First party imports
 
-from db_driver_tweets import *
-from date_time_stamp import *
+from drivers.db_driver_tweets import *
+from drivers.date_time_stamp import *
 
 def fetch_timeline_tweets(userid,filepath):
     os.system(f"twarc2 timeline --limit 100 {userid} {filepath}/{userid}.json")

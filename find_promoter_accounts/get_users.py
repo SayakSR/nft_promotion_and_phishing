@@ -6,7 +6,7 @@ import json
 # First party imports
 
 from drivers.date_time_stamp import *
-from find_promoter_accounts.promoter_account_users.drivers.db_driver_users import *
+from drivers.db_driver_users import *
 from drivers.get_timeline_tweets import *
 
 
@@ -44,7 +44,7 @@ def crawl_for_users():
         q=initial_q+f" {i}" # query changes based on word list i.e. "dm for promotions" + some_word
         print(f"Looking for user accounts using query:{q}")
         page_num=1 # Resetting page_num counter
-        while page_num<=50:
+        while page_num<=2:
 
             page_num=page_num+1
         # search the query
@@ -64,19 +64,20 @@ def crawl_for_users():
                     profile_description=str(user.description)
                     file=open("profile_desc.txt","a",encoding='utf-8')
                     file.write(str(profile_description))
+
                     file.close()
                     file=open(f'{file_path}{user_id}.json','w',encoding='utf-8')
                     user_json_str = json.dumps(user._json)
                     file.write(user_json_str)
-                    
+                    followers_count=str(user.followers_count)
                     file.close()
 
-                    #insert_data_into_table(1111,timestamp,user_id,user_name,profile_description)
+                    insert_user_data_into_table(1111,timestamp,user_id,user_name,profile_description,followers_count)
 
                     # ==== Collecting tweets ======
 
-                    fetch_timeline_tweets(user_id,"timelines/")
-                    process_timeline_tweets(user_id,"timelines/") # This function will also commit to database as necessary
+                    fetch_timeline_tweets(user_id,"timelines")
+                    process_timeline_tweets(user_id,"timelines") # This function will also commit to database as necessary
 
 
             with open('seen_id_list.txt', 'w') as f:

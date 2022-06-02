@@ -37,5 +37,5 @@ def insert_data_into_table(i_job_id,i_timestamp,i_tweet_id,i_user_id,i_user_name
         query = Tweet(job_id=i_job_id,timestamp=i_timestamp,tweet_id=i_tweet_id,user_id=i_user_id,user_name=i_user_name,tweet=i_tweet,likes=i_likes,retweets=i_retweets,reply_count=i_reply_count)  
         session.add(query)  
         session.commit()
-    except:
-        print("Error inserting data")
+    except Exception as e:
+        print(e)

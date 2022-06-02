@@ -20,11 +20,11 @@ class User(base):
     is_account_promoter=Column(Boolean,nullable=True)
     profile_description = Column(Text,nullable=False)
     followers=Column(Numeric,nullable=False)
-    following=Column(Numeric,nullable=False)
+    #following=Column(Numeric,nullable=False)
 
 
 
-def insert_data_into_table(i_job_id,i_timestamp,i_user_id,i_user_name,i_profile_description):
+def insert_user_data_into_table(i_job_id,i_timestamp,i_user_id,i_user_name,i_profile_description,i_followers):
 
     Session = sessionmaker(db)  
     session = Session()
@@ -33,7 +33,7 @@ def insert_data_into_table(i_job_id,i_timestamp,i_user_id,i_user_name,i_profile_
 
     try:
         # Create 
-        query = User(job_id=i_job_id,timestamp=i_timestamp,user_id=i_user_id,user_name=i_user_name,is_account_promoter=None,profile_description=i_profile_description)  
+        query = User(job_id=i_job_id,timestamp=i_timestamp,user_id=i_user_id,user_name=i_user_name,is_account_promoter=None,profile_description=i_profile_description,followers=i_followers)  
         #query = User(job_id=1111,timestamp=1234,user_id=17689,user_name="hey",is_account_promoter="NULL",profile_description="test")  
         session.add(query)  
         session.commit()

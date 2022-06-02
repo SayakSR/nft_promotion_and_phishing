@@ -4,7 +4,7 @@ import time
 def fetch_date():
 
     date= datetime.datetime.today() 
-    date=date.strftime('%m%d%Y')
+    date=date.strftime('%m/%d/%Y')
  
     return str(date)
 
