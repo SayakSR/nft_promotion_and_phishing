@@ -1,6 +1,12 @@
 env
+<<<<<<< HEAD
 misc
 **/find_promoter_accounts/backup/
 **/find_promoter_accounts/user_metadata/
 **/find_promoter_accounts/timelines/
 
+=======
+**/find_promoter_accounts/raw_output/
+**/find_promoter_accounts/promoter_accounts/
+**/find_promoter_accounts/promoter_account_users/user_metadata
+>>>>>>> 9df0c44e25300e6d02c5cf12d3031b68af298dc5
