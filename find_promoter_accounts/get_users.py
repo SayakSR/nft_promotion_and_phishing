@@ -77,8 +77,10 @@ def crawl_for_users():
                     # ==== Collecting tweets ======
 
                     fetch_timeline_tweets(user_id,"timelines")
-                    process_timeline_tweets(user_id,"timelines") # This function will also commit to database as necessary
-
+                    try:
+                    	process_timeline_tweets(user_id,"timelines") # This function will also commit to database as necessary
+                    except:
+                        pass
 
             with open('seen_id_list.txt', 'w') as f:
                 for item in seen_id_list:
