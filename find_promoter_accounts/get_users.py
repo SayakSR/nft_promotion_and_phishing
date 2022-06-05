@@ -105,17 +105,18 @@ def crawl_for_users():
                     file.close()
                     try:
                         insert_user_data_into_table(1111,timestamp,user_id,user_name,profile_description,followers_count)
+                        fetch_timeline_tweets(user_id,"timelines")
+                        try:
+                    	    process_timeline_tweets(user_id,"timelines") # This function will also commit to database as necessary
+                        except:
+                            logging.warning(f"Error processing timeline for user id {user_id}. Probable cause is file does not exist.")
+
                     except:
                         logging.warning(f"DB JOB ID 1111: Error inserting entry into database for User:{user_id}")
 
                     # ==== Collecting tweets ======
 
-                    fetch_timeline_tweets(user_id,"timelines")
-                    try:
-                    	process_timeline_tweets(user_id,"timelines") # This function will also commit to database as necessary
-                    except:
-                        logging.warning(f"Error processing timeline for user id {user_id}. Probable cause is file does not exist.")
-
+                    
             users=[] # Emptying the user buffer. Not really needed, but just being extra careful that old ids dont get fetched again
             with open('seen_id_list.txt', 'a') as f:
                 for item in seen_id_list:
