@@ -21,21 +21,26 @@ access_token_secret='MT50ifwvCEiP9PMksPyUeT4goV4nLDsg0cAqItfO1aLHw'
 
 def crawl_for_users():
 
+    print("Start crawling users")
+
     with open('common.wordlist') as f:
         wordlist = [line.rstrip() for line in f]
 
+
+
     try: # Seen id list avoids storing data from user ids that have been seen before
-        seen_id_list=[line.rstrip() for line in f]
+        with open('seen_id_list.txt') as f:
+            seen_id_list=[line.rstrip() for line in f]
     except:
         print("Need to initialize seen id file")
         seen_id_list=[]
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-    
+
     auth.set_access_token(access_token, access_token_secret)
-    
-    api = tweepy.API(auth, wait_on_rate_limit= True)
-    
+
+    api = tweepy.API(auth,wait_on_rate_limit= True)
+
     initial_q = "dm for promotions"
     file_path="user_metadata/"
     page_num=0 # Init page number variable, max pages = 50
@@ -44,7 +49,7 @@ def crawl_for_users():
         q=initial_q+f" {i}" # query changes based on word list i.e. "dm for promotions" + some_word
         print(f"Looking for user accounts using query:{q}")
         page_num=1 # Resetting page_num counter
-        while page_num<=2:
+        while page_num<=10:
 
             page_num=page_num+1
         # search the query
@@ -60,6 +65,7 @@ def crawl_for_users():
                     print("User already seen before")
                     pass # ID has already been crawled before
                 else:
+                    seen_id_list.append(user_id)
                     user_name=str(user.name)
                     profile_description=str(user.description)
                     file=open("profile_desc.txt","a",encoding='utf-8')
@@ -82,7 +88,7 @@ def crawl_for_users():
                     except:
                         pass
 
-            with open('seen_id_list.txt', 'w') as f:
+            with open('seen_id_list.txt', 'a') as f:
                 for item in seen_id_list:
                     f.write("%s\n" % item)
 
