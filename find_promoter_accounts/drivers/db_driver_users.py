@@ -4,8 +4,26 @@ from sqlalchemy import Column, Date, ForeignKey, Integer, String, Text, Boolean,
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-db = create_engine('postgresql+psycopg2://sayaksr:HJ[bR`m49gHT~:{\
-@128.111.49.111/nft_scam')
+
+import logging
+
+logging.basicConfig(filename='pa.log', level=logging.DEBUG,
+                    format='%(asctime)s:%(levelname)s:%(message)s')
+
+try:
+
+    db = create_engine('postgresql+psycopg2://sayaksr:HJ[bR`m49gHT~:{\
+    @128.111.49.111/nft_scam')
+except:
+    logging.warning(f"DB Fatal error! Unable to connect to NFT_Scam DB instance")
+
+
+
+def init_db_session_users():
+    global Session_users
+    global session_users
+    Session_users = sessionmaker(db)  
+    session_users = Session_users()
 
 base = declarative_base()
 
@@ -26,17 +44,17 @@ class User(base):
 
 def insert_user_data_into_table(i_job_id,i_timestamp,i_user_id,i_user_name,i_profile_description,i_followers):
 
-    Session = sessionmaker(db)  
-    session = Session()
-
     base.metadata.create_all(db)
 
     try:
         # Create 
         query = User(job_id=i_job_id,timestamp=i_timestamp,user_id=i_user_id,user_name=i_user_name,is_account_promoter=None,profile_description=i_profile_description,followers=i_followers)  
+        logging.info(f"Entry for User:{i_user_id} inserted successfully")
+
+        # Test insertion string. Utilize only when changing structure of db
         #query = User(job_id=1111,timestamp=1234,user_id=17689,user_name="hey",is_account_promoter="NULL",profile_description="test")  
-        session.add(query)  
-        session.commit()
+        session_users.add(query)  
+        session_users.commit()
     except Exception as e:
-        print(e)
-        print("Error inserting data")
+        logging.info(f"DB JOB ID 1111: Insertion error raised for:{user_id}")
+
