@@ -14,21 +14,36 @@ def fetch_timeline_tweets(userid,filepath):
     os.system(f"twarc2 csv {filepath}/{userid}.json {filepath}/{userid}.csv")
 
 def process_timeline_tweets(userid,filepath):
-    
+    try:
+        with open('seen_tweet_list.txt') as f: # Seen id list avoids storing data from user ids that have been seen before
+            seen_tweet_list=[line.rstrip() for line in f]
+    except:
+        print("Need to initialize seen id file")
+        seen_tweet_list=[]
     file=pd.read_csv(f'{filepath}/{userid}.csv')
 
     for index, row in file.iterrows():
 
-        timestamp=fetch_date()
-        
-        # From metadata csv
-        tweet_id=row['id']
+         tweet_id=row['id']
 
-        tweet_text=row['text']
-        likes=row['public_metrics.like_count']
-        retweets=row['public_metrics.retweet_count']
-        replies=row['public_metrics.reply_count']
-        user_id=row['author_id']
-        user_name=row['author.username']
+         if tweet_id in seen_tweet_list:
+            print("Tweet already seen before")
+            pass # ID has already been crawled before
 
-        insert_data_into_table(2222,timestamp,tweet_id,user_id,user_name,tweet_text,likes,retweets,replies)
+         else:
+
+            timestamp=fetch_date()
+            # From metadata csv
+
+            tweet_text=row['text']
+            likes=row['public_metrics.like_count']
+            retweets=row['public_metrics.retweet_count']
+            replies=row['public_metrics.reply_count']
+            user_id=row['author_id']
+            user_name=row['author.username']
+
+            insert_data_into_table(2222,timestamp,tweet_id,user_id,user_name,tweet_text,likes,retweets,replies)
+
+    with open('seen_tweet_list.txt', 'a') as f:
+        for item in seen_tweet_list:
+            f.write("%s\n" % item)
