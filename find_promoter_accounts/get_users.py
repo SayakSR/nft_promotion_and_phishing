@@ -53,12 +53,13 @@ def crawl_for_users():
 
     api = tweepy.API(auth,wait_on_rate_limit= True)
 
-    initial_q = "dm for promotions"
+    #initial_q = "dm for promotions" # Comment out because entire query is being sourced from common.wordlist now
+
     file_path="user_metadata/"
     page_num=0 # Init page number variable, max pages = 50
 
     for i in wordlist:
-        q=initial_q+f" {i}" # query changes based on word list i.e. "dm for promotions" + some_word
+        q=f" {i}" # query changes based on word list
 
         logging.info("get_users module sleeping for 10 secs to avoid hitting API limit error")
 
