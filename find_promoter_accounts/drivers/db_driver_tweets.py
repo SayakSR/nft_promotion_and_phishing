@@ -1,5 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy import Column, Date, ForeignKey, Integer, String, Text, Boolean, create_engine, TIMESTAMP, Numeric, DATE
+from urllib import quote_plus as urlquote
 
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
