@@ -119,7 +119,7 @@ def crawl_for_users():
 
                     
             users=[] # Emptying the user buffer. Not really needed, but just being extra careful that old ids dont get fetched again
-            with open('seen_id_list.txt', 'a') as f:
+            with open('seen_id_list.txt', 'w') as f:
                 for item in seen_id_list:
                     f.write("%s\n" % item)
 
