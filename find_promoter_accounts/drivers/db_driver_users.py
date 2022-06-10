@@ -1,4 +1,4 @@
-from urllib import quote_plus as urlquote
+from urllib.parse import quote_plus as urlquote
 from sqlalchemy import create_engine
 from sqlalchemy import Column, Date, ForeignKey, Integer, String, Text, Boolean, create_engine, TIMESTAMP, Numeric, DATE
 
