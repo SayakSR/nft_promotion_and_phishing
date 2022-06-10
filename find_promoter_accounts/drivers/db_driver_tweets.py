@@ -10,8 +10,11 @@ import logging
 logging.basicConfig(filename='pa.log', level=logging.DEBUG,
                     format='%(asctime)s:%(levelname)s:%(message)s')
 
-db = create_engine('postgresql+psycopg2://sayaksr:HJ[bR`m49gHT~:{\
-@128.111.49.111/nft_scam')
+# db = create_engine('postgresql+psycopg2://sayaksr:HJ[bR`m49gHT~:{\
+# @128.111.49.111/nft_scam')
+
+db = create_engine('postgresql+psycopg2://%s@128.111.49.111/nft_scam'% urlquote('HJ[bR`m49gHT~:{'))
+
 
 def init_db_session_tweets():
     global Session_tweets
