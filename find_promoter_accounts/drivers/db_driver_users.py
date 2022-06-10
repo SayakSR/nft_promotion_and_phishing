@@ -1,7 +1,7 @@
 from urllib.parse import quote_plus as urlquote
 from sqlalchemy import create_engine
 from sqlalchemy import Column, Date, ForeignKey, Integer, String, Text, Boolean, create_engine, TIMESTAMP, Numeric, DATE
-
+import time
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
@@ -13,11 +13,12 @@ logging.basicConfig(filename='pa.log', level=logging.DEBUG,
 
 try:
 
-    db = create_engine('postgresql+psycopg2://%s@128.111.49.111/nft_scam'% urlquote('HJ[bR`m49gHT~:{'))
+    db = create_engine('postgresql+psycopg2://sayaksr:%s@128.111.49.111/nft_scam'% urlquote('HJ[bR`m49gHT~:{'))
 
-except:
+except Exception as e:
     logging.warning(f"DB Fatal error! Unable to connect to NFT_Scam DB instance")
-
+    print(e)
+    time.sleep(10)
 
 
 def init_db_session_users():
