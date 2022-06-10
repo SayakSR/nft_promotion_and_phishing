@@ -38,14 +38,14 @@ def crawl_for_users():
 
 
 
-    try: # Seen id list avoids storing data from user ids that have been seen before
-        with open('seen_id_list.txt') as f:
-            seen_id_list=[line.rstrip() for line in f]
-    except:
-        print("Need to initialize seen id file")
-        logging.info("Created seen user id file")
+    # try: # Seen id list avoids storing data from user ids that have been seen before
+    #     with open('seen_id_list.txt') as f:
+    #         seen_id_list=[line.rstrip() for line in f]
+    # except:
+    #     print("Need to initialize seen id file")
+    #     logging.info("Created seen user id file")
 
-        seen_id_list=[]
+    #     #seen_id_list=[]
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 
@@ -86,42 +86,42 @@ def crawl_for_users():
                 timestamp=fetch_date() # To be stored in database 
 
                 user_id=str(user.id_str)
-                if user_id in seen_id_list:
-                    logging.info(f"Skipping User:{user_id} because it has already been crawled before.")
+                # if user_id in seen_id_list:
+                #     logging.info(f"Skipping User:{user_id} because it has already been crawled before.")
 
-                    pass # ID has already been crawled before
-                else:
-                    seen_id_list.append(user_id)
-                    user_name=str(user.name)
-                    profile_description=str(user.description)
-                    file=open("profile_desc.txt","a",encoding='utf-8')
-                    file.write(str(profile_description))
-                    logging.info(f"Profile description for User:{user_id} written successfully")
+                #     pass # ID has already been crawled before
+                # else:
+                    #seen_id_list.append(user_id)
+                user_name=str(user.name)
+                profile_description=str(user.description)
+                file=open("profile_desc.txt","a",encoding='utf-8')
+                file.write(str(profile_description))
+                logging.info(f"Profile description for User:{user_id} written successfully")
 
-                    file.close()
-                    file=open(f'{file_path}{user_id}.json','w',encoding='utf-8')
-                    user_json_str = json.dumps(user._json)
-                    file.write(user_json_str)
-                    followers_count=str(user.followers_count)
-                    file.close()
+                file.close()
+                file=open(f'{file_path}{user_id}.json','w',encoding='utf-8')
+                user_json_str = json.dumps(user._json)
+                file.write(user_json_str)
+                followers_count=str(user.followers_count)
+                file.close()
+                try:
+                    insert_user_data_into_table(1111,timestamp,user_id,user_name,profile_description,followers_count)
+                    fetch_timeline_tweets(user_id,"timelines")
                     try:
-                        insert_user_data_into_table(1111,timestamp,user_id,user_name,profile_description,followers_count)
-                        fetch_timeline_tweets(user_id,"timelines")
-                        try:
-                    	    process_timeline_tweets(user_id,"timelines") # This function will also commit to database as necessary
-                        except:
-                            logging.warning(f"Error processing timeline for user id {user_id}. Probable cause is file does not exist.")
-
+                        process_timeline_tweets(user_id,"timelines") # This function will also commit to database as necessary
                     except:
-                        logging.warning(f"DB JOB ID 1111: Error inserting entry into database for User:{user_id}")
+                        logging.warning(f"Error processing timeline for user id {user_id}. Probable cause is file does not exist.")
 
-                    # ==== Collecting tweets ======
+                except:
+                    logging.warning(f"DB JOB ID 1111: Error inserting entry into database for User:{user_id}")
+
+                # ==== Collecting tweets ======
 
                     
             users=[] # Emptying the user buffer. Not really needed, but just being extra careful that old ids dont get fetched again
-            with open('seen_id_list.txt', 'w') as f:
-                for item in seen_id_list:
-                    f.write("%s\n" % item)
+            # with open('seen_id_list.txt', 'w') as f:
+            #     for item in seen_id_list:
+            #         f.write("%s\n" % item)
 
 
 
