@@ -2,7 +2,7 @@
 from sqlite3 import Timestamp
 import tweepy
 import json
-
+import sys
 import logging
 
 logging.basicConfig(filename='pa.log', level=logging.DEBUG,
@@ -64,12 +64,10 @@ def crawl_for_users():
         logging.info("get_users module sleeping for 10 secs to avoid hitting API limit error")
 
         time.sleep(10) # Sleeping timer to keep api limit in check
-        
         # Why 10 secs? Takes about ~ 40 secs to make 50 calls (pages in each request). API limit is 900 calls/15 min
         # the loop essentially runs 18 times to reach 900 calls. 18 calls takes 720 secs approx ~ 12 mins. 
         # Putting a sleep time of 10 secs between each call for 18 calls buys us that 3 mins of extra time.
-          
-        
+
         print(f"Looking for user accounts using query:{q}")
         page_num=1 # Resetting page_num counter
         while page_num<=50:
@@ -105,11 +103,14 @@ def crawl_for_users():
                 followers_count=str(user.followers_count)
                 file.close()
                 try:
-                    insert_user_data_into_table(1111,timestamp,user_id,user_name,profile_description,followers_count)
-                    fetch_timeline_tweets(user_id,"timelines")
+                    userid=user_id
+                    insert_user_data_into_table(1111,timestamp,userid,user_name,profile_description,followers_count)
+                    fetch_timeline_tweets(userid,"timelines")
                     try:
                         process_timeline_tweets(user_id,"timelines") # This function will also commit to database as necessary
-                    except:
+                    except Exception as e:
+                        print(e)
+
                         logging.warning(f"Error processing timeline for user id {user_id}. Probable cause is file does not exist.")
 
                 except Exception as e:
@@ -119,7 +120,6 @@ def crawl_for_users():
 
                 # ==== Collecting tweets ======
 
-                    
             users=[] # Emptying the user buffer. Not really needed, but just being extra careful that old ids dont get fetched again
             # with open('seen_id_list.txt', 'w') as f:
             #     for item in seen_id_list:
