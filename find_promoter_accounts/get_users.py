@@ -112,7 +112,9 @@ def crawl_for_users():
                     except:
                         logging.warning(f"Error processing timeline for user id {user_id}. Probable cause is file does not exist.")
 
-                except:
+                except Exception as e:
+                    print(e)
+                    print("Error on line {}".format(sys.exc_info()[-1].tb_lineno))
                     logging.warning(f"DB JOB ID 1111: Error inserting entry into database for User:{user_id}")
 
                 # ==== Collecting tweets ======
