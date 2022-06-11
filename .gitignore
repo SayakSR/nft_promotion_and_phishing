@@ -9,6 +9,6 @@ misc
 **/find_promoter_accounts/pa.log.save
 **/find_promoter_accounts/seen_id_list.txt
 **/find_promoter_accounts/nano.save
-**/find_promoter_accounts/see_tweets_list.txt
+**/find_promoter_accounts/see_tweet_list.txt
 nohup.out
 twarc.log
