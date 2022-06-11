@@ -61,10 +61,10 @@ def insert_user_data_into_table(i_job_id,i_timestamp,user_id,i_user_name,i_profi
             session_users.commit()
             logging.info(f"Entry for User:{user_id} inserted successfully")
 
-        except:
+        except Exception as e:
             session_users.rollback() 
             logging.info(f"DB JOB ID 1111: Insertion error raised for:{user_id}")
-
+            print(e)
     except Exception as e:
         print(e)
 
