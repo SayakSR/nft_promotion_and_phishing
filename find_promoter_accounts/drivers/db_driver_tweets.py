@@ -52,9 +52,12 @@ def insert_data_into_table(i_job_id,i_timestamp,i_tweet_id,i_user_id,i_user_name
         session_tweets.add(query)  
         try:
             session_tweets.commit()
+            logging.info(f"DB USERS (JOB ID 2222) = Tweet id: {i_tweet_id} for User:{i_user_id} inserted successfully")
+
         except:
             session_tweets.rollback()
-        logging.info(f"DB USERS (JOB ID 2222) = Tweet id: {i_tweet_id} for User:{i_user_id} inserted successfully")
+            logging.info(f"DB USERS (JOB ID 2222): Insertion error raised for Tweet:{i_tweet_id} from User:{i_user_id}")
+
 
     except Exception as e:
-        logging.info(f"DB USERS (JOB ID 2222): Insertion error raised for Tweet:{i_tweet_id} from User:{i_user_id}")
+        print(e)

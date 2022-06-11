@@ -53,16 +53,18 @@ def insert_user_data_into_table(i_job_id,i_timestamp,user_id,i_user_name,i_profi
         # Create
         print(user_id)
         query = User(job_id=i_job_id,timestamp=i_timestamp,user_id=user_id,user_name=i_user_name,is_account_promoter=None,profile_description=i_profile_description,followers=i_followers)  
-        logging.info(f"Entry for User:{user_id} inserted successfully")
 
         # Test insertion string. Utilize only when changing structure of db
         #query = User(job_id=1111,timestamp=1234,user_id=17689,user_name="hey",is_account_promoter="NULL",profile_description="test")  
         session_users.add(query)  
         try:
             session_users.commit()
+            logging.info(f"Entry for User:{user_id} inserted successfully")
+
         except:
             session_users.rollback() 
+            logging.info(f"DB JOB ID 1111: Insertion error raised for:{user_id}")
+
     except Exception as e:
         print(e)
-        logging.info(f"DB JOB ID 1111: Insertion error raised for:{user_id}")
 
