@@ -3,5 +3,10 @@ misc
 **/find_promoter_accounts/backup/
 **/find_promoter_accounts/user_metadata/
 **/find_promoter_accounts/timelines/
+**/find_promoter_accounts/nohup.save
+**/find_promoter_accounts/nohup_old.out
+**/find_promoter_accounts/pa.log
+**/find_promoter_accounts/pa.log.save
+**/find_promoter_accounts/seen_id_list.txt
 nohup.out
 twarc.log
