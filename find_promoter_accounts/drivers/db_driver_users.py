@@ -50,6 +50,7 @@ def insert_user_data_into_table(i_job_id,i_timestamp,user_id,i_user_name,i_profi
     base.metadata.create_all(db)
 
     try:
+        flag=1
         # Create
         print(user_id)
         query = User(job_id=i_job_id,timestamp=i_timestamp,user_id=user_id,user_name=i_user_name,is_account_promoter=None,profile_description=i_profile_description,followers=i_followers)  
@@ -64,7 +65,9 @@ def insert_user_data_into_table(i_job_id,i_timestamp,user_id,i_user_name,i_profi
         except Exception as e:
             session_users.rollback() 
             logging.info(f"DB JOB ID 1111: Insertion error raised for:{user_id}")
+            flag=0
             print(e)
     except Exception as e:
         print(e)
+    return flag
 

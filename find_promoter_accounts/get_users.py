@@ -104,8 +104,12 @@ def crawl_for_users():
                 file.close()
                 try:
                     userid=user_id
-                    insert_user_data_into_table(1111,timestamp,userid,user_name,profile_description,followers_count)
-                    fetch_timeline_tweets(userid,"timelines")
+                    insert_flag=insert_user_data_into_table(1111,timestamp,userid,user_name,profile_description,followers_count)
+                    if(insert_flag==1):
+                    	fetch_timeline_tweets(userid,"timelines")
+                    else:
+                        logging.info("Collect timeline flag returned = 0. Dont collect timeline")
+                        pass
                     try:
                         process_timeline_tweets(user_id,"timelines") # This function will also commit to database as necessary
                     except Exception as e:
