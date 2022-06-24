@@ -90,7 +90,7 @@ def crawl_for_users():
                 #     pass # ID has already been crawled before
                 # else:
                     #seen_id_list.append(user_id)
-                user_name=str(user.name)
+                user_name=str(user.screen_name)
                 profile_description=str(user.description)
                 file=open("profile_desc.txt","a",encoding='utf-8')
                 file.write(str(profile_description))
@@ -106,16 +106,15 @@ def crawl_for_users():
                     userid=user_id
                     insert_flag=insert_user_data_into_table(1111,timestamp,userid,user_name,profile_description,followers_count)
                     if(insert_flag==1):
-                    	fetch_timeline_tweets(userid,"timelines")
+                        fetch_timeline_tweets(userid,"timelines")
+                        try:
+                            process_timeline_tweets(user_id,"timelines")
+                        except:
+                            logging.warning(f"Timeline for user id {user_id} does not exist")
+
                     else:
                         logging.info("Collect timeline flag returned = 0. Dont collect timeline")
                         pass
-                    try:
-                        process_timeline_tweets(user_id,"timelines") # This function will also commit to database as necessary
-                    except Exception as e:
-                        print(e)
-
-                        logging.warning(f"Error processing timeline for user id {user_id}. Probable cause is file does not exist.")
 
                 except Exception as e:
                     print(e)

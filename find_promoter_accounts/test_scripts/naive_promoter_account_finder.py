@@ -57,6 +57,7 @@ for filename in glob.glob("*.csv"):
     file=pd.read_csv(f'{filename}')
 
     tweets=[] # Init tweets buffer
+    tweet_ids=[]
 
     for index, row in file.iterrows():
 
@@ -65,13 +66,15 @@ for filename in glob.glob("*.csv"):
         #print(f"Checking user id:{user_id}")
         tweet_text=row['text']
         tweets.append(tweet_text)
+        user_name=row['author.username']
         tweet_id=row['id']
+        tweet_ids.append(tweet_id)
         followers=row['author.public_metrics.followers_count']
 
     follower_check=check_if_user_has_enough_followers(followers)
 
     if follower_check==True:
-            for i in tweets:
+            for i,j in zip(tweets,tweet_ids):
                 print(f"Checking user_id:{user_id} and tweet id:{i}")
                 print(f"{i}")
                 check_tweet=check_if_tweet_is_promotion(i)
@@ -79,7 +82,7 @@ for filename in glob.glob("*.csv"):
                     # User is account promoter
                     print("User is account promoter")
                     file=open("account_promoters.csv","a",encoding="utf-8")
-                    file.write(f"{user_id},{i}\n")
+                    file.write(f"{user_id},{user_name},{j},{i}\n") # j= tweet id, i=tweet text
                     file.close()
                     break
                 else:
