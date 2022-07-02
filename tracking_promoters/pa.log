@@ -1,0 +1,1495 @@
+2022-07-02 12:56:16,623:INFO:Read promoter list from accounts_promoter csv
+2022-07-02 12:56:16,623:INFO:Getting timelin for Crypto_GA_Arena at time 1656791776
+2022-07-02 12:56:18,515:INFO:Fetched timeline for Crypto_GA_Arena at time 1656791776
+2022-07-02 12:56:19,365:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:56:19,365:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:56:19,373:INFO:Getting timelin for bainesy4886 at time 1656791779
+2022-07-02 12:56:21,054:INFO:Fetched timeline for bainesy4886 at time 1656791779
+2022-07-02 12:56:21,859:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:56:21,903:INFO:Entry for User:840793572 inserted successfully
+2022-07-02 12:56:23,912:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:56:23,918:INFO:Entry for User:840793572 inserted successfully
+2022-07-02 12:57:25,686:INFO:Read promoter list from accounts_promoter csv
+2022-07-02 12:57:25,686:INFO:Getting timelin for Crypto_GA_Arena at time 1656791845
+2022-07-02 12:57:27,459:INFO:Fetched timeline for Crypto_GA_Arena at time 1656791845
+2022-07-02 12:57:28,279:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:57:28,280:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:57:28,288:INFO:Getting timelin for bainesy4886 at time 1656791848
+2022-07-02 12:57:29,991:INFO:Fetched timeline for bainesy4886 at time 1656791848
+2022-07-02 12:57:30,775:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:57:30,808:INFO:Entry for User:840793572 inserted successfully
+2022-07-02 12:57:32,818:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:57:32,822:INFO:Entry for User:840793572 inserted successfully
+2022-07-02 12:57:56,223:INFO:Read promoter list from accounts_promoter csv
+2022-07-02 12:57:56,223:INFO:Getting timelin for Crypto_GA_Arena at time 1656791876
+2022-07-02 12:57:57,981:INFO:Fetched timeline for Crypto_GA_Arena at time 1656791876
+2022-07-02 12:57:58,783:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:57:58,783:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:57:58,791:INFO:Getting timelin for bainesy4886 at time 1656791878
+2022-07-02 12:58:00,565:INFO:Fetched timeline for bainesy4886 at time 1656791878
+2022-07-02 12:58:01,346:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:01,387:INFO:Entry for User:840793572 inserted successfully
+2022-07-02 12:58:01,394:INFO:User 840793572 entered succesfully into dataset
+2022-07-02 12:58:01,395:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:01,397:INFO:Entry for User:840793572 inserted successfully
+2022-07-02 12:58:03,414:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:03,417:INFO:Entry for User:1464176829406015488 inserted successfully
+2022-07-02 12:58:03,420:INFO:User 1464176829406015488 entered succesfully into dataset
+2022-07-02 12:58:03,420:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:03,423:INFO:Entry for User:1464176829406015488 inserted successfully
+2022-07-02 12:58:05,433:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:05,434:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:05,435:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:05,437:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:05,442:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:05,445:INFO:Entry for User:1319287761048723458 inserted successfully
+2022-07-02 12:58:05,447:INFO:User 1319287761048723458 entered succesfully into dataset
+2022-07-02 12:58:05,448:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:05,450:INFO:Entry for User:1319287761048723458 inserted successfully
+2022-07-02 12:58:07,457:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:07,459:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:07,461:INFO:Getting timelin for CryptoElwis at time 1656791887
+2022-07-02 12:58:09,103:INFO:Fetched timeline for CryptoElwis at time 1656791887
+2022-07-02 12:58:09,918:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:09,918:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:09,921:INFO:Entry for User:1509070066213605376 inserted successfully
+2022-07-02 12:58:09,923:INFO:User 1509070066213605376 entered succesfully into dataset
+2022-07-02 12:58:09,927:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:09,928:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:09,930:INFO:Entry for User:3166008431 inserted successfully
+2022-07-02 12:58:09,932:INFO:User 3166008431 entered succesfully into dataset
+2022-07-02 12:58:09,934:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:09,934:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:09,936:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:09,938:INFO:Entry for User:1434770739698311170 inserted successfully
+2022-07-02 12:58:09,940:INFO:User 1434770739698311170 entered succesfully into dataset
+2022-07-02 12:58:09,943:INFO:Entry for User:1434770739698311170 inserted successfully
+2022-07-02 12:58:11,949:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:11,951:INFO:Getting timelin for gnarhost at time 1656791891
+2022-07-02 12:58:12,762:INFO:Fetched timeline for gnarhost at time 1656791891
+2022-07-02 12:58:13,453:INFO:Getting timelin for GAContest_ at time 1656791893
+2022-07-02 12:58:14,279:INFO:Fetched timeline for GAContest_ at time 1656791893
+2022-07-02 12:58:14,999:INFO:Getting timelin for CryptoKing1st at time 1656791894
+2022-07-02 12:58:16,880:INFO:Fetched timeline for CryptoKing1st at time 1656791894
+2022-07-02 12:58:17,687:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:17,690:INFO:Entry for User:2251208988 inserted successfully
+2022-07-02 12:58:17,693:INFO:User 2251208988 entered succesfully into dataset
+2022-07-02 12:58:17,694:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:17,694:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:17,697:INFO:Entry for User:1518684823564566530 inserted successfully
+2022-07-02 12:58:17,700:INFO:User 1518684823564566530 entered succesfully into dataset
+2022-07-02 12:58:17,700:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:17,701:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:17,704:INFO:Entry for User:66828428 inserted successfully
+2022-07-02 12:58:17,706:INFO:User 66828428 entered succesfully into dataset
+2022-07-02 12:58:17,710:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:17,711:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:17,711:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:17,714:INFO:Entry for User:1518684823564566530 inserted successfully
+2022-07-02 12:58:19,723:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:19,727:INFO:Entry for User:66828428 inserted successfully
+2022-07-02 12:58:21,735:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:21,736:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:21,738:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:21,741:INFO:Entry for User:1510757684659826696 inserted successfully
+2022-07-02 12:58:21,744:INFO:User 1510757684659826696 entered succesfully into dataset
+2022-07-02 12:58:21,747:INFO:Entry for User:1510757684659826696 inserted successfully
+2022-07-02 12:58:23,758:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:23,759:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:23,763:INFO:Entry for User:1466315974370541571 inserted successfully
+2022-07-02 12:58:23,766:INFO:User 1466315974370541571 entered succesfully into dataset
+2022-07-02 12:58:23,768:INFO:Entry for User:1466315974370541571 inserted successfully
+2022-07-02 12:58:25,775:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:25,780:INFO:Entry for User:1466315974370541571 inserted successfully
+2022-07-02 12:58:27,791:INFO:Entry for User:1466315974370541571 inserted successfully
+2022-07-02 12:58:29,799:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:29,804:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:29,805:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:29,806:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:29,810:INFO:Entry for User:1319287761048723458 inserted successfully
+2022-07-02 12:58:29,812:INFO:User 1319287761048723458 entered succesfully into dataset
+2022-07-02 12:58:29,814:INFO:Getting timelin for RyZeJpeg at time 1656791909
+2022-07-02 12:58:31,743:INFO:Fetched timeline for RyZeJpeg at time 1656791909
+2022-07-02 12:58:32,617:INFO:Getting timelin for ValleryMerk at time 1656791912
+2022-07-02 12:58:33,436:INFO:Fetched timeline for ValleryMerk at time 1656791912
+2022-07-02 12:58:34,181:INFO:Getting timelin for prctiu at time 1656791914
+2022-07-02 12:58:35,734:INFO:Fetched timeline for prctiu at time 1656791914
+2022-07-02 12:58:36,537:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:36,541:INFO:Entry for User:1355079365629980679 inserted successfully
+2022-07-02 12:58:36,543:INFO:User 1355079365629980679 entered succesfully into dataset
+2022-07-02 12:58:36,544:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:36,546:INFO:Entry for User:1355079365629980679 inserted successfully
+2022-07-02 12:58:38,552:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:38,556:INFO:Entry for User:1254554131781558272 inserted successfully
+2022-07-02 12:58:38,560:INFO:User 1254554131781558272 entered succesfully into dataset
+2022-07-02 12:58:38,562:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:38,565:INFO:Entry for User:317551314 inserted successfully
+2022-07-02 12:58:38,568:INFO:User 317551314 entered succesfully into dataset
+2022-07-02 12:58:38,569:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:38,569:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:38,572:INFO:Entry for User:440621754 inserted successfully
+2022-07-02 12:58:38,574:INFO:User 440621754 entered succesfully into dataset
+2022-07-02 12:58:38,575:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:38,577:INFO:Entry for User:1642287356 inserted successfully
+2022-07-02 12:58:38,580:INFO:User 1642287356 entered succesfully into dataset
+2022-07-02 12:58:38,581:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:38,583:INFO:Entry for User:1514194333419057157 inserted successfully
+2022-07-02 12:58:38,586:INFO:User 1514194333419057157 entered succesfully into dataset
+2022-07-02 12:58:38,587:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:38,590:INFO:Entry for User:1387722720981495808 inserted successfully
+2022-07-02 12:58:38,593:INFO:User 1387722720981495808 entered succesfully into dataset
+2022-07-02 12:58:38,593:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:38,596:INFO:Entry for User:1380324579877470208 inserted successfully
+2022-07-02 12:58:38,599:INFO:User 1380324579877470208 entered succesfully into dataset
+2022-07-02 12:58:38,600:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:38,602:INFO:Entry for User:1060756392733102081 inserted successfully
+2022-07-02 12:58:38,605:INFO:User 1060756392733102081 entered succesfully into dataset
+2022-07-02 12:58:38,606:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:38,609:INFO:Entry for User:1060756392733102081 inserted successfully
+2022-07-02 12:58:40,616:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:40,620:INFO:Entry for User:768904089728065536 inserted successfully
+2022-07-02 12:58:40,624:INFO:User 768904089728065536 entered succesfully into dataset
+2022-07-02 12:58:40,625:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:40,627:INFO:Entry for User:1254554131781558272 inserted successfully
+2022-07-02 12:58:42,634:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:42,638:INFO:Entry for User:1060756392733102081 inserted successfully
+2022-07-02 12:58:44,646:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:44,650:INFO:Entry for User:1060756392733102081 inserted successfully
+2022-07-02 12:58:46,659:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:46,663:INFO:Entry for User:1355079365629980679 inserted successfully
+2022-07-02 12:58:48,671:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:48,675:INFO:Entry for User:1355079365629980679 inserted successfully
+2022-07-02 12:58:50,683:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:50,687:INFO:Entry for User:317551314 inserted successfully
+2022-07-02 12:58:52,694:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:52,696:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:52,700:INFO:Entry for User:440621754 inserted successfully
+2022-07-02 12:58:54,707:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:54,711:INFO:Entry for User:1642287356 inserted successfully
+2022-07-02 12:58:56,719:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:56,724:INFO:Entry for User:1514194333419057157 inserted successfully
+2022-07-02 12:58:58,732:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:58:58,735:INFO:Entry for User:1387722720981495808 inserted successfully
+2022-07-02 12:59:00,743:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:00,747:INFO:Entry for User:1380324579877470208 inserted successfully
+2022-07-02 12:59:02,755:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:02,759:INFO:Entry for User:1642287356 inserted successfully
+2022-07-02 12:59:04,767:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:04,769:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:04,770:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:04,774:INFO:Entry for User:1396655883342450692 inserted successfully
+2022-07-02 12:59:04,777:INFO:User 1396655883342450692 entered succesfully into dataset
+2022-07-02 12:59:04,778:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:04,780:INFO:Entry for User:1450103134173351939 inserted successfully
+2022-07-02 12:59:04,782:INFO:User 1450103134173351939 entered succesfully into dataset
+2022-07-02 12:59:04,783:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:04,785:INFO:Entry for User:1445470769291563012 inserted successfully
+2022-07-02 12:59:04,788:INFO:User 1445470769291563012 entered succesfully into dataset
+2022-07-02 12:59:04,788:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:04,788:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:04,791:INFO:Entry for User:768904089728065536 inserted successfully
+2022-07-02 12:59:06,798:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:06,808:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:06,811:INFO:Entry for User:1396655883342450692 inserted successfully
+2022-07-02 12:59:08,821:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:08,825:INFO:Entry for User:1519951878318182400 inserted successfully
+2022-07-02 12:59:08,828:INFO:User 1519951878318182400 entered succesfully into dataset
+2022-07-02 12:59:08,829:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:08,831:INFO:Entry for User:2540215852 inserted successfully
+2022-07-02 12:59:08,833:INFO:User 2540215852 entered succesfully into dataset
+2022-07-02 12:59:08,833:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:08,834:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:08,836:INFO:Entry for User:1183975329120915456 inserted successfully
+2022-07-02 12:59:08,839:INFO:User 1183975329120915456 entered succesfully into dataset
+2022-07-02 12:59:08,840:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:08,840:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:08,843:INFO:Entry for User:1450103134173351939 inserted successfully
+2022-07-02 12:59:10,849:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:10,850:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:10,855:INFO:Entry for User:1445470769291563012 inserted successfully
+2022-07-02 12:59:12,863:INFO:Getting timelin for CryptoPunkRich at time 1656791952
+2022-07-02 12:59:14,678:INFO:Fetched timeline for CryptoPunkRich at time 1656791952
+2022-07-02 12:59:15,545:INFO:Getting timelin for yumcrypto at time 1656791955
+2022-07-02 12:59:17,312:INFO:Fetched timeline for yumcrypto at time 1656791955
+2022-07-02 12:59:18,144:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:18,145:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:18,147:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:18,150:INFO:Entry for User:1470234179602243584 inserted successfully
+2022-07-02 12:59:18,153:INFO:User 1470234179602243584 entered succesfully into dataset
+2022-07-02 12:59:18,153:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:18,155:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:18,156:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:18,157:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:18,158:INFO:Mention data for tweet loaded successfully
+2022-07-02 12:59:18,161:INFO:Entry for User:318346543 inserted successfully
+2022-07-02 12:59:18,163:INFO:User 318346543 entered succesfully into dataset
+2022-07-02 12:59:18,166:INFO:Entry for User:318346543 inserted successfully
+2022-07-02 13:04:26,089:INFO:Read promoter list from accounts_promoter csv
+2022-07-02 13:04:26,089:INFO:Getting timelin for Crypto_GA_Arena at time 1656792266
+2022-07-02 13:04:28,010:INFO:Fetched timeline for Crypto_GA_Arena at time 1656792266
+2022-07-02 13:04:28,817:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:28,818:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:28,825:INFO:Getting timelin for bainesy4886 at time 1656792268
+2022-07-02 13:04:30,572:INFO:Fetched timeline for bainesy4886 at time 1656792268
+2022-07-02 13:04:31,341:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:31,387:INFO:Entry for User:840793572 inserted successfully
+2022-07-02 13:04:31,394:INFO:User 840793572 entered succesfully into dataset
+2022-07-02 13:04:31,395:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:31,398:INFO:Entry for User:840793572 inserted successfully
+2022-07-02 13:04:33,414:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:33,418:INFO:Entry for User:1464176829406015488 inserted successfully
+2022-07-02 13:04:33,421:INFO:User 1464176829406015488 entered succesfully into dataset
+2022-07-02 13:04:33,421:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:33,424:INFO:Entry for User:1464176829406015488 inserted successfully
+2022-07-02 13:04:35,436:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:35,437:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:35,439:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:35,441:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:35,444:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:35,447:INFO:Entry for User:1319287761048723458 inserted successfully
+2022-07-02 13:04:35,450:INFO:User 1319287761048723458 entered succesfully into dataset
+2022-07-02 13:04:35,451:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:35,454:INFO:Entry for User:1319287761048723458 inserted successfully
+2022-07-02 13:04:37,460:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:37,462:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:37,464:INFO:Getting timelin for CryptoElwis at time 1656792277
+2022-07-02 13:04:39,084:INFO:Fetched timeline for CryptoElwis at time 1656792277
+2022-07-02 13:04:39,887:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:39,887:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:39,891:INFO:Entry for User:1509070066213605376 inserted successfully
+2022-07-02 13:04:39,895:INFO:User 1509070066213605376 entered succesfully into dataset
+2022-07-02 13:04:39,902:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:39,903:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:39,906:INFO:Entry for User:3166008431 inserted successfully
+2022-07-02 13:04:39,909:INFO:User 3166008431 entered succesfully into dataset
+2022-07-02 13:04:39,910:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:39,911:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:39,912:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:39,915:INFO:Entry for User:1434770739698311170 inserted successfully
+2022-07-02 13:04:39,917:INFO:User 1434770739698311170 entered succesfully into dataset
+2022-07-02 13:04:39,920:INFO:Entry for User:1434770739698311170 inserted successfully
+2022-07-02 13:04:41,927:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:41,929:INFO:Getting timelin for gnarhost at time 1656792281
+2022-07-02 13:04:42,745:INFO:Fetched timeline for gnarhost at time 1656792281
+2022-07-02 13:04:43,430:INFO:Getting timelin for GAContest_ at time 1656792283
+2022-07-02 13:04:44,225:INFO:Fetched timeline for GAContest_ at time 1656792283
+2022-07-02 13:04:44,925:INFO:Getting timelin for CryptoKing1st at time 1656792284
+2022-07-02 13:04:46,936:INFO:Fetched timeline for CryptoKing1st at time 1656792284
+2022-07-02 13:04:47,731:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:47,735:INFO:Entry for User:2251208988 inserted successfully
+2022-07-02 13:04:47,738:INFO:User 2251208988 entered succesfully into dataset
+2022-07-02 13:04:47,738:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:47,739:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:47,741:INFO:Entry for User:1518684823564566530 inserted successfully
+2022-07-02 13:04:47,744:INFO:User 1518684823564566530 entered succesfully into dataset
+2022-07-02 13:04:47,745:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:47,745:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:47,748:INFO:Entry for User:66828428 inserted successfully
+2022-07-02 13:04:47,751:INFO:User 66828428 entered succesfully into dataset
+2022-07-02 13:04:47,755:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:47,756:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:47,757:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:47,759:INFO:Entry for User:1518684823564566530 inserted successfully
+2022-07-02 13:04:49,767:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:49,771:INFO:Entry for User:66828428 inserted successfully
+2022-07-02 13:04:51,780:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:51,781:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:51,787:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:51,791:INFO:Entry for User:1510757684659826696 inserted successfully
+2022-07-02 13:04:51,794:INFO:User 1510757684659826696 entered succesfully into dataset
+2022-07-02 13:04:51,796:INFO:Entry for User:1510757684659826696 inserted successfully
+2022-07-02 13:04:53,806:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:53,807:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:53,811:INFO:Entry for User:1466315974370541571 inserted successfully
+2022-07-02 13:04:53,813:INFO:User 1466315974370541571 entered succesfully into dataset
+2022-07-02 13:04:53,816:INFO:Entry for User:1466315974370541571 inserted successfully
+2022-07-02 13:04:55,823:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:55,827:INFO:Entry for User:1466315974370541571 inserted successfully
+2022-07-02 13:04:57,839:INFO:Entry for User:1466315974370541571 inserted successfully
+2022-07-02 13:04:59,846:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:59,848:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:59,849:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:59,849:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:04:59,852:INFO:Entry for User:1319287761048723458 inserted successfully
+2022-07-02 13:04:59,855:INFO:User 1319287761048723458 entered succesfully into dataset
+2022-07-02 13:04:59,857:INFO:Getting timelin for RyZeJpeg at time 1656792299
+2022-07-02 13:05:01,696:INFO:Fetched timeline for RyZeJpeg at time 1656792299
+2022-07-02 13:05:02,535:INFO:Getting timelin for ValleryMerk at time 1656792302
+2022-07-02 13:05:03,355:INFO:Fetched timeline for ValleryMerk at time 1656792302
+2022-07-02 13:05:04,051:INFO:Getting timelin for prctiu at time 1656792304
+2022-07-02 13:05:05,687:INFO:Fetched timeline for prctiu at time 1656792304
+2022-07-02 13:05:06,482:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:05:06,486:INFO:Entry for User:1355079365629980679 inserted successfully
+2022-07-02 13:05:06,488:INFO:User 1355079365629980679 entered succesfully into dataset
+2022-07-02 13:05:06,489:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:05:06,491:INFO:Entry for User:1355079365629980679 inserted successfully
+2022-07-02 13:05:08,497:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:05:08,502:INFO:Entry for User:1254554131781558272 inserted successfully
+2022-07-02 13:05:08,505:INFO:User 1254554131781558272 entered succesfully into dataset
+2022-07-02 13:05:08,506:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:05:08,509:INFO:Entry for User:317551314 inserted successfully
+2022-07-02 13:05:08,511:INFO:User 317551314 entered succesfully into dataset
+2022-07-02 13:05:08,511:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:05:08,512:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:05:08,514:INFO:Entry for User:440621754 inserted successfully
+2022-07-02 13:05:08,516:INFO:User 440621754 entered succesfully into dataset
+2022-07-02 13:05:08,517:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:05:08,519:INFO:Entry for User:1642287356 inserted successfully
+2022-07-02 13:05:08,521:INFO:User 1642287356 entered succesfully into dataset
+2022-07-02 13:05:08,522:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:05:08,524:INFO:Entry for User:1514194333419057157 inserted successfully
+2022-07-02 13:05:08,527:INFO:User 1514194333419057157 entered succesfully into dataset
+2022-07-02 13:05:08,527:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:05:08,530:INFO:Entry for User:1387722720981495808 inserted successfully
+2022-07-02 13:05:08,532:INFO:User 1387722720981495808 entered succesfully into dataset
+2022-07-02 13:05:08,533:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:05:08,535:INFO:Entry for User:1380324579877470208 inserted successfully
+2022-07-02 13:05:08,537:INFO:User 1380324579877470208 entered succesfully into dataset
+2022-07-02 13:05:08,538:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:05:08,541:INFO:Entry for User:1060756392733102081 inserted successfully
+2022-07-02 13:05:08,544:INFO:User 1060756392733102081 entered succesfully into dataset
+2022-07-02 13:05:08,544:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:05:08,547:INFO:Entry for User:1060756392733102081 inserted successfully
+2022-07-02 13:05:10,554:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:05:10,558:INFO:Entry for User:768904089728065536 inserted successfully
+2022-07-02 13:05:10,562:INFO:User 768904089728065536 entered succesfully into dataset
+2022-07-02 13:05:10,563:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:05:10,566:INFO:Entry for User:1254554131781558272 inserted successfully
+2022-07-02 13:05:12,573:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:05:12,577:INFO:Entry for User:1060756392733102081 inserted successfully
+2022-07-02 13:05:14,584:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:05:14,587:INFO:Entry for User:1060756392733102081 inserted successfully
+2022-07-02 13:05:16,595:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:05:16,600:INFO:Entry for User:1355079365629980679 inserted successfully
+2022-07-02 13:10:51,823:INFO:Read promoter list from accounts_promoter csv
+2022-07-02 13:10:51,823:INFO:Getting timelin for Crypto_GA_Arena at time 1656792651
+2022-07-02 13:10:53,695:INFO:Fetched timeline for Crypto_GA_Arena at time 1656792651
+2022-07-02 13:12:02,900:INFO:Read promoter list from accounts_promoter csv
+2022-07-02 13:12:02,900:INFO:Getting timelin for Crypto_GA_Arena at time 1656792722
+2022-07-02 13:12:04,729:INFO:Fetched timeline for Crypto_GA_Arena at time 1656792722
+2022-07-02 13:12:58,403:INFO:Read promoter list from accounts_promoter csv
+2022-07-02 13:12:58,403:INFO:Getting timelin for Crypto_GA_Arena at time 1656792778
+2022-07-02 13:13:00,166:INFO:Fetched timeline for Crypto_GA_Arena at time 1656792778
+2022-07-02 13:13:37,154:INFO:Read promoter list from accounts_promoter csv
+2022-07-02 13:13:37,154:INFO:Getting timelin for Crypto_GA_Arena at time 1656792817
+2022-07-02 13:13:39,086:INFO:Fetched timeline for Crypto_GA_Arena at time 1656792817
+2022-07-02 13:14:39,834:INFO:Read promoter list from accounts_promoter csv
+2022-07-02 13:14:39,834:INFO:Getting timelin for Crypto_GA_Arena at time 1656792879
+2022-07-02 13:14:41,813:INFO:Fetched timeline for Crypto_GA_Arena at time 1656792879
+2022-07-02 13:14:42,630:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:14:42,630:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:14:42,638:INFO:Getting timelin for bainesy4886 at time 1656792882
+2022-07-02 13:14:44,359:INFO:Fetched timeline for bainesy4886 at time 1656792882
+2022-07-02 13:14:45,147:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:14:45,197:INFO:Entry for User:840793572 inserted successfully
+2022-07-02 13:14:50,208:INFO:User 840793572 entered succesfully into dataset
+2022-07-02 13:14:52,211:INFO:Getting timelin for CryptoElwis at time 1656792892
+2022-07-02 13:14:53,804:INFO:Fetched timeline for CryptoElwis at time 1656792892
+2022-07-02 13:14:54,621:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:14:54,622:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:14:54,625:INFO:Entry for User:1509070066213605376 inserted successfully
+2022-07-02 13:17:26,782:INFO:Read promoter list from accounts_promoter csv
+2022-07-02 13:17:26,782:INFO:Getting timelin for Crypto_GA_Arena at time 1656793046
+2022-07-02 13:17:28,534:INFO:Fetched timeline for Crypto_GA_Arena at time 1656793046
+2022-07-02 13:17:29,349:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:17:29,350:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:17:29,357:INFO:Getting timelin for bainesy4886 at time 1656793049
+2022-07-02 13:17:31,135:INFO:Fetched timeline for bainesy4886 at time 1656793049
+2022-07-02 13:17:31,931:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:17:31,964:INFO:Entry for User:840793572 inserted successfully
+2022-07-02 13:17:33,973:INFO:Getting timelin for CryptoElwis at time 1656793053
+2022-07-02 13:17:35,467:INFO:Fetched timeline for CryptoElwis at time 1656793053
+2022-07-02 13:17:36,304:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:17:36,305:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:17:36,307:INFO:Entry for User:1509070066213605376 inserted successfully
+2022-07-02 13:17:38,313:INFO:Getting timelin for gnarhost at time 1656793058
+2022-07-02 13:17:39,114:INFO:Fetched timeline for gnarhost at time 1656793058
+2022-07-02 13:17:39,818:INFO:Getting timelin for GAContest_ at time 1656793059
+2022-07-02 13:17:40,636:INFO:Fetched timeline for GAContest_ at time 1656793059
+2022-07-02 13:17:41,315:INFO:Getting timelin for CryptoKing1st at time 1656793061
+2022-07-02 13:17:43,064:INFO:Fetched timeline for CryptoKing1st at time 1656793061
+2022-07-02 13:17:43,914:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:17:43,917:INFO:Entry for User:2251208988 inserted successfully
+2022-07-02 13:17:43,919:INFO:User 2251208988 entered succesfully into dataset
+2022-07-02 13:17:43,920:INFO:Getting timelin for RyZeJpeg at time 1656793063
+2022-07-02 13:17:45,740:INFO:Fetched timeline for RyZeJpeg at time 1656793063
+2022-07-02 13:17:46,559:INFO:Getting timelin for ValleryMerk at time 1656793066
+2022-07-02 13:17:47,341:INFO:Fetched timeline for ValleryMerk at time 1656793066
+2022-07-02 13:17:48,053:INFO:Getting timelin for prctiu at time 1656793068
+2022-07-02 13:17:49,604:INFO:Fetched timeline for prctiu at time 1656793068
+2022-07-02 13:17:50,390:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:17:50,393:INFO:Entry for User:1355079365629980679 inserted successfully
+2022-07-02 13:17:50,396:INFO:User 1355079365629980679 entered succesfully into dataset
+2022-07-02 13:17:50,396:INFO:Getting timelin for CryptoPunkRich at time 1656793070
+2022-07-02 13:17:52,325:INFO:Fetched timeline for CryptoPunkRich at time 1656793070
+2022-07-02 13:17:53,135:INFO:Getting timelin for yumcrypto at time 1656793073
+2022-07-02 13:17:54,995:INFO:Fetched timeline for yumcrypto at time 1656793073
+2022-07-02 13:17:55,825:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:17:55,826:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:17:55,829:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:17:55,832:INFO:Entry for User:1470234179602243584 inserted successfully
+2022-07-02 13:17:55,835:INFO:User 1470234179602243584 entered succesfully into dataset
+2022-07-02 13:17:55,835:INFO:Getting timelin for SlothNFT_ at time 1656793075
+2022-07-02 13:17:57,615:INFO:Fetched timeline for SlothNFT_ at time 1656793075
+2022-07-02 13:17:58,442:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:17:58,452:INFO:Getting timelin for YunaPromotes_ at time 1656793078
+2022-07-02 13:18:00,197:INFO:Fetched timeline for YunaPromotes_ at time 1656793078
+2022-07-02 13:18:00,982:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:00,982:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:00,982:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:00,986:INFO:Entry for User:1423603745896779780 inserted successfully
+2022-07-02 13:18:00,988:INFO:User 1423603745896779780 entered succesfully into dataset
+2022-07-02 13:18:00,989:INFO:Getting timelin for Barbiehost at time 1656793080
+2022-07-02 13:18:02,834:INFO:Fetched timeline for Barbiehost at time 1656793080
+2022-07-02 13:18:03,626:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:03,627:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:03,630:INFO:Entry for User:1477115399703437323 inserted successfully
+2022-07-02 13:18:03,633:INFO:User 1477115399703437323 entered succesfully into dataset
+2022-07-02 13:18:03,633:INFO:Getting timelin for APICPUNK at time 1656793083
+2022-07-02 13:18:05,601:INFO:Fetched timeline for APICPUNK at time 1656793083
+2022-07-02 13:18:06,463:INFO:Getting timelin for CryptoFeather_ at time 1656793086
+2022-07-02 13:18:08,026:INFO:Fetched timeline for CryptoFeather_ at time 1656793086
+2022-07-02 13:18:08,842:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:08,842:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:08,845:INFO:Entry for User:1485156410472157184 inserted successfully
+2022-07-02 13:18:08,848:INFO:User 1485156410472157184 entered succesfully into dataset
+2022-07-02 13:18:08,848:INFO:Getting timelin for CryptoShrek_ at time 1656793088
+2022-07-02 13:18:10,817:INFO:Fetched timeline for CryptoShrek_ at time 1656793088
+2022-07-02 13:18:11,635:INFO:Getting timelin for Bitcoinbro10 at time 1656793091
+2022-07-02 13:18:13,273:INFO:Fetched timeline for Bitcoinbro10 at time 1656793091
+2022-07-02 13:18:14,076:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:14,077:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:14,080:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:14,085:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:14,085:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:14,085:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:14,088:INFO:Entry for User:1414835313357242369 inserted successfully
+2022-07-02 13:18:14,090:INFO:User 1414835313357242369 entered succesfully into dataset
+2022-07-02 13:18:14,091:INFO:Getting timelin for TwizzNFT at time 1656793094
+2022-07-02 13:18:16,152:INFO:Fetched timeline for TwizzNFT at time 1656793094
+2022-07-02 13:18:16,974:INFO:Getting timelin for CryptoBoostMe at time 1656793096
+2022-07-02 13:18:18,550:INFO:Fetched timeline for CryptoBoostMe at time 1656793096
+2022-07-02 13:18:19,337:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:19,340:INFO:Entry for User:968062526 inserted successfully
+2022-07-02 13:18:19,342:INFO:User 968062526 entered succesfully into dataset
+2022-07-02 13:18:19,343:INFO:Getting timelin for Mailuvss_ at time 1656793099
+2022-07-02 13:18:21,009:INFO:Fetched timeline for Mailuvss_ at time 1656793099
+2022-07-02 13:18:21,819:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:21,822:INFO:Entry for User:2820741398 inserted successfully
+2022-07-02 13:18:21,824:INFO:User 2820741398 entered succesfully into dataset
+2022-07-02 13:18:21,824:INFO:Getting timelin for RedHuskai at time 1656793101
+2022-07-02 13:18:23,520:INFO:Fetched timeline for RedHuskai at time 1656793101
+2022-07-02 13:18:24,330:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:24,330:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:24,331:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:24,334:INFO:Entry for User:1319287761048723458 inserted successfully
+2022-07-02 13:18:24,337:INFO:User 1319287761048723458 entered succesfully into dataset
+2022-07-02 13:18:24,337:INFO:Getting timelin for GiveawayInspect at time 1656793104
+2022-07-02 13:18:26,125:INFO:Fetched timeline for GiveawayInspect at time 1656793104
+2022-07-02 13:18:26,994:INFO:Getting timelin for GinieCrypto at time 1656793106
+2022-07-02 13:18:27,812:INFO:Fetched timeline for GinieCrypto at time 1656793106
+2022-07-02 13:18:28,530:INFO:Getting timelin for isabellaaabrown at time 1656793108
+2022-07-02 13:18:30,334:INFO:Fetched timeline for isabellaaabrown at time 1656793108
+2022-07-02 13:18:31,130:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:31,133:INFO:Entry for User:1493837190740135937 inserted successfully
+2022-07-02 13:18:31,136:INFO:User 1493837190740135937 entered succesfully into dataset
+2022-07-02 13:18:31,136:INFO:Getting timelin for bordong2 at time 1656793111
+2022-07-02 13:18:33,314:INFO:Fetched timeline for bordong2 at time 1656793111
+2022-07-02 13:18:34,253:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:34,257:INFO:Entry for User:1474482231129387010 inserted successfully
+2022-07-02 13:18:34,259:INFO:User 1474482231129387010 entered succesfully into dataset
+2022-07-02 13:18:34,260:INFO:Getting timelin for gemhostofficial at time 1656793114
+2022-07-02 13:18:35,049:INFO:Fetched timeline for gemhostofficial at time 1656793114
+2022-07-02 13:18:35,724:INFO:Getting timelin for alphashilla at time 1656793115
+2022-07-02 13:18:37,749:INFO:Fetched timeline for alphashilla at time 1656793115
+2022-07-02 13:18:38,556:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:38,558:INFO:Getting timelin for DigitalJpeg at time 1656793118
+2022-07-02 13:18:39,353:INFO:Fetched timeline for DigitalJpeg at time 1656793118
+2022-07-02 13:18:40,032:INFO:Getting timelin for CryptoRhum at time 1656793120
+2022-07-02 13:18:42,114:INFO:Fetched timeline for CryptoRhum at time 1656793120
+2022-07-02 13:18:42,945:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:42,954:INFO:Getting timelin for SophieLee48 at time 1656793122
+2022-07-02 13:18:44,798:INFO:Fetched timeline for SophieLee48 at time 1656793122
+2022-07-02 13:18:45,594:INFO:Getting timelin for nft__community_ at time 1656793125
+2022-07-02 13:18:47,470:INFO:Fetched timeline for nft__community_ at time 1656793125
+2022-07-02 13:18:48,315:INFO:Getting timelin for AreumPromotes at time 1656793128
+2022-07-02 13:18:49,927:INFO:Fetched timeline for AreumPromotes at time 1656793128
+2022-07-02 13:18:50,712:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:50,713:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:50,713:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:50,717:INFO:Entry for User:1214302411 inserted successfully
+2022-07-02 13:18:50,720:INFO:User 1214302411 entered succesfully into dataset
+2022-07-02 13:18:50,720:INFO:Getting timelin for SmartSolana at time 1656793130
+2022-07-02 13:18:52,301:INFO:Fetched timeline for SmartSolana at time 1656793130
+2022-07-02 13:18:53,113:INFO:Getting timelin for cryptattoed at time 1656793133
+2022-07-02 13:18:54,574:INFO:Fetched timeline for cryptattoed at time 1656793133
+2022-07-02 13:18:55,344:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:55,347:INFO:Entry for User:840793572 inserted successfully
+2022-07-02 13:18:55,350:INFO:User 840793572 entered succesfully into dataset
+2022-07-02 13:18:55,350:INFO:Getting timelin for Profess0rCrypto at time 1656793135
+2022-07-02 13:18:56,142:INFO:Fetched timeline for Profess0rCrypto at time 1656793135
+2022-07-02 13:18:56,805:INFO:Getting timelin for DJ_GIVEAWAY2 at time 1656793136
+2022-07-02 13:18:58,390:INFO:Fetched timeline for DJ_GIVEAWAY2 at time 1656793136
+2022-07-02 13:18:59,175:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:59,183:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:18:59,189:INFO:Getting timelin for SAFACryptoCrew at time 1656793139
+2022-07-02 13:19:00,914:INFO:Fetched timeline for SAFACryptoCrew at time 1656793139
+2022-07-02 13:19:01,700:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:01,700:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:01,701:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:01,705:INFO:Entry for User:1447945358424764423 inserted successfully
+2022-07-02 13:19:01,708:INFO:User 1447945358424764423 entered succesfully into dataset
+2022-07-02 13:19:01,708:INFO:Getting timelin for MilaPromot at time 1656793141
+2022-07-02 13:19:03,260:INFO:Fetched timeline for MilaPromot at time 1656793141
+2022-07-02 13:19:04,044:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:04,047:INFO:Entry for User:1005328674 inserted successfully
+2022-07-02 13:19:04,049:INFO:User 1005328674 entered succesfully into dataset
+2022-07-02 13:19:04,050:INFO:Getting timelin for liapesekbandung at time 1656793144
+2022-07-02 13:19:06,110:INFO:Fetched timeline for liapesekbandung at time 1656793144
+2022-07-02 13:19:06,926:INFO:Getting timelin for 0xChaneL02 at time 1656793146
+2022-07-02 13:19:08,609:INFO:Fetched timeline for 0xChaneL02 at time 1656793146
+2022-07-02 13:19:09,410:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:09,413:INFO:Entry for User:1429727743080550402 inserted successfully
+2022-07-02 13:19:09,416:INFO:User 1429727743080550402 entered succesfully into dataset
+2022-07-02 13:19:09,416:INFO:Getting timelin for GingaBubaCrypto at time 1656793149
+2022-07-02 13:19:11,413:INFO:Fetched timeline for GingaBubaCrypto at time 1656793149
+2022-07-02 13:19:12,290:INFO:Getting timelin for LeoPromotes at time 1656793152
+2022-07-02 13:19:14,082:INFO:Fetched timeline for LeoPromotes at time 1656793152
+2022-07-02 13:19:14,882:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:14,885:INFO:Entry for User:1522066898145456130 inserted successfully
+2022-07-02 13:19:14,888:INFO:User 1522066898145456130 entered succesfully into dataset
+2022-07-02 13:19:14,888:INFO:Getting timelin for NFTJacobz at time 1656793154
+2022-07-02 13:19:15,974:INFO:Fetched timeline for NFTJacobz at time 1656793154
+2022-07-02 13:19:16,699:INFO:Getting timelin for ninasimonic at time 1656793156
+2022-07-02 13:19:18,679:INFO:Fetched timeline for ninasimonic at time 1656793156
+2022-07-02 13:19:19,530:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:19,531:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:19,543:INFO:Getting timelin for DoyoungPromotes at time 1656793159
+2022-07-02 13:19:21,242:INFO:Fetched timeline for DoyoungPromotes at time 1656793159
+2022-07-02 13:19:22,044:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:22,048:INFO:Entry for User:1346272878 inserted successfully
+2022-07-02 13:19:22,050:INFO:User 1346272878 entered succesfully into dataset
+2022-07-02 13:19:22,051:INFO:Getting timelin for MissParisCrypto at time 1656793162
+2022-07-02 13:19:23,620:INFO:Fetched timeline for MissParisCrypto at time 1656793162
+2022-07-02 13:19:24,423:INFO:Getting timelin for coodazai at time 1656793164
+2022-07-02 13:19:25,879:INFO:Fetched timeline for coodazai at time 1656793164
+2022-07-02 13:19:26,652:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:26,655:INFO:Entry for User:1511916119065792512 inserted successfully
+2022-07-02 13:19:26,658:INFO:User 1511916119065792512 entered succesfully into dataset
+2022-07-02 13:19:26,658:INFO:Getting timelin for wonieegives at time 1656793166
+2022-07-02 13:19:28,269:INFO:Fetched timeline for wonieegives at time 1656793166
+2022-07-02 13:19:29,048:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:29,049:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:29,050:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:29,051:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:29,052:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:29,055:INFO:Entry for User:1480410837525348355 inserted successfully
+2022-07-02 13:19:29,058:INFO:User 1480410837525348355 entered succesfully into dataset
+2022-07-02 13:19:29,058:INFO:Getting timelin for cryptomeks at time 1656793169
+2022-07-02 13:19:30,601:INFO:Fetched timeline for cryptomeks at time 1656793169
+2022-07-02 13:19:31,432:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:31,435:INFO:Entry for User:758614054231482368 inserted successfully
+2022-07-02 13:19:31,437:INFO:User 758614054231482368 entered succesfully into dataset
+2022-07-02 13:19:31,438:INFO:Getting timelin for MrsunNFT at time 1656793171
+2022-07-02 13:19:33,465:INFO:Fetched timeline for MrsunNFT at time 1656793171
+2022-07-02 13:19:34,339:INFO:Getting timelin for nftpixelart_ at time 1656793174
+2022-07-02 13:19:36,345:INFO:Fetched timeline for nftpixelart_ at time 1656793174
+2022-07-02 13:19:37,182:INFO:Getting timelin for hollow18_ at time 1656793177
+2022-07-02 13:19:37,992:INFO:Fetched timeline for hollow18_ at time 1656793177
+2022-07-02 13:19:38,685:INFO:Getting timelin for FLOATNFTS at time 1656793178
+2022-07-02 13:19:40,615:INFO:Fetched timeline for FLOATNFTS at time 1656793178
+2022-07-02 13:19:41,425:INFO:Getting timelin for Crypto_Hawkk at time 1656793181
+2022-07-02 13:19:43,224:INFO:Fetched timeline for Crypto_Hawkk at time 1656793181
+2022-07-02 13:19:44,073:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:44,076:INFO:Entry for User:1537353498274193408 inserted successfully
+2022-07-02 13:19:44,078:INFO:User 1537353498274193408 entered succesfully into dataset
+2022-07-02 13:19:44,078:INFO:Getting timelin for MesiPromotes_ at time 1656793184
+2022-07-02 13:19:45,940:INFO:Fetched timeline for MesiPromotes_ at time 1656793184
+2022-07-02 13:19:46,713:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:46,714:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:46,715:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:46,717:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:46,717:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:46,720:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:46,723:INFO:Entry for User:1455945973532971008 inserted successfully
+2022-07-02 13:19:46,725:INFO:User 1455945973532971008 entered succesfully into dataset
+2022-07-02 13:19:46,725:INFO:Getting timelin for NasBitcoin at time 1656793186
+2022-07-02 13:19:48,685:INFO:Fetched timeline for NasBitcoin at time 1656793186
+2022-07-02 13:19:49,490:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:49,495:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:49,497:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:49,497:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:49,500:INFO:Entry for User:1275458276432285698 inserted successfully
+2022-07-02 13:19:49,502:INFO:User 1275458276432285698 entered succesfully into dataset
+2022-07-02 13:19:49,503:INFO:Getting timelin for MazeWandaX at time 1656793189
+2022-07-02 13:19:51,481:INFO:Fetched timeline for MazeWandaX at time 1656793189
+2022-07-02 13:19:52,344:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:52,347:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:52,350:INFO:Entry for User:1409864192207863815 inserted successfully
+2022-07-02 13:19:52,353:INFO:User 1409864192207863815 entered succesfully into dataset
+2022-07-02 13:19:52,353:INFO:Getting timelin for Giveaway__Whale at time 1656793192
+2022-07-02 13:19:53,836:INFO:Fetched timeline for Giveaway__Whale at time 1656793192
+2022-07-02 13:19:54,637:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:54,637:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:54,640:INFO:Entry for User:1347140802577788928 inserted successfully
+2022-07-02 13:19:54,643:INFO:User 1347140802577788928 entered succesfully into dataset
+2022-07-02 13:19:54,643:INFO:Getting timelin for Lunargives at time 1656793194
+2022-07-02 13:19:56,344:INFO:Fetched timeline for Lunargives at time 1656793194
+2022-07-02 13:19:57,106:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:57,107:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:57,108:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:57,109:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:57,109:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:57,110:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:19:57,113:INFO:Entry for User:1525790613605691393 inserted successfully
+2022-07-02 13:19:57,116:INFO:User 1525790613605691393 entered succesfully into dataset
+2022-07-02 13:19:57,116:INFO:Getting timelin for CryptoPad100x at time 1656793197
+2022-07-02 13:19:57,939:INFO:Fetched timeline for CryptoPad100x at time 1656793197
+2022-07-02 13:19:58,660:INFO:Getting timelin for TokyooNFT at time 1656793198
+2022-07-02 13:20:00,088:INFO:Fetched timeline for TokyooNFT at time 1656793198
+2022-07-02 13:20:00,872:INFO:Getting timelin for JpegGems1 at time 1656793200
+2022-07-02 13:27:24,118:INFO:Read promoter list from accounts_promoter csv
+2022-07-02 13:27:24,118:INFO:Getting timelin for Crypto_GA_Arena at time 1656793644
+2022-07-02 13:27:25,955:INFO:Fetched timeline for Crypto_GA_Arena at time 1656793644
+2022-07-02 13:27:26,799:INFO:Getting timelin for bainesy4886 at time 1656793646
+2022-07-02 13:27:28,539:INFO:Fetched timeline for bainesy4886 at time 1656793646
+2022-07-02 13:27:29,341:INFO:Getting timelin for CryptoElwis at time 1656793649
+2022-07-02 13:27:30,893:INFO:Fetched timeline for CryptoElwis at time 1656793649
+2022-07-02 13:30:37,568:INFO:Read promoter list from accounts_promoter csv
+2022-07-02 13:30:37,568:INFO:Getting timelin for Crypto_GA_Arena at time 1656793837
+2022-07-02 13:30:39,400:INFO:Fetched timeline for Crypto_GA_Arena at time 1656793837
+2022-07-02 13:30:40,226:INFO:Getting timelin for bainesy4886 at time 1656793840
+2022-07-02 13:31:34,258:INFO:Read promoter list from accounts_promoter csv
+2022-07-02 13:31:34,258:INFO:Getting timelin for Crypto_GA_Arena at time 1656793894
+2022-07-02 13:31:35,975:INFO:Fetched timeline for Crypto_GA_Arena at time 1656793894
+2022-07-02 13:32:09,878:INFO:Read promoter list from accounts_promoter csv
+2022-07-02 13:32:09,878:INFO:Getting timelin for Crypto_GA_Arena at time 1656793929
+2022-07-02 13:32:11,759:INFO:Fetched timeline for Crypto_GA_Arena at time 1656793929
+2022-07-02 13:32:22,599:INFO:Getting timelin for bainesy4886 at time 1656793942
+2022-07-02 13:32:48,983:INFO:Read promoter list from accounts_promoter csv
+2022-07-02 13:32:48,983:INFO:Getting timelin for Crypto_GA_Arena at time 1656793968
+2022-07-02 13:32:50,871:INFO:Fetched timeline for Crypto_GA_Arena at time 1656793968
+2022-07-02 13:32:51,719:INFO:Getting timelin for bainesy4886 at time 1656793971
+2022-07-02 13:32:53,366:INFO:Fetched timeline for bainesy4886 at time 1656793971
+2022-07-02 13:32:54,162:INFO:Getting timelin for CryptoElwis at time 1656793974
+2022-07-02 13:32:55,649:INFO:Fetched timeline for CryptoElwis at time 1656793974
+2022-07-02 13:32:56,448:INFO:Getting timelin for gnarhost at time 1656793976
+2022-07-02 13:32:57,243:INFO:Fetched timeline for gnarhost at time 1656793976
+2022-07-02 13:32:57,949:INFO:Getting timelin for GAContest_ at time 1656793977
+2022-07-02 13:32:58,773:INFO:Fetched timeline for GAContest_ at time 1656793977
+2022-07-02 13:32:59,495:INFO:Getting timelin for CryptoKing1st at time 1656793979
+2022-07-02 13:33:01,299:INFO:Fetched timeline for CryptoKing1st at time 1656793979
+2022-07-02 13:33:02,100:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:33:02,145:INFO:Entry for User:2251208988 inserted successfully
+2022-07-02 13:33:02,152:INFO:User 2251208988 entered succesfully into dataset
+2022-07-02 13:33:02,152:INFO:Getting timelin for RyZeJpeg at time 1656793982
+2022-07-02 13:33:04,078:INFO:Fetched timeline for RyZeJpeg at time 1656793982
+2022-07-02 13:33:04,893:INFO:Getting timelin for ValleryMerk at time 1656793984
+2022-07-02 13:33:05,736:INFO:Fetched timeline for ValleryMerk at time 1656793984
+2022-07-02 13:33:06,410:INFO:Getting timelin for prctiu at time 1656793986
+2022-07-02 13:33:08,126:INFO:Fetched timeline for prctiu at time 1656793986
+2022-07-02 13:33:08,902:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:33:08,905:INFO:Entry for User:1355079365629980679 inserted successfully
+2022-07-02 13:33:08,907:INFO:User 1355079365629980679 entered succesfully into dataset
+2022-07-02 13:33:08,907:INFO:Getting timelin for CryptoPunkRich at time 1656793988
+2022-07-02 13:33:10,822:INFO:Fetched timeline for CryptoPunkRich at time 1656793988
+2022-07-02 13:33:11,664:INFO:Getting timelin for yumcrypto at time 1656793991
+2022-07-02 13:33:13,469:INFO:Fetched timeline for yumcrypto at time 1656793991
+2022-07-02 13:33:14,310:INFO:Getting timelin for SlothNFT_ at time 1656793994
+2022-07-02 13:33:16,040:INFO:Fetched timeline for SlothNFT_ at time 1656793994
+2022-07-02 13:33:16,853:INFO:Getting timelin for YunaPromotes_ at time 1656793996
+2022-07-02 13:33:18,619:INFO:Fetched timeline for YunaPromotes_ at time 1656793996
+2022-07-02 13:33:19,441:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:33:19,441:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:33:19,442:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:33:19,445:INFO:Entry for User:1423603745896779780 inserted successfully
+2022-07-02 13:33:19,447:INFO:User 1423603745896779780 entered succesfully into dataset
+2022-07-02 13:33:19,447:INFO:Getting timelin for Barbiehost at time 1656793999
+2022-07-02 13:33:21,134:INFO:Fetched timeline for Barbiehost at time 1656793999
+2022-07-02 13:33:22,006:INFO:Getting timelin for APICPUNK at time 1656794002
+2022-07-02 13:33:23,882:INFO:Fetched timeline for APICPUNK at time 1656794002
+2022-07-02 13:33:24,700:INFO:Getting timelin for CryptoFeather_ at time 1656794004
+2022-07-02 13:33:26,268:INFO:Fetched timeline for CryptoFeather_ at time 1656794004
+2022-07-02 13:33:27,052:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:33:27,053:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:33:27,056:INFO:Entry for User:1485156410472157184 inserted successfully
+2022-07-02 13:33:27,059:INFO:User 1485156410472157184 entered succesfully into dataset
+2022-07-02 13:33:27,059:INFO:Getting timelin for CryptoShrek_ at time 1656794007
+2022-07-02 13:33:28,869:INFO:Fetched timeline for CryptoShrek_ at time 1656794007
+2022-07-02 13:33:29,716:INFO:Getting timelin for Bitcoinbro10 at time 1656794009
+2022-07-02 13:33:31,315:INFO:Fetched timeline for Bitcoinbro10 at time 1656794009
+2022-07-02 13:33:32,134:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:33:32,135:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:33:32,149:INFO:Getting timelin for TwizzNFT at time 1656794012
+2022-07-02 13:33:33,993:INFO:Fetched timeline for TwizzNFT at time 1656794012
+2022-07-02 13:33:34,817:INFO:Getting timelin for CryptoBoostMe at time 1656794014
+2022-07-02 13:33:36,461:INFO:Fetched timeline for CryptoBoostMe at time 1656794014
+2022-07-02 13:33:37,272:INFO:Getting timelin for Mailuvss_ at time 1656794017
+2022-07-02 13:33:38,873:INFO:Fetched timeline for Mailuvss_ at time 1656794017
+2022-07-02 13:33:39,653:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:33:39,656:INFO:Entry for User:2820741398 inserted successfully
+2022-07-02 13:33:39,659:INFO:User 2820741398 entered succesfully into dataset
+2022-07-02 13:33:39,659:INFO:Getting timelin for RedHuskai at time 1656794019
+2022-07-02 13:33:41,310:INFO:Fetched timeline for RedHuskai at time 1656794019
+2022-07-02 13:33:42,105:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:33:42,120:INFO:Getting timelin for GiveawayInspect at time 1656794022
+2022-07-02 13:33:43,825:INFO:Fetched timeline for GiveawayInspect at time 1656794022
+2022-07-02 13:33:44,655:INFO:Getting timelin for GinieCrypto at time 1656794024
+2022-07-02 13:33:45,462:INFO:Fetched timeline for GinieCrypto at time 1656794024
+2022-07-02 13:33:46,151:INFO:Getting timelin for isabellaaabrown at time 1656794026
+2022-07-02 13:33:47,924:INFO:Fetched timeline for isabellaaabrown at time 1656794026
+2022-07-02 13:33:48,734:INFO:Getting timelin for bordong2 at time 1656794028
+2022-07-02 13:33:50,987:INFO:Fetched timeline for bordong2 at time 1656794028
+2022-07-02 13:33:51,976:INFO:Getting timelin for gemhostofficial at time 1656794031
+2022-07-02 13:33:52,747:INFO:Fetched timeline for gemhostofficial at time 1656794031
+2022-07-02 13:33:53,449:INFO:Getting timelin for alphashilla at time 1656794033
+2022-07-02 13:33:55,552:INFO:Fetched timeline for alphashilla at time 1656794033
+2022-07-02 13:33:56,398:INFO:Getting timelin for DigitalJpeg at time 1656794036
+2022-07-02 13:33:57,173:INFO:Fetched timeline for DigitalJpeg at time 1656794036
+2022-07-02 13:33:57,895:INFO:Getting timelin for CryptoRhum at time 1656794037
+2022-07-02 13:33:59,856:INFO:Fetched timeline for CryptoRhum at time 1656794037
+2022-07-02 13:34:00,698:INFO:Getting timelin for SophieLee48 at time 1656794040
+2022-07-02 13:34:02,688:INFO:Fetched timeline for SophieLee48 at time 1656794040
+2022-07-02 13:34:03,521:INFO:Getting timelin for nft__community_ at time 1656794043
+2022-07-02 13:34:05,358:INFO:Fetched timeline for nft__community_ at time 1656794043
+2022-07-02 13:34:06,181:INFO:Getting timelin for AreumPromotes at time 1656794046
+2022-07-02 13:34:07,793:INFO:Fetched timeline for AreumPromotes at time 1656794046
+2022-07-02 13:34:08,567:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:34:08,568:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:34:08,568:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:34:08,571:INFO:Entry for User:1214302411 inserted successfully
+2022-07-02 13:34:08,572:INFO:User 1214302411 entered succesfully into dataset
+2022-07-02 13:34:08,572:INFO:Getting timelin for SmartSolana at time 1656794048
+2022-07-02 13:34:10,205:INFO:Fetched timeline for SmartSolana at time 1656794048
+2022-07-02 13:34:11,012:INFO:Getting timelin for cryptattoed at time 1656794051
+2022-07-02 13:34:12,539:INFO:Fetched timeline for cryptattoed at time 1656794051
+2022-07-02 13:34:13,345:INFO:Getting timelin for Profess0rCrypto at time 1656794053
+2022-07-02 13:34:14,152:INFO:Fetched timeline for Profess0rCrypto at time 1656794053
+2022-07-02 13:34:14,814:INFO:Getting timelin for DJ_GIVEAWAY2 at time 1656794054
+2022-07-02 13:34:16,402:INFO:Fetched timeline for DJ_GIVEAWAY2 at time 1656794054
+2022-07-02 13:34:17,171:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:34:17,185:INFO:Getting timelin for SAFACryptoCrew at time 1656794057
+2022-07-02 13:34:19,138:INFO:Fetched timeline for SAFACryptoCrew at time 1656794057
+2022-07-02 13:34:19,957:INFO:Getting timelin for MilaPromot at time 1656794059
+2022-07-02 13:34:21,417:INFO:Fetched timeline for MilaPromot at time 1656794059
+2022-07-02 13:34:22,184:INFO:Getting timelin for liapesekbandung at time 1656794062
+2022-07-02 13:34:24,091:INFO:Fetched timeline for liapesekbandung at time 1656794062
+2022-07-02 13:34:24,901:INFO:Getting timelin for 0xChaneL02 at time 1656794064
+2022-07-02 13:34:26,575:INFO:Fetched timeline for 0xChaneL02 at time 1656794064
+2022-07-02 13:34:27,435:INFO:Getting timelin for GingaBubaCrypto at time 1656794067
+2022-07-02 13:34:29,375:INFO:Fetched timeline for GingaBubaCrypto at time 1656794067
+2022-07-02 13:34:30,205:INFO:Getting timelin for LeoPromotes at time 1656794070
+2022-07-02 13:34:31,998:INFO:Fetched timeline for LeoPromotes at time 1656794070
+2022-07-02 13:34:32,802:INFO:Getting timelin for NFTJacobz at time 1656794072
+2022-07-02 13:34:33,900:INFO:Fetched timeline for NFTJacobz at time 1656794072
+2022-07-02 13:34:34,652:INFO:Getting timelin for ninasimonic at time 1656794074
+2022-07-02 13:34:36,605:INFO:Fetched timeline for ninasimonic at time 1656794074
+2022-07-02 13:34:37,453:INFO:Getting timelin for DoyoungPromotes at time 1656794077
+2022-07-02 13:34:39,122:INFO:Fetched timeline for DoyoungPromotes at time 1656794077
+2022-07-02 13:34:39,979:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:34:39,982:INFO:Entry for User:1346272878 inserted successfully
+2022-07-02 13:34:39,985:INFO:User 1346272878 entered succesfully into dataset
+2022-07-02 13:34:39,985:INFO:Getting timelin for MissParisCrypto at time 1656794079
+2022-07-02 13:34:41,458:INFO:Fetched timeline for MissParisCrypto at time 1656794079
+2022-07-02 13:34:42,231:INFO:Getting timelin for coodazai at time 1656794082
+2022-07-02 13:34:43,719:INFO:Fetched timeline for coodazai at time 1656794082
+2022-07-02 13:34:44,464:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:34:44,468:INFO:Entry for User:1511916119065792512 inserted successfully
+2022-07-02 13:34:44,470:INFO:User 1511916119065792512 entered succesfully into dataset
+2022-07-02 13:34:44,470:INFO:Getting timelin for wonieegives at time 1656794084
+2022-07-02 13:34:46,144:INFO:Fetched timeline for wonieegives at time 1656794084
+2022-07-02 13:34:46,925:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:34:46,926:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:34:46,927:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:34:46,929:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:34:46,929:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:34:46,932:INFO:Entry for User:1480410837525348355 inserted successfully
+2022-07-02 13:34:46,934:INFO:User 1480410837525348355 entered succesfully into dataset
+2022-07-02 13:34:46,935:INFO:Getting timelin for cryptomeks at time 1656794086
+2022-07-02 13:34:48,441:INFO:Fetched timeline for cryptomeks at time 1656794086
+2022-07-02 13:34:49,241:INFO:Getting timelin for MrsunNFT at time 1656794089
+2022-07-02 13:34:51,149:INFO:Fetched timeline for MrsunNFT at time 1656794089
+2022-07-02 13:34:51,964:INFO:Getting timelin for nftpixelart_ at time 1656794091
+2022-07-02 13:34:53,848:INFO:Fetched timeline for nftpixelart_ at time 1656794091
+2022-07-02 13:34:54,667:INFO:Getting timelin for hollow18_ at time 1656794094
+2022-07-02 13:34:55,519:INFO:Fetched timeline for hollow18_ at time 1656794094
+2022-07-02 13:34:56,199:INFO:Getting timelin for FLOATNFTS at time 1656794096
+2022-07-02 13:34:57,949:INFO:Fetched timeline for FLOATNFTS at time 1656794096
+2022-07-02 13:34:58,748:INFO:Getting timelin for Crypto_Hawkk at time 1656794098
+2022-07-02 13:35:00,487:INFO:Fetched timeline for Crypto_Hawkk at time 1656794098
+2022-07-02 13:35:01,298:INFO:Getting timelin for MesiPromotes_ at time 1656794101
+2022-07-02 13:35:03,242:INFO:Fetched timeline for MesiPromotes_ at time 1656794101
+2022-07-02 13:35:04,074:INFO:Getting timelin for NasBitcoin at time 1656794104
+2022-07-02 13:35:05,794:INFO:Fetched timeline for NasBitcoin at time 1656794104
+2022-07-02 13:35:06,621:INFO:Getting timelin for MazeWandaX at time 1656794106
+2022-07-02 13:35:08,433:INFO:Fetched timeline for MazeWandaX at time 1656794106
+2022-07-02 13:35:09,244:INFO:Getting timelin for Giveaway__Whale at time 1656794109
+2022-07-02 13:35:10,839:INFO:Fetched timeline for Giveaway__Whale at time 1656794109
+2022-07-02 13:35:11,642:INFO:Getting timelin for Lunargives at time 1656794111
+2022-07-02 13:35:13,197:INFO:Fetched timeline for Lunargives at time 1656794111
+2022-07-02 13:35:14,001:INFO:Getting timelin for CryptoPad100x at time 1656794114
+2022-07-02 13:35:14,815:INFO:Fetched timeline for CryptoPad100x at time 1656794114
+2022-07-02 13:35:15,527:INFO:Getting timelin for TokyooNFT at time 1656794115
+2022-07-02 13:35:16,987:INFO:Fetched timeline for TokyooNFT at time 1656794115
+2022-07-02 13:35:17,798:INFO:Getting timelin for JpegGems1 at time 1656794117
+2022-07-02 13:35:19,779:INFO:Fetched timeline for JpegGems1 at time 1656794117
+2022-07-02 13:35:20,602:INFO:Getting timelin for TRONIXeth at time 1656794120
+2022-07-02 13:35:22,434:INFO:Fetched timeline for TRONIXeth at time 1656794120
+2022-07-02 13:35:23,239:INFO:Getting timelin for jejje113 at time 1656794123
+2022-07-02 13:35:24,866:INFO:Fetched timeline for jejje113 at time 1656794123
+2022-07-02 13:35:25,662:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:35:25,663:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:35:25,663:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:35:25,664:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:35:25,664:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:35:25,667:INFO:Entry for User:1460095018350178305 inserted successfully
+2022-07-02 13:35:25,670:INFO:User 1460095018350178305 entered succesfully into dataset
+2022-07-02 13:35:25,671:INFO:Getting timelin for PlasmaCrypto at time 1656794125
+2022-07-02 13:35:27,492:INFO:Fetched timeline for PlasmaCrypto at time 1656794125
+2022-07-02 13:35:28,290:INFO:Getting timelin for traderoctopus at time 1656794128
+2022-07-02 13:35:30,206:INFO:Fetched timeline for traderoctopus at time 1656794128
+2022-07-02 13:35:31,028:INFO:Getting timelin for CryptoBooster_7 at time 1656794131
+2022-07-02 13:35:32,666:INFO:Fetched timeline for CryptoBooster_7 at time 1656794131
+2022-07-02 13:35:33,484:INFO:Getting timelin for SafeMoonRich at time 1656794133
+2022-07-02 13:35:35,146:INFO:Fetched timeline for SafeMoonRich at time 1656794133
+2022-07-02 13:35:35,945:INFO:Getting timelin for CRYPTOPROM0S at time 1656794135
+2022-07-02 13:35:37,493:INFO:Fetched timeline for CRYPTOPROM0S at time 1656794135
+2022-07-02 13:35:38,258:INFO:Getting timelin for LiTOfficiall at time 1656794138
+2022-07-02 13:35:40,111:INFO:Fetched timeline for LiTOfficiall at time 1656794138
+2022-07-02 13:35:40,919:INFO:Getting timelin for GlazeCrypto at time 1656794140
+2022-07-02 13:35:42,645:INFO:Fetched timeline for GlazeCrypto at time 1656794140
+2022-07-02 13:35:43,460:INFO:Getting timelin for cryprules at time 1656794143
+2022-07-02 13:35:45,079:INFO:Fetched timeline for cryprules at time 1656794143
+2022-07-02 13:35:45,945:INFO:Getting timelin for bitcoindinos at time 1656794145
+2022-07-02 13:35:47,361:INFO:Fetched timeline for bitcoindinos at time 1656794145
+2022-07-02 13:35:48,175:INFO:Getting timelin for CalliNFTs at time 1656794148
+2022-07-02 13:35:48,980:INFO:Fetched timeline for CalliNFTs at time 1656794148
+2022-07-02 13:35:49,702:INFO:Getting timelin for gemhost at time 1656794149
+2022-07-02 13:35:50,505:INFO:Fetched timeline for gemhost at time 1656794149
+2022-07-02 13:35:51,187:INFO:Getting timelin for FatherPromos at time 1656794151
+2022-07-02 13:35:52,971:INFO:Fetched timeline for FatherPromos at time 1656794151
+2022-07-02 13:35:53,819:INFO:Getting timelin for Cryptinna at time 1656794153
+2022-07-02 13:35:54,653:INFO:Fetched timeline for Cryptinna at time 1656794153
+2022-07-02 13:35:55,333:INFO:Getting timelin for Kxthify at time 1656794155
+2022-07-02 13:35:57,208:INFO:Fetched timeline for Kxthify at time 1656794155
+2022-07-02 13:35:58,049:INFO:Getting timelin for onecryptogirl at time 1656794158
+2022-07-02 13:35:59,805:INFO:Fetched timeline for onecryptogirl at time 1656794158
+2022-07-02 13:36:00,641:INFO:Getting timelin for Ralph_NFTBuddy at time 1656794160
+2022-07-02 13:36:02,611:INFO:Fetched timeline for Ralph_NFTBuddy at time 1656794160
+2022-07-02 13:36:03,449:INFO:Getting timelin for NftsWind at time 1656794163
+2022-07-02 13:36:05,541:INFO:Fetched timeline for NftsWind at time 1656794163
+2022-07-02 13:36:06,386:INFO:Getting timelin for angel_funsized at time 1656794166
+2022-07-02 13:36:08,180:INFO:Fetched timeline for angel_funsized at time 1656794166
+2022-07-02 13:36:08,976:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:36:08,989:INFO:Getting timelin for 2motivate at time 1656794168
+2022-07-02 13:36:09,940:INFO:Fetched timeline for 2motivate at time 1656794168
+2022-07-02 13:36:10,630:INFO:Getting timelin for CryptoCallista at time 1656794170
+2022-07-02 13:36:12,422:INFO:Fetched timeline for CryptoCallista at time 1656794170
+2022-07-02 13:36:13,214:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:36:13,215:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:36:13,218:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:36:13,220:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:36:13,223:INFO:Entry for User:343939925 inserted successfully
+2022-07-02 13:36:13,225:INFO:User 343939925 entered succesfully into dataset
+2022-07-02 13:36:13,225:INFO:Getting timelin for CryptoQueenDM at time 1656794173
+2022-07-02 13:36:15,002:INFO:Fetched timeline for CryptoQueenDM at time 1656794173
+2022-07-02 13:36:15,869:INFO:Getting timelin for SarahPromotions at time 1656794175
+2022-07-02 13:36:17,525:INFO:Fetched timeline for SarahPromotions at time 1656794175
+2022-07-02 13:36:18,308:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:36:18,311:INFO:Entry for User:1533826469042204673 inserted successfully
+2022-07-02 13:36:18,314:INFO:User 1533826469042204673 entered succesfully into dataset
+2022-07-02 13:36:18,314:INFO:Getting timelin for bricepromos at time 1656794178
+2022-07-02 13:36:19,806:INFO:Fetched timeline for bricepromos at time 1656794178
+2022-07-02 13:36:20,620:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:36:20,635:INFO:Getting timelin for bravepromote at time 1656794180
+2022-07-02 13:36:22,428:INFO:Fetched timeline for bravepromote at time 1656794180
+2022-07-02 13:36:23,211:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:36:23,226:INFO:Getting timelin for JayTheGaHost at time 1656794183
+2022-07-02 13:36:24,890:INFO:Fetched timeline for JayTheGaHost at time 1656794183
+2022-07-02 13:36:25,703:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:36:25,706:INFO:Entry for User:2943353287 inserted successfully
+2022-07-02 13:36:25,709:INFO:User 2943353287 entered succesfully into dataset
+2022-07-02 13:36:25,709:INFO:Getting timelin for PsyJayCrypto at time 1656794185
+2022-07-02 13:36:27,350:INFO:Fetched timeline for PsyJayCrypto at time 1656794185
+2022-07-02 13:36:28,166:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:36:28,166:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:36:28,169:INFO:Entry for User:1450565755964059652 inserted successfully
+2022-07-02 13:36:28,172:INFO:User 1450565755964059652 entered succesfully into dataset
+2022-07-02 13:36:28,172:INFO:Getting timelin for GridGamingIO at time 1656794188
+2022-07-02 13:36:29,746:INFO:Fetched timeline for GridGamingIO at time 1656794188
+2022-07-02 13:36:30,576:INFO:Getting timelin for MysteryColle at time 1656794190
+2022-07-02 13:36:32,580:INFO:Fetched timeline for MysteryColle at time 1656794190
+2022-07-02 13:36:33,371:INFO:Getting timelin for TrueGemHunter at time 1656794193
+2022-07-02 13:36:34,961:INFO:Fetched timeline for TrueGemHunter at time 1656794193
+2022-07-02 13:36:35,784:INFO:Getting timelin for HarleyProm_ at time 1656794195
+2022-07-02 13:36:37,732:INFO:Fetched timeline for HarleyProm_ at time 1656794195
+2022-07-02 13:36:38,558:INFO:Getting timelin for xFluxsi at time 1656794198
+2022-07-02 13:36:40,432:INFO:Fetched timeline for xFluxsi at time 1656794198
+2022-07-02 13:36:41,237:INFO:Getting timelin for HwanniePromotes at time 1656794201
+2022-07-02 13:36:42,770:INFO:Fetched timeline for HwanniePromotes at time 1656794201
+2022-07-02 13:36:43,570:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:36:43,573:INFO:Entry for User:1237650752555716608 inserted successfully
+2022-07-02 13:36:43,576:INFO:User 1237650752555716608 entered succesfully into dataset
+2022-07-02 13:36:43,576:INFO:Getting timelin for Marksmith1M at time 1656794203
+2022-07-02 13:36:45,533:INFO:Fetched timeline for Marksmith1M at time 1656794203
+2022-07-02 13:36:46,359:INFO:Getting timelin for 4dynastyrich at time 1656794206
+2022-07-02 13:36:47,908:INFO:Fetched timeline for 4dynastyrich at time 1656794206
+2022-07-02 13:36:48,712:INFO:Getting timelin for juliahost_ at time 1656794208
+2022-07-02 13:36:50,590:INFO:Fetched timeline for juliahost_ at time 1656794208
+2022-07-02 13:36:51,400:INFO:Getting timelin for FoxGives at time 1656794211
+2022-07-02 13:36:53,216:INFO:Fetched timeline for FoxGives at time 1656794211
+2022-07-02 13:36:54,042:INFO:Getting timelin for GHOOFYNFT at time 1656794214
+2022-07-02 13:36:55,683:INFO:Fetched timeline for GHOOFYNFT at time 1656794214
+2022-07-02 13:36:56,480:INFO:Getting timelin for pumpcoinbets at time 1656794216
+2022-07-02 13:36:58,343:INFO:Fetched timeline for pumpcoinbets at time 1656794216
+2022-07-02 13:36:59,149:INFO:Getting timelin for Jopromote at time 1656794219
+2022-07-02 13:37:00,900:INFO:Fetched timeline for Jopromote at time 1656794219
+2022-07-02 13:37:01,731:INFO:Mention data for tweet loaded successfully
+2022-07-02 13:37:01,735:INFO:Entry for User:1701707238 inserted successfully
+2022-07-02 13:37:01,737:INFO:User 1701707238 entered succesfully into dataset
+2022-07-02 13:37:01,738:INFO:Getting timelin for AliyaCrypto at time 1656794221
+2022-07-02 13:37:03,565:INFO:Fetched timeline for AliyaCrypto at time 1656794221
+2022-07-02 13:37:04,371:INFO:Getting timelin for ShinaFloria at time 1656794224
+2022-07-02 13:37:05,172:INFO:Fetched timeline for ShinaFloria at time 1656794224
+2022-07-02 13:37:05,858:INFO:Getting timelin for promotergr at time 1656794225
+2022-07-02 13:37:06,670:INFO:Fetched timeline for promotergr at time 1656794225
+2022-07-02 13:37:07,351:INFO:Getting timelin for DannyCryptoGA at time 1656794227
+2022-07-02 13:37:09,030:INFO:Fetched timeline for DannyCryptoGA at time 1656794227
+2022-07-02 13:37:09,887:INFO:Getting timelin for Micopromotes at time 1656794229
+2022-07-02 13:37:11,840:INFO:Fetched timeline for Micopromotes at time 1656794229
+2022-07-02 13:37:12,654:INFO:Getting timelin for CyprusCrypto1 at time 1656794232
+2022-07-02 13:37:14,627:INFO:Fetched timeline for CyprusCrypto1 at time 1656794232
+2022-07-02 13:37:15,439:INFO:Getting timelin for ladyincrypto at time 1656794235
+2022-07-02 13:49:33,958:INFO:Checking OptimusTesla_io...
+2022-07-02 13:51:08,967:INFO:Checking OptimusTesla_io...
+2022-07-02 13:53:35,746:INFO:Checking OptimusTesla_io...
+2022-07-02 13:55:37,532:INFO:Checking OptimusTesla_io...
+2022-07-02 13:56:19,355:INFO:Checking OptimusTesla_io...
+2022-07-02 13:56:58,077:INFO:Checking OptimusTesla_io...
+2022-07-02 13:58:30,725:INFO:Checking OptimusTesla_io...
+2022-07-02 14:01:23,090:INFO:Checking OptimusTesla_io...
+2022-07-02 14:01:51,367:INFO:Checking OptimusTesla_io...
+2022-07-02 14:02:38,744:INFO:Checking OptimusTesla_io...
+2022-07-02 14:03:11,398:INFO:Checking OptimusTesla_io...
+2022-07-02 14:04:41,178:INFO:Checking OptimusTesla_io...
+2022-07-02 14:04:41,180:INFO:promotee:OptimusTesla_io has not reached 24 hours yet, skipping for now
+2022-07-02 14:04:41,180:INFO:Checking FloatNFTs...
+2022-07-02 14:04:41,180:INFO:promotee:FloatNFTs has not reached 24 hours yet, skipping for now
+2022-07-02 14:04:41,180:INFO:Checking HippynoidsNFT...
+2022-07-02 14:04:41,180:INFO:promotee:HippynoidsNFT has not reached 24 hours yet, skipping for now
+2022-07-02 14:04:41,181:INFO:Checking 0xLecture...
+2022-07-02 14:04:41,181:INFO:promotee:0xLecture has not reached 24 hours yet, skipping for now
+2022-07-02 14:04:41,181:INFO:Checking proofinthedoof...
+2022-07-02 14:04:41,181:INFO:promotee:proofinthedoof has not reached 24 hours yet, skipping for now
+2022-07-02 14:04:41,181:INFO:Checking GinoAssereto...
+2022-07-02 14:04:41,181:INFO:promotee:GinoAssereto has not reached 24 hours yet, skipping for now
+2022-07-02 14:04:41,181:INFO:Checking ZertNFT...
+2022-07-02 14:04:41,182:INFO:promotee:ZertNFT has not reached 24 hours yet, skipping for now
+2022-07-02 14:04:41,182:INFO:Checking nftgaminghub1...
+2022-07-02 14:04:41,182:INFO:promotee:nftgaminghub1 has not reached 24 hours yet, skipping for now
+2022-07-02 14:04:41,182:INFO:Checking LeagueofEmpires...
+2022-07-02 14:04:41,182:INFO:promotee:LeagueofEmpires has not reached 24 hours yet, skipping for now
+2022-07-02 14:04:41,182:INFO:Checking synwtw...
+2022-07-02 14:04:41,182:INFO:promotee:synwtw has not reached 24 hours yet, skipping for now
+2022-07-02 14:04:41,183:INFO:Checking crypto_patt1...
+2022-07-02 14:04:41,183:INFO:promotee:crypto_patt1 has not reached 24 hours yet, skipping for now
+2022-07-02 14:04:41,183:INFO:Checking dabiYEAHdabi...
+2022-07-02 14:04:41,183:INFO:promotee:dabiYEAHdabi has not reached 24 hours yet, skipping for now
+2022-07-02 14:04:41,183:INFO:Checking wtfmaco...
+2022-07-02 14:04:41,183:INFO:promotee:wtfmaco has not reached 24 hours yet, skipping for now
+2022-07-02 14:04:41,183:INFO:Checking CRYPTOHOMIES_...
+2022-07-02 14:04:41,184:INFO:promotee:CRYPTOHOMIES_ has not reached 24 hours yet, skipping for now
+2022-07-02 14:04:41,184:INFO:Checking YunaPromotes_...
+2022-07-02 14:04:41,184:INFO:promotee:YunaPromotes_ has not reached 24 hours yet, skipping for now
+2022-07-02 14:04:41,184:INFO:Checking SpillNFTs...
+2022-07-02 14:04:41,184:INFO:promotee:SpillNFTs has not reached 24 hours yet, skipping for now
+2022-07-02 14:07:09,620:INFO:Checking OptimusTesla_io...
+2022-07-02 14:07:09,622:INFO:promotee:OptimusTesla_io has not reached 24 hours yet, skipping for now
+2022-07-02 14:07:09,622:INFO:Checking FloatNFTs...
+2022-07-02 14:07:09,623:INFO:promotee:FloatNFTs has not reached 24 hours yet, skipping for now
+2022-07-02 14:07:09,623:INFO:Checking HippynoidsNFT...
+2022-07-02 14:07:09,623:INFO:promotee:HippynoidsNFT has not reached 24 hours yet, skipping for now
+2022-07-02 14:07:09,623:INFO:Checking 0xLecture...
+2022-07-02 14:07:09,623:INFO:promotee:0xLecture has not reached 24 hours yet, skipping for now
+2022-07-02 14:07:09,624:INFO:Checking proofinthedoof...
+2022-07-02 14:07:09,624:INFO:promotee:proofinthedoof has not reached 24 hours yet, skipping for now
+2022-07-02 14:07:09,624:INFO:Checking GinoAssereto...
+2022-07-02 14:07:09,624:INFO:promotee:GinoAssereto has not reached 24 hours yet, skipping for now
+2022-07-02 14:07:09,624:INFO:Checking ZertNFT...
+2022-07-02 14:07:09,624:INFO:promotee:ZertNFT has not reached 24 hours yet, skipping for now
+2022-07-02 14:07:09,625:INFO:Checking nftgaminghub1...
+2022-07-02 14:07:09,625:INFO:promotee:nftgaminghub1 has not reached 24 hours yet, skipping for now
+2022-07-02 14:07:09,625:INFO:Checking LeagueofEmpires...
+2022-07-02 14:07:09,625:INFO:promotee:LeagueofEmpires has reached 72 hour mark
+2022-07-02 14:07:12,070:INFO:Checking synwtw...
+2022-07-02 14:07:12,071:INFO:promotee:synwtw has reached 72 hour mark
+2022-07-02 14:07:14,913:INFO:Checking crypto_patt1...
+2022-07-02 14:07:14,913:INFO:promotee:crypto_patt1 has reached 72 hour mark
+2022-07-02 14:07:17,523:INFO:Checking dabiYEAHdabi...
+2022-07-02 14:07:17,523:INFO:promotee:dabiYEAHdabi has not reached 24 hours yet, skipping for now
+2022-07-02 14:07:17,523:INFO:Checking wtfmaco...
+2022-07-02 14:07:17,523:INFO:promotee:wtfmaco has not reached 24 hours yet, skipping for now
+2022-07-02 14:07:17,524:INFO:Checking CRYPTOHOMIES_...
+2022-07-02 14:07:17,524:INFO:promotee:CRYPTOHOMIES_ has reached 72 hour mark
+2022-07-02 14:07:20,119:INFO:Checking YunaPromotes_...
+2022-07-02 14:07:20,119:INFO:promotee:YunaPromotes_ has not reached 24 hours yet, skipping for now
+2022-07-02 14:07:20,120:INFO:Checking SpillNFTs...
+2022-07-02 14:07:20,120:INFO:promotee:SpillNFTs has not reached 24 hours yet, skipping for now
+2022-07-02 14:14:47,430:INFO:Read promoter list from accounts_promoter csv
+2022-07-02 14:14:47,430:INFO:Getting timelin for Crypto_GA_Arena at time 1656796487
+2022-07-02 14:14:49,257:INFO:Fetched timeline for Crypto_GA_Arena at time 1656796487
+2022-07-02 14:14:50,077:INFO:Getting timelin for bainesy4886 at time 1656796490
+2022-07-02 14:14:51,779:INFO:Fetched timeline for bainesy4886 at time 1656796490
+2022-07-02 14:14:52,556:INFO:Getting timelin for CryptoElwis at time 1656796492
+2022-07-02 14:14:54,207:INFO:Fetched timeline for CryptoElwis at time 1656796492
+2022-07-02 14:14:55,018:INFO:Getting timelin for gnarhost at time 1656796495
+2022-07-02 14:14:55,817:INFO:Fetched timeline for gnarhost at time 1656796495
+2022-07-02 14:14:56,503:INFO:Getting timelin for GAContest_ at time 1656796496
+2022-07-02 14:14:57,307:INFO:Fetched timeline for GAContest_ at time 1656796496
+2022-07-02 14:14:57,992:INFO:Getting timelin for CryptoKing1st at time 1656796497
+2022-07-02 14:14:59,824:INFO:Fetched timeline for CryptoKing1st at time 1656796497
+2022-07-02 14:15:00,619:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:15:00,664:INFO:Entry for User:2251208988 inserted successfully
+2022-07-02 14:15:00,671:INFO:User 2251208988 entered succesfully into dataset
+2022-07-02 14:15:00,671:INFO:Getting timelin for RyZeJpeg at time 1656796500
+2022-07-02 14:15:02,628:INFO:Fetched timeline for RyZeJpeg at time 1656796500
+2022-07-02 14:15:03,470:INFO:Getting timelin for ValleryMerk at time 1656796503
+2022-07-02 14:15:04,262:INFO:Fetched timeline for ValleryMerk at time 1656796503
+2022-07-02 14:15:04,946:INFO:Getting timelin for prctiu at time 1656796504
+2022-07-02 14:15:06,555:INFO:Fetched timeline for prctiu at time 1656796504
+2022-07-02 14:15:07,362:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:15:07,365:INFO:Entry for User:1355079365629980679 inserted successfully
+2022-07-02 14:15:07,368:INFO:User 1355079365629980679 entered succesfully into dataset
+2022-07-02 14:15:07,368:INFO:Getting timelin for CryptoPunkRich at time 1656796507
+2022-07-02 14:15:09,192:INFO:Fetched timeline for CryptoPunkRich at time 1656796507
+2022-07-02 14:15:10,022:INFO:Getting timelin for yumcrypto at time 1656796510
+2022-07-02 14:15:11,712:INFO:Fetched timeline for yumcrypto at time 1656796510
+2022-07-02 14:15:12,530:INFO:Getting timelin for SlothNFT_ at time 1656796512
+2022-07-02 14:15:14,242:INFO:Fetched timeline for SlothNFT_ at time 1656796512
+2022-07-02 14:15:15,052:INFO:Getting timelin for YunaPromotes_ at time 1656796515
+2022-07-02 14:15:16,715:INFO:Fetched timeline for YunaPromotes_ at time 1656796515
+2022-07-02 14:15:17,529:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:15:17,533:INFO:Entry for User:1423603745896779780 inserted successfully
+2022-07-02 14:15:17,536:INFO:User 1423603745896779780 entered succesfully into dataset
+2022-07-02 14:15:17,536:INFO:Getting timelin for Barbiehost at time 1656796517
+2022-07-02 14:15:19,289:INFO:Fetched timeline for Barbiehost at time 1656796517
+2022-07-02 14:15:20,094:INFO:Getting timelin for APICPUNK at time 1656796520
+2022-07-02 14:15:21,980:INFO:Fetched timeline for APICPUNK at time 1656796520
+2022-07-02 14:15:22,774:INFO:Getting timelin for CryptoFeather_ at time 1656796522
+2022-07-02 14:15:24,356:INFO:Fetched timeline for CryptoFeather_ at time 1656796522
+2022-07-02 14:15:25,125:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:15:25,125:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:15:25,129:INFO:Entry for User:1485156410472157184 inserted successfully
+2022-07-02 14:15:25,131:INFO:User 1485156410472157184 entered succesfully into dataset
+2022-07-02 14:15:25,132:INFO:Getting timelin for CryptoShrek_ at time 1656796525
+2022-07-02 14:15:26,961:INFO:Fetched timeline for CryptoShrek_ at time 1656796525
+2022-07-02 14:15:27,790:INFO:Getting timelin for Bitcoinbro10 at time 1656796527
+2022-07-02 14:15:29,369:INFO:Fetched timeline for Bitcoinbro10 at time 1656796527
+2022-07-02 14:15:30,153:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:15:30,154:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:15:30,168:INFO:Getting timelin for TwizzNFT at time 1656796530
+2022-07-02 14:15:32,037:INFO:Fetched timeline for TwizzNFT at time 1656796530
+2022-07-02 14:15:32,848:INFO:Getting timelin for CryptoBoostMe at time 1656796532
+2022-07-02 14:15:34,467:INFO:Fetched timeline for CryptoBoostMe at time 1656796532
+2022-07-02 14:15:35,299:INFO:Getting timelin for Mailuvss_ at time 1656796535
+2022-07-02 14:15:36,776:INFO:Fetched timeline for Mailuvss_ at time 1656796535
+2022-07-02 14:15:37,572:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:15:37,575:INFO:Entry for User:2820741398 inserted successfully
+2022-07-02 14:15:37,578:INFO:User 2820741398 entered succesfully into dataset
+2022-07-02 14:15:37,578:INFO:Getting timelin for RedHuskai at time 1656796537
+2022-07-02 14:15:39,227:INFO:Fetched timeline for RedHuskai at time 1656796537
+2022-07-02 14:15:40,039:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:15:40,054:INFO:Getting timelin for GiveawayInspect at time 1656796540
+2022-07-02 14:15:41,845:INFO:Fetched timeline for GiveawayInspect at time 1656796540
+2022-07-02 14:15:42,645:INFO:Getting timelin for GinieCrypto at time 1656796542
+2022-07-02 14:15:43,446:INFO:Fetched timeline for GinieCrypto at time 1656796542
+2022-07-02 14:15:44,124:INFO:Getting timelin for isabellaaabrown at time 1656796544
+2022-07-02 14:15:45,974:INFO:Fetched timeline for isabellaaabrown at time 1656796544
+2022-07-02 14:15:46,782:INFO:Getting timelin for bordong2 at time 1656796546
+2022-07-02 14:15:48,820:INFO:Fetched timeline for bordong2 at time 1656796546
+2022-07-02 14:15:49,777:INFO:Getting timelin for gemhostofficial at time 1656796549
+2022-07-02 14:15:50,581:INFO:Fetched timeline for gemhostofficial at time 1656796549
+2022-07-02 14:15:51,290:INFO:Getting timelin for alphashilla at time 1656796551
+2022-07-02 14:15:53,352:INFO:Fetched timeline for alphashilla at time 1656796551
+2022-07-02 14:15:54,181:INFO:Getting timelin for DigitalJpeg at time 1656796554
+2022-07-02 14:15:54,969:INFO:Fetched timeline for DigitalJpeg at time 1656796554
+2022-07-02 14:15:55,666:INFO:Getting timelin for CryptoRhum at time 1656796555
+2022-07-02 14:15:57,652:INFO:Fetched timeline for CryptoRhum at time 1656796555
+2022-07-02 14:15:58,484:INFO:Getting timelin for SophieLee48 at time 1656796558
+2022-07-02 14:16:00,372:INFO:Fetched timeline for SophieLee48 at time 1656796558
+2022-07-02 14:16:01,187:INFO:Getting timelin for nft__community_ at time 1656796561
+2022-07-02 14:16:03,249:INFO:Fetched timeline for nft__community_ at time 1656796561
+2022-07-02 14:16:04,088:INFO:Getting timelin for AreumPromotes at time 1656796564
+2022-07-02 14:16:05,629:INFO:Fetched timeline for AreumPromotes at time 1656796564
+2022-07-02 14:16:06,439:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:16:06,439:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:16:06,440:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:16:06,443:INFO:Entry for User:1214302411 inserted successfully
+2022-07-02 14:16:06,446:INFO:User 1214302411 entered succesfully into dataset
+2022-07-02 14:16:06,446:INFO:Getting timelin for SmartSolana at time 1656796566
+2022-07-02 14:16:08,106:INFO:Fetched timeline for SmartSolana at time 1656796566
+2022-07-02 14:16:08,913:INFO:Getting timelin for cryptattoed at time 1656796568
+2022-07-02 14:16:10,378:INFO:Fetched timeline for cryptattoed at time 1656796568
+2022-07-02 14:16:11,162:INFO:Getting timelin for Profess0rCrypto at time 1656796571
+2022-07-02 14:16:12,007:INFO:Fetched timeline for Profess0rCrypto at time 1656796571
+2022-07-02 14:16:12,679:INFO:Getting timelin for DJ_GIVEAWAY2 at time 1656796572
+2022-07-02 14:16:14,236:INFO:Fetched timeline for DJ_GIVEAWAY2 at time 1656796572
+2022-07-02 14:16:15,008:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:16:15,022:INFO:Getting timelin for SAFACryptoCrew at time 1656796575
+2022-07-02 14:16:16,735:INFO:Fetched timeline for SAFACryptoCrew at time 1656796575
+2022-07-02 14:16:17,555:INFO:Getting timelin for MilaPromot at time 1656796577
+2022-07-02 14:16:19,049:INFO:Fetched timeline for MilaPromot at time 1656796577
+2022-07-02 14:16:19,825:INFO:Getting timelin for liapesekbandung at time 1656796579
+2022-07-02 14:16:21,667:INFO:Fetched timeline for liapesekbandung at time 1656796579
+2022-07-02 14:16:22,465:INFO:Getting timelin for 0xChaneL02 at time 1656796582
+2022-07-02 14:16:24,132:INFO:Fetched timeline for 0xChaneL02 at time 1656796582
+2022-07-02 14:16:24,938:INFO:Getting timelin for GingaBubaCrypto at time 1656796584
+2022-07-02 14:16:26,935:INFO:Fetched timeline for GingaBubaCrypto at time 1656796584
+2022-07-02 14:16:27,784:INFO:Getting timelin for LeoPromotes at time 1656796587
+2022-07-02 14:16:29,624:INFO:Fetched timeline for LeoPromotes at time 1656796587
+2022-07-02 14:16:30,427:INFO:Getting timelin for NFTJacobz at time 1656796590
+2022-07-02 14:16:31,476:INFO:Fetched timeline for NFTJacobz at time 1656796590
+2022-07-02 14:16:32,203:INFO:Getting timelin for ninasimonic at time 1656796592
+2022-07-02 14:16:34,073:INFO:Fetched timeline for ninasimonic at time 1656796592
+2022-07-02 14:16:34,895:INFO:Getting timelin for DoyoungPromotes at time 1656796594
+2022-07-02 14:16:36,604:INFO:Fetched timeline for DoyoungPromotes at time 1656796594
+2022-07-02 14:16:37,428:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:16:37,432:INFO:Entry for User:1346272878 inserted successfully
+2022-07-02 14:16:37,435:INFO:User 1346272878 entered succesfully into dataset
+2022-07-02 14:16:37,435:INFO:Getting timelin for MissParisCrypto at time 1656796597
+2022-07-02 14:16:39,014:INFO:Fetched timeline for MissParisCrypto at time 1656796597
+2022-07-02 14:16:39,784:INFO:Getting timelin for coodazai at time 1656796599
+2022-07-02 14:16:41,189:INFO:Fetched timeline for coodazai at time 1656796599
+2022-07-02 14:16:41,978:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:16:41,982:INFO:Entry for User:1511916119065792512 inserted successfully
+2022-07-02 14:16:41,985:INFO:User 1511916119065792512 entered succesfully into dataset
+2022-07-02 14:16:41,985:INFO:Getting timelin for wonieegives at time 1656796601
+2022-07-02 14:16:43,626:INFO:Fetched timeline for wonieegives at time 1656796601
+2022-07-02 14:16:44,388:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:16:44,388:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:16:44,389:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:16:44,391:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:16:44,391:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:16:44,394:INFO:Entry for User:1480410837525348355 inserted successfully
+2022-07-02 14:16:44,397:INFO:User 1480410837525348355 entered succesfully into dataset
+2022-07-02 14:16:44,397:INFO:Getting timelin for cryptomeks at time 1656796604
+2022-07-02 14:16:45,899:INFO:Fetched timeline for cryptomeks at time 1656796604
+2022-07-02 14:16:46,702:INFO:Getting timelin for MrsunNFT at time 1656796606
+2022-07-02 14:16:48,569:INFO:Fetched timeline for MrsunNFT at time 1656796606
+2022-07-02 14:16:49,419:INFO:Getting timelin for nftpixelart_ at time 1656796609
+2022-07-02 14:16:51,424:INFO:Fetched timeline for nftpixelart_ at time 1656796609
+2022-07-02 14:16:52,235:INFO:Getting timelin for hollow18_ at time 1656796612
+2022-07-02 14:16:53,041:INFO:Fetched timeline for hollow18_ at time 1656796612
+2022-07-02 14:16:53,750:INFO:Getting timelin for FLOATNFTS at time 1656796613
+2022-07-02 14:16:55,478:INFO:Fetched timeline for FLOATNFTS at time 1656796613
+2022-07-02 14:16:56,289:INFO:Getting timelin for Crypto_Hawkk at time 1656796616
+2022-07-02 14:16:58,047:INFO:Fetched timeline for Crypto_Hawkk at time 1656796616
+2022-07-02 14:16:58,861:INFO:Getting timelin for MesiPromotes_ at time 1656796618
+2022-07-02 14:17:00,635:INFO:Fetched timeline for MesiPromotes_ at time 1656796618
+2022-07-02 14:17:01,507:INFO:Getting timelin for NasBitcoin at time 1656796621
+2022-07-02 14:17:03,467:INFO:Fetched timeline for NasBitcoin at time 1656796621
+2022-07-02 14:17:04,288:INFO:Getting timelin for MazeWandaX at time 1656796624
+2022-07-02 14:17:06,234:INFO:Fetched timeline for MazeWandaX at time 1656796624
+2022-07-02 14:17:07,048:INFO:Getting timelin for Giveaway__Whale at time 1656796627
+2022-07-02 14:17:08,562:INFO:Fetched timeline for Giveaway__Whale at time 1656796627
+2022-07-02 14:17:09,351:INFO:Getting timelin for Lunargives at time 1656796629
+2022-07-02 14:17:11,025:INFO:Fetched timeline for Lunargives at time 1656796629
+2022-07-02 14:17:11,817:INFO:Getting timelin for CryptoPad100x at time 1656796631
+2022-07-02 14:17:12,603:INFO:Fetched timeline for CryptoPad100x at time 1656796631
+2022-07-02 14:17:13,307:INFO:Getting timelin for TokyooNFT at time 1656796633
+2022-07-02 14:17:14,706:INFO:Fetched timeline for TokyooNFT at time 1656796633
+2022-07-02 14:17:15,498:INFO:Getting timelin for JpegGems1 at time 1656796635
+2022-07-02 14:17:17,297:INFO:Fetched timeline for JpegGems1 at time 1656796635
+2022-07-02 14:17:18,162:INFO:Getting timelin for TRONIXeth at time 1656796638
+2022-07-02 14:17:19,931:INFO:Fetched timeline for TRONIXeth at time 1656796638
+2022-07-02 14:17:20,744:INFO:Getting timelin for jejje113 at time 1656796640
+2022-07-02 14:17:22,191:INFO:Fetched timeline for jejje113 at time 1656796640
+2022-07-02 14:17:22,994:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:17:22,994:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:17:22,995:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:17:22,995:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:17:22,996:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:17:22,999:INFO:Entry for User:1460095018350178305 inserted successfully
+2022-07-02 14:17:23,001:INFO:User 1460095018350178305 entered succesfully into dataset
+2022-07-02 14:17:23,002:INFO:Getting timelin for PlasmaCrypto at time 1656796643
+2022-07-02 14:17:24,943:INFO:Fetched timeline for PlasmaCrypto at time 1656796643
+2022-07-02 14:17:25,794:INFO:Getting timelin for traderoctopus at time 1656796645
+2022-07-02 14:17:27,615:INFO:Fetched timeline for traderoctopus at time 1656796645
+2022-07-02 14:17:28,427:INFO:Getting timelin for CryptoBooster_7 at time 1656796648
+2022-07-02 14:17:30,026:INFO:Fetched timeline for CryptoBooster_7 at time 1656796648
+2022-07-02 14:17:30,848:INFO:Getting timelin for SafeMoonRich at time 1656796650
+2022-07-02 14:17:32,454:INFO:Fetched timeline for SafeMoonRich at time 1656796650
+2022-07-02 14:17:33,251:INFO:Getting timelin for CRYPTOPROM0S at time 1656796653
+2022-07-02 14:17:34,835:INFO:Fetched timeline for CRYPTOPROM0S at time 1656796653
+2022-07-02 14:17:35,663:INFO:Getting timelin for LiTOfficiall at time 1656796655
+2022-07-02 14:17:37,391:INFO:Fetched timeline for LiTOfficiall at time 1656796655
+2022-07-02 14:17:38,218:INFO:Getting timelin for GlazeCrypto at time 1656796658
+2022-07-02 14:17:39,780:INFO:Fetched timeline for GlazeCrypto at time 1656796658
+2022-07-02 14:17:40,575:INFO:Getting timelin for cryprules at time 1656796660
+2022-07-02 14:17:42,262:INFO:Fetched timeline for cryprules at time 1656796660
+2022-07-02 14:17:43,061:INFO:Getting timelin for bitcoindinos at time 1656796663
+2022-07-02 14:17:44,607:INFO:Fetched timeline for bitcoindinos at time 1656796663
+2022-07-02 14:17:45,408:INFO:Getting timelin for CalliNFTs at time 1656796665
+2022-07-02 14:17:46,230:INFO:Fetched timeline for CalliNFTs at time 1656796665
+2022-07-02 14:17:46,922:INFO:Getting timelin for gemhost at time 1656796666
+2022-07-02 14:17:47,717:INFO:Fetched timeline for gemhost at time 1656796666
+2022-07-02 14:17:48,409:INFO:Getting timelin for FatherPromos at time 1656796668
+2022-07-02 14:17:50,040:INFO:Fetched timeline for FatherPromos at time 1656796668
+2022-07-02 14:17:50,866:INFO:Getting timelin for Cryptinna at time 1656796670
+2022-07-02 14:17:51,694:INFO:Fetched timeline for Cryptinna at time 1656796670
+2022-07-02 14:17:52,357:INFO:Getting timelin for Kxthify at time 1656796672
+2022-07-02 14:17:54,278:INFO:Fetched timeline for Kxthify at time 1656796672
+2022-07-02 14:17:55,098:INFO:Getting timelin for onecryptogirl at time 1656796675
+2022-07-02 14:17:56,925:INFO:Fetched timeline for onecryptogirl at time 1656796675
+2022-07-02 14:17:57,742:INFO:Getting timelin for Ralph_NFTBuddy at time 1656796677
+2022-07-02 14:17:59,685:INFO:Fetched timeline for Ralph_NFTBuddy at time 1656796677
+2022-07-02 14:18:00,511:INFO:Getting timelin for NftsWind at time 1656796680
+2022-07-02 14:18:02,511:INFO:Fetched timeline for NftsWind at time 1656796680
+2022-07-02 14:18:03,332:INFO:Getting timelin for angel_funsized at time 1656796683
+2022-07-02 14:18:05,036:INFO:Fetched timeline for angel_funsized at time 1656796683
+2022-07-02 14:18:05,892:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:18:05,907:INFO:Getting timelin for 2motivate at time 1656796685
+2022-07-02 14:18:06,808:INFO:Fetched timeline for 2motivate at time 1656796685
+2022-07-02 14:18:07,522:INFO:Getting timelin for CryptoCallista at time 1656796687
+2022-07-02 14:18:09,197:INFO:Fetched timeline for CryptoCallista at time 1656796687
+2022-07-02 14:18:10,014:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:18:10,015:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:18:10,018:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:18:10,019:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:18:10,023:INFO:Entry for User:343939925 inserted successfully
+2022-07-02 14:18:10,026:INFO:User 343939925 entered succesfully into dataset
+2022-07-02 14:18:10,026:INFO:Getting timelin for CryptoQueenDM at time 1656796690
+2022-07-02 14:18:11,886:INFO:Fetched timeline for CryptoQueenDM at time 1656796690
+2022-07-02 14:18:12,700:INFO:Getting timelin for SarahPromotions at time 1656796692
+2022-07-02 14:18:14,257:INFO:Fetched timeline for SarahPromotions at time 1656796692
+2022-07-02 14:18:15,027:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:18:15,028:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:18:15,031:INFO:Entry for User:1533826469042204673 inserted successfully
+2022-07-02 14:18:15,034:INFO:User 1533826469042204673 entered succesfully into dataset
+2022-07-02 14:18:15,034:INFO:Getting timelin for bricepromos at time 1656796695
+2022-07-02 14:18:16,637:INFO:Fetched timeline for bricepromos at time 1656796695
+2022-07-02 14:18:17,424:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:18:17,428:INFO:Entry for User:1483160877163442176 inserted successfully
+2022-07-02 14:18:17,430:INFO:User 1483160877163442176 entered succesfully into dataset
+2022-07-02 14:18:17,431:INFO:Getting timelin for bravepromote at time 1656796697
+2022-07-02 14:18:19,237:INFO:Fetched timeline for bravepromote at time 1656796697
+2022-07-02 14:18:20,047:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:18:20,062:INFO:Getting timelin for JayTheGaHost at time 1656796700
+2022-07-02 14:18:21,679:INFO:Fetched timeline for JayTheGaHost at time 1656796700
+2022-07-02 14:18:22,463:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:18:22,466:INFO:Entry for User:2943353287 inserted successfully
+2022-07-02 14:18:22,469:INFO:User 2943353287 entered succesfully into dataset
+2022-07-02 14:18:22,469:INFO:Getting timelin for PsyJayCrypto at time 1656796702
+2022-07-02 14:18:24,084:INFO:Fetched timeline for PsyJayCrypto at time 1656796702
+2022-07-02 14:18:24,885:INFO:Getting timelin for GridGamingIO at time 1656796704
+2022-07-02 14:18:26,337:INFO:Fetched timeline for GridGamingIO at time 1656796704
+2022-07-02 14:18:27,165:INFO:Getting timelin for MysteryColle at time 1656796707
+2022-07-02 14:18:29,172:INFO:Fetched timeline for MysteryColle at time 1656796707
+2022-07-02 14:18:30,017:INFO:Getting timelin for TrueGemHunter at time 1656796710
+2022-07-02 14:18:31,631:INFO:Fetched timeline for TrueGemHunter at time 1656796710
+2022-07-02 14:18:32,442:INFO:Getting timelin for HarleyProm_ at time 1656796712
+2022-07-02 14:18:34,260:INFO:Fetched timeline for HarleyProm_ at time 1656796712
+2022-07-02 14:18:35,103:INFO:Getting timelin for xFluxsi at time 1656796715
+2022-07-02 14:18:36,987:INFO:Fetched timeline for xFluxsi at time 1656796715
+2022-07-02 14:18:37,816:INFO:Getting timelin for HwanniePromotes at time 1656796717
+2022-07-02 14:18:39,287:INFO:Fetched timeline for HwanniePromotes at time 1656796717
+2022-07-02 14:18:40,107:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:18:40,110:INFO:Entry for User:1237650752555716608 inserted successfully
+2022-07-02 14:18:40,113:INFO:User 1237650752555716608 entered succesfully into dataset
+2022-07-02 14:18:40,113:INFO:Getting timelin for Marksmith1M at time 1656796720
+2022-07-02 14:18:41,859:INFO:Fetched timeline for Marksmith1M at time 1656796720
+2022-07-02 14:18:42,648:INFO:Getting timelin for 4dynastyrich at time 1656796722
+2022-07-02 14:18:44,188:INFO:Fetched timeline for 4dynastyrich at time 1656796722
+2022-07-02 14:18:45,021:INFO:Getting timelin for juliahost_ at time 1656796725
+2022-07-02 14:18:46,855:INFO:Fetched timeline for juliahost_ at time 1656796725
+2022-07-02 14:18:47,684:INFO:Getting timelin for FoxGives at time 1656796727
+2022-07-02 14:18:49,379:INFO:Fetched timeline for FoxGives at time 1656796727
+2022-07-02 14:18:50,209:INFO:Getting timelin for GHOOFYNFT at time 1656796730
+2022-07-02 14:18:51,646:INFO:Fetched timeline for GHOOFYNFT at time 1656796730
+2022-07-02 14:18:52,442:INFO:Getting timelin for pumpcoinbets at time 1656796732
+2022-07-02 14:18:54,381:INFO:Fetched timeline for pumpcoinbets at time 1656796732
+2022-07-02 14:18:55,190:INFO:Getting timelin for Jopromote at time 1656796735
+2022-07-02 14:18:56,978:INFO:Fetched timeline for Jopromote at time 1656796735
+2022-07-02 14:18:57,826:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:18:57,829:INFO:Entry for User:1701707238 inserted successfully
+2022-07-02 14:18:57,831:INFO:User 1701707238 entered succesfully into dataset
+2022-07-02 14:18:57,831:INFO:Getting timelin for AliyaCrypto at time 1656796737
+2022-07-02 14:18:59,491:INFO:Fetched timeline for AliyaCrypto at time 1656796737
+2022-07-02 14:19:00,311:INFO:Getting timelin for ShinaFloria at time 1656796740
+2022-07-02 14:19:01,096:INFO:Fetched timeline for ShinaFloria at time 1656796740
+2022-07-02 14:19:01,812:INFO:Getting timelin for promotergr at time 1656796741
+2022-07-02 14:19:02,603:INFO:Fetched timeline for promotergr at time 1656796741
+2022-07-02 14:19:03,271:INFO:Getting timelin for DannyCryptoGA at time 1656796743
+2022-07-02 14:19:04,913:INFO:Fetched timeline for DannyCryptoGA at time 1656796743
+2022-07-02 14:19:05,723:INFO:Getting timelin for Micopromotes at time 1656796745
+2022-07-02 14:19:07,566:INFO:Fetched timeline for Micopromotes at time 1656796745
+2022-07-02 14:19:08,376:INFO:Getting timelin for CyprusCrypto1 at time 1656796748
+2022-07-02 14:19:10,222:INFO:Fetched timeline for CyprusCrypto1 at time 1656796748
+2022-07-02 14:19:11,048:INFO:Getting timelin for ladyincrypto at time 1656796751
+2022-07-02 14:19:12,561:INFO:Fetched timeline for ladyincrypto at time 1656796751
+2022-07-02 14:19:13,360:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:19:13,363:INFO:Entry for User:1476211472275415051 inserted successfully
+2022-07-02 14:19:13,365:INFO:User 1476211472275415051 entered succesfully into dataset
+2022-07-02 14:19:13,365:INFO:Getting timelin for CryptoBarnuts at time 1656796753
+2022-07-02 14:19:15,078:INFO:Fetched timeline for CryptoBarnuts at time 1656796753
+2022-07-02 14:19:15,899:INFO:Getting timelin for SnoopDoggBtc at time 1656796755
+2022-07-02 14:19:16,709:INFO:Fetched timeline for SnoopDoggBtc at time 1656796755
+2022-07-02 14:19:17,388:INFO:Getting timelin for vibe5viral at time 1656796757
+2022-07-02 14:19:18,212:INFO:Fetched timeline for vibe5viral at time 1656796757
+2022-07-02 14:19:18,907:INFO:Getting timelin for Lovelyhost at time 1656796758
+2022-07-02 14:19:20,540:INFO:Fetched timeline for Lovelyhost at time 1656796758
+2022-07-02 14:19:21,341:INFO:Getting timelin for LandenNFT at time 1656796761
+2022-07-02 14:19:23,230:INFO:Fetched timeline for LandenNFT at time 1656796761
+2022-07-02 14:19:24,059:INFO:Getting timelin for Cryptoishaz at time 1656796764
+2022-07-02 14:19:25,850:INFO:Fetched timeline for Cryptoishaz at time 1656796764
+2022-07-02 14:19:26,681:INFO:Getting timelin for CryptoGod1101 at time 1656796766
+2022-07-02 14:19:28,640:INFO:Fetched timeline for CryptoGod1101 at time 1656796766
+2022-07-02 14:19:29,487:INFO:Getting timelin for furrincrypto at time 1656796769
+2022-07-02 14:19:31,213:INFO:Fetched timeline for furrincrypto at time 1656796769
+2022-07-02 14:19:32,043:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:19:32,046:INFO:Entry for User:1486639649850331136 inserted successfully
+2022-07-02 14:19:32,049:INFO:User 1486639649850331136 entered succesfully into dataset
+2022-07-02 14:19:32,049:INFO:Getting timelin for resaalfny at time 1656796772
+2022-07-02 14:19:33,589:INFO:Fetched timeline for resaalfny at time 1656796772
+2022-07-02 14:19:34,381:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:19:34,384:INFO:Entry for User:1541600471861043201 inserted successfully
+2022-07-02 14:19:34,387:INFO:User 1541600471861043201 entered succesfully into dataset
+2022-07-02 14:19:34,387:INFO:Getting timelin for necuritynft at time 1656796774
+2022-07-02 14:19:35,195:INFO:Fetched timeline for necuritynft at time 1656796774
+2022-07-02 14:19:35,900:INFO:Getting timelin for kloogives at time 1656796775
+2022-07-02 14:19:37,540:INFO:Fetched timeline for kloogives at time 1656796775
+2022-07-02 14:19:38,336:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:19:38,336:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:19:38,336:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:19:38,337:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:19:38,340:INFO:Entry for User:1536542090997661696 inserted successfully
+2022-07-02 14:19:38,342:INFO:User 1536542090997661696 entered succesfully into dataset
+2022-07-02 14:19:38,343:INFO:Getting timelin for NFTCheerios at time 1656796778
+2022-07-02 14:19:40,380:INFO:Fetched timeline for NFTCheerios at time 1656796778
+2022-07-02 14:19:41,210:INFO:Getting timelin for JpegHoki at time 1656796781
+2022-07-02 14:19:43,133:INFO:Fetched timeline for JpegHoki at time 1656796781
+2022-07-02 14:19:44,013:INFO:Getting timelin for FinalAyyMG at time 1656796784
+2022-07-02 14:19:45,476:INFO:Fetched timeline for FinalAyyMG at time 1656796784
+2022-07-02 14:19:46,297:INFO:Getting timelin for Roostergives at time 1656796786
+2022-07-02 14:19:48,002:INFO:Fetched timeline for Roostergives at time 1656796786
+2022-07-02 14:19:48,800:INFO:Getting timelin for Prodigyko at time 1656796788
+2022-07-02 14:19:50,615:INFO:Fetched timeline for Prodigyko at time 1656796788
+2022-07-02 14:19:51,442:INFO:Getting timelin for Vieweity at time 1656796791
+2022-07-02 14:19:53,391:INFO:Fetched timeline for Vieweity at time 1656796791
+2022-07-02 14:19:54,246:INFO:Getting timelin for princesspromos_ at time 1656796794
+2022-07-02 14:19:55,812:INFO:Fetched timeline for princesspromos_ at time 1656796794
+2022-07-02 14:19:56,602:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:19:56,605:INFO:Entry for User:1202929546275753984 inserted successfully
+2022-07-02 14:19:56,608:INFO:User 1202929546275753984 entered succesfully into dataset
+2022-07-02 14:19:56,608:INFO:Getting timelin for FacuMazzei at time 1656796796
+2022-07-02 14:19:58,480:INFO:Fetched timeline for FacuMazzei at time 1656796796
+2022-07-02 14:19:59,313:INFO:Getting timelin for LinShungNFT at time 1656796799
+2022-07-02 14:20:01,027:INFO:Fetched timeline for LinShungNFT at time 1656796799
+2022-07-02 14:20:01,875:INFO:Getting timelin for peterhuntcrypto at time 1656796801
+2022-07-02 14:20:03,826:INFO:Fetched timeline for peterhuntcrypto at time 1656796801
+2022-07-02 14:20:04,646:INFO:Getting timelin for cryto_billy at time 1656796804
+2022-07-02 14:20:06,602:INFO:Fetched timeline for cryto_billy at time 1656796804
+2022-07-02 14:20:07,419:INFO:Getting timelin for dexynft at time 1656796807
+2022-07-02 14:20:09,204:INFO:Fetched timeline for dexynft at time 1656796807
+2022-07-02 14:20:10,033:INFO:Getting timelin for MADMarketingX at time 1656796810
+2022-07-02 14:20:11,973:INFO:Fetched timeline for MADMarketingX at time 1656796810
+2022-07-02 14:20:12,792:INFO:Getting timelin for jackerscrypto at time 1656796812
+2022-07-02 14:20:14,856:INFO:Fetched timeline for jackerscrypto at time 1656796812
+2022-07-02 14:20:15,682:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:20:15,683:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:20:15,683:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:20:15,687:INFO:Entry for User:1361053678216515584 inserted successfully
+2022-07-02 14:20:15,689:INFO:User 1361053678216515584 entered succesfully into dataset
+2022-07-02 14:20:15,690:INFO:Getting timelin for NFTSebastian at time 1656796815
+2022-07-02 14:20:17,426:INFO:Fetched timeline for NFTSebastian at time 1656796815
+2022-07-02 14:20:18,256:INFO:Getting timelin for MartyBrown_C at time 1656796818
+2022-07-02 14:20:20,283:INFO:Fetched timeline for MartyBrown_C at time 1656796818
+2022-07-02 14:20:21,111:INFO:Getting timelin for iCryptoFran at time 1656796821
+2022-07-02 14:20:22,768:INFO:Fetched timeline for iCryptoFran at time 1656796821
+2022-07-02 14:20:23,559:INFO:Getting timelin for Unananaa_ at time 1656796823
+2022-07-02 14:20:25,174:INFO:Fetched timeline for Unananaa_ at time 1656796823
+2022-07-02 14:20:25,977:INFO:Getting timelin for CryptoKanyee at time 1656796825
+2022-07-02 14:20:26,784:INFO:Fetched timeline for CryptoKanyee at time 1656796825
+2022-07-02 14:20:27,455:INFO:Getting timelin for Natty_Crypto at time 1656796827
+2022-07-02 14:20:29,433:INFO:Fetched timeline for Natty_Crypto at time 1656796827
+2022-07-02 14:20:30,286:INFO:Getting timelin for amangkings at time 1656796830
+2022-07-02 14:20:32,216:INFO:Fetched timeline for amangkings at time 1656796830
+2022-07-02 14:20:33,034:INFO:Getting timelin for YnahGives at time 1656796833
+2022-07-02 14:20:34,880:INFO:Fetched timeline for YnahGives at time 1656796833
+2022-07-02 14:20:35,681:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:20:35,684:INFO:Entry for User:1485156410472157184 inserted successfully
+2022-07-02 14:20:35,687:INFO:User 1485156410472157184 entered succesfully into dataset
+2022-07-02 14:20:35,687:INFO:Getting timelin for JukeNFT at time 1656796835
+2022-07-02 14:20:37,438:INFO:Fetched timeline for JukeNFT at time 1656796835
+2022-07-02 14:20:38,214:INFO:Getting timelin for CryptoArch1tect at time 1656796838
+2022-07-02 14:20:39,795:INFO:Fetched timeline for CryptoArch1tect at time 1656796838
+2022-07-02 14:20:40,603:INFO:Getting timelin for CactusNFT_ at time 1656796840
+2022-07-02 14:20:42,328:INFO:Fetched timeline for CactusNFT_ at time 1656796840
+2022-07-02 14:20:43,161:INFO:Getting timelin for MadSkyX at time 1656796843
+2022-07-02 14:20:44,947:INFO:Fetched timeline for MadSkyX at time 1656796843
+2022-07-02 14:20:45,759:INFO:Getting timelin for SouthernDeFi at time 1656796845
+2022-07-02 14:20:47,779:INFO:Fetched timeline for SouthernDeFi at time 1656796845
+2022-07-02 14:20:48,600:INFO:Getting timelin for CryptoBrace at time 1656796848
+2022-07-02 14:20:50,697:INFO:Fetched timeline for CryptoBrace at time 1656796848
+2022-07-02 14:20:51,494:INFO:Getting timelin for cryptovenizo at time 1656796851
+2022-07-02 14:20:53,099:INFO:Fetched timeline for cryptovenizo at time 1656796851
+2022-07-02 14:20:53,910:INFO:Getting timelin for cloudgemz at time 1656796853
+2022-07-02 14:20:55,478:INFO:Fetched timeline for cloudgemz at time 1656796853
+2022-07-02 14:20:56,319:INFO:Getting timelin for _CRYPTO_RAPTORS at time 1656796856
+2022-07-02 14:20:58,330:INFO:Fetched timeline for _CRYPTO_RAPTORS at time 1656796856
+2022-07-02 14:20:59,153:INFO:Getting timelin for borgchain at time 1656796859
+2022-07-02 14:21:00,895:INFO:Fetched timeline for borgchain at time 1656796859
+2022-07-02 14:21:01,750:INFO:Getting timelin for kyoongbh_ at time 1656796861
+2022-07-02 14:21:03,256:INFO:Fetched timeline for kyoongbh_ at time 1656796861
+2022-07-02 14:21:04,065:INFO:Mention data for tweet loaded successfully
+2022-07-02 14:21:04,069:INFO:Entry for User:1496567540696469507 inserted successfully
+2022-07-02 14:21:04,073:INFO:User 1496567540696469507 entered succesfully into dataset
+2022-07-02 14:21:04,074:INFO:Getting timelin for dogespromote at time 1656796864
+2022-07-02 14:35:04,363:INFO:Checking OptimusTesla_io...
+2022-07-02 14:35:04,365:INFO:promotee:OptimusTesla_io does not match time criteria or is too new, skipping
+2022-07-02 14:35:04,366:INFO:Checking FloatNFTs...
+2022-07-02 14:35:04,366:INFO:promotee:FloatNFTs does not match time criteria or is too new, skipping
+2022-07-02 14:35:04,366:INFO:Checking HippynoidsNFT...
+2022-07-02 14:35:04,366:INFO:promotee:HippynoidsNFT does not match time criteria or is too new, skipping
+2022-07-02 14:35:04,366:INFO:Checking 0xLecture...
+2022-07-02 14:35:04,367:INFO:promotee:0xLecture does not match time criteria or is too new, skipping
+2022-07-02 14:35:04,367:INFO:Checking proofinthedoof...
+2022-07-02 14:35:04,367:INFO:promotee:proofinthedoof does not match time criteria or is too new, skipping
+2022-07-02 14:35:04,367:INFO:Checking GinoAssereto...
+2022-07-02 14:35:04,367:INFO:promotee:GinoAssereto does not match time criteria or is too new, skipping
+2022-07-02 14:35:04,367:INFO:Checking ZertNFT...
+2022-07-02 14:35:04,368:INFO:promotee:ZertNFT does not match time criteria or is too new, skipping
+2022-07-02 14:35:04,368:INFO:Checking nftgaminghub1...
+2022-07-02 14:35:04,368:INFO:promotee:nftgaminghub1 does not match time criteria or is too new, skipping
+2022-07-02 14:35:04,368:INFO:Checking LeagueofEmpires...
+2022-07-02 14:35:04,368:INFO:promotee:LeagueofEmpires has reached 72 hour mark
+2022-07-02 14:35:06,675:INFO:Checking synwtw...
+2022-07-02 14:35:06,675:INFO:promotee:synwtw has reached 72 hour mark
+2022-07-02 14:35:09,396:INFO:Checking crypto_patt1...
+2022-07-02 14:35:09,396:INFO:promotee:crypto_patt1 has reached 72 hour mark
+2022-07-02 14:35:12,177:INFO:Checking dabiYEAHdabi...
+2022-07-02 14:35:12,177:INFO:promotee:dabiYEAHdabi does not match time criteria or is too new, skipping
+2022-07-02 14:35:12,178:INFO:Checking zroefx...
+2022-07-02 14:35:12,178:INFO:promotee:zroefx does not match time criteria or is too new, skipping
+2022-07-02 14:35:12,178:INFO:Checking wtfmaco...
+2022-07-02 14:35:12,178:INFO:promotee:wtfmaco does not match time criteria or is too new, skipping
+2022-07-02 14:35:12,178:INFO:Checking YunaPromotes_...
+2022-07-02 14:35:12,178:INFO:promotee:YunaPromotes_ does not match time criteria or is too new, skipping
+2022-07-02 14:35:12,178:INFO:Checking SpillNFTs...
+2022-07-02 14:35:12,179:INFO:promotee:SpillNFTs does not match time criteria or is too new, skipping
+2022-07-02 14:35:12,179:INFO:Checking blockstalks...
+2022-07-02 14:35:12,179:INFO:promotee:blockstalks does not match time criteria or is too new, skipping
+2022-07-02 14:35:12,179:INFO:Checking arpc_nft...
+2022-07-02 14:35:12,179:INFO:promotee:arpc_nft does not match time criteria or is too new, skipping
+2022-07-02 14:35:12,179:INFO:Checking Henryle_Artist...
+2022-07-02 14:35:12,179:INFO:promotee:Henryle_Artist does not match time criteria or is too new, skipping
+2022-07-02 14:35:12,179:INFO:Checking WolvesOfDogeSt...
+2022-07-02 14:35:12,180:INFO:promotee:WolvesOfDogeSt does not match time criteria or is too new, skipping
+2022-07-02 14:35:12,180:INFO:Checking citiesabc_...
+2022-07-02 14:35:12,180:INFO:promotee:citiesabc_ does not match time criteria or is too new, skipping
+2022-07-02 14:35:12,180:INFO:Checking DefiGabbi...
+2022-07-02 14:35:12,180:INFO:promotee:DefiGabbi has reached 72 hour mark
+2022-07-02 14:35:14,842:INFO:Checking 0xLecture...
+2022-07-02 14:35:14,842:INFO:promotee:0xLecture does not match time criteria or is too new, skipping
+2022-07-02 14:35:14,842:INFO:Checking Kxthify...
+2022-07-02 14:35:14,842:INFO:promotee:Kxthify does not match time criteria or is too new, skipping
