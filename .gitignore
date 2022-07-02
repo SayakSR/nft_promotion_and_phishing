@@ -12,3 +12,5 @@ misc
 **/find_promoter_accounts/seen_tweet_list.txt
 nohup.out
 twarc.log
+**/tracking_promoters/promoter_timelines/
+**/tracking_promoters/promotee_data/
