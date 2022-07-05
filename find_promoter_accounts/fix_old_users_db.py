@@ -16,7 +16,7 @@ os.chdir(path)
 
 # ================ MAIN ======================
 
-for filename in glob.glob("*.csv"):
+for filename in glob.glob("*.csv",error_bad_lines=False):
 
     file=pd.read_csv(f'{filename}')
 
