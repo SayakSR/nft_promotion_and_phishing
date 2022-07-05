@@ -25,25 +25,29 @@ for filename in glob.glob("*.csv"):
 
     for index, row in file.iterrows():
 
-        user_id=row['author_id']
+        try:
 
-        #print(f"Checking user id:{user_id}")
-        tweet_text=row['text']
-        tweets.append(tweet_text)
-        user_name=row['author.username']
-        tweet_id=row['id']
-        tweet_ids.append(tweet_id)
-        followers=row['author.public_metrics.followers_count']
+            user_id=row['author_id']
 
-        query=f"""UPDATE users_old 
-            SET user_name = '{user_name}'
-            WHERE user_id = {user_id};"""  
+            #print(f"Checking user id:{user_id}")
+            tweet_text=row['text']
+            tweets.append(tweet_text)
+            user_name=row['author.username']
+            tweet_id=row['id']
+            tweet_ids.append(tweet_id)
+            followers=row['author.public_metrics.followers_count']
 
-        with engine.connect() as con:
+            query=f"""UPDATE users_old 
+                SET user_name = '{user_name}'
+                WHERE user_id = {user_id};"""  
 
-                rs = con.execute(query)
-                print(f"Updated for:{user_name}")
-        break
+            with engine.connect() as con:
+
+                    rs = con.execute(query)
+                    print(f"Updated for:{user_name}")
+            break
+        except:
+            pass
 
 
 
