@@ -6,9 +6,9 @@ import time
 
 from sqlalchemy import create_engine
 import pandas as pd
+from urllib.parse import quote_plus as urlquote
 
-def run_promotee_followers_main():
-    engine = create_engine('postgresql+psycopg2://sayaksr:%s@128.111.49.111/nft_scam'% urlquote('HJ[bR`m49gHT~:{'))
+engine = create_engine('postgresql+psycopg2://sayaksr:%s@128.111.49.111/nft_scam'% urlquote('HJ[bR`m49gHT~:{'))
 
 path='/home/sayaksr/git/blockchain_codebase/find_promoter_accounts/timelines'
 
@@ -36,12 +36,14 @@ for filename in glob.glob("*.csv"):
         followers=row['author.public_metrics.followers_count']
 
         query=f"""UPDATE users_old 
-            SET user_name = {user_name}
-            WHERE user_id = '{user_id}';"""  
+            SET user_name = '{user_name}'
+            WHERE user_id = {user_id};"""  
 
-            with engine.connect() as con:
+        with engine.connect() as con:
 
                 rs = con.execute(query)
+                print(f"Updated for:{user_name}")
+        break
 
 
 
