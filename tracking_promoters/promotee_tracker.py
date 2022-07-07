@@ -4,6 +4,8 @@ import pandas as pd
 from drivers.naive_heur_single import check_if_tweet_is_promotion
 from drivers.date_time_stamp import *
 from drivers.db_driver_promotee import *
+#from drivers.discord import *
+
 import os
 import json
 
@@ -97,6 +99,7 @@ def get_tweets_for_every_promoter(promoter_list):
                 promoter_id=row['author_id']
                 tweet_text=row['text']
                 mentions=row['entities.mentions'] # Row contains users tagged by the promotion tweet
+
                 created_at_raw=row['created_at']
                 
                 created_at=convert_created_at(created_at_raw) # Converting Twitter created at to Python datetime stamp
