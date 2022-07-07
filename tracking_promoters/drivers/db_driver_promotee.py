@@ -40,7 +40,7 @@ class Promotee(base):
     user_id = Column(Numeric, primary_key=True,nullable=False)
     user_name=Column(Text,nullable=False)
     bio = Column(Text,nullable=False)
-    time_first_seen=Column(Numeric,nullable=False)
+    tweet_created_at=Column(TIMESTAMP,nullable=False)
     promoted_by=Column(Numeric, primary_key=True,nullable=False)
     follower_count_at_0h=Column(Numeric,nullable=True)
     follower_count_at_24h=Column(Numeric,nullable=True)
@@ -50,7 +50,7 @@ class Promotee(base):
 
 
 
-def insert_promotee_into_table(i_job_id,i_timestamp,i_name,i_user_id,i_user_name,i_bio,i_time_first_seen,i_promoted_by,i_follow0):
+def insert_promotee_into_table(i_job_id,i_timestamp,i_name,i_user_id,i_user_name,i_bio,i_tweet_created_at,i_promoted_by,i_follow0):
 
     base.metadata.create_all(db)
 
@@ -59,7 +59,7 @@ def insert_promotee_into_table(i_job_id,i_timestamp,i_name,i_user_id,i_user_name
     try:
         # Create
         print(i_user_id)
-        query = Promotee(job_id=i_job_id,timestamp=i_timestamp,name=i_name,user_id=i_user_id,user_name=i_user_name,bio=i_bio,time_first_seen=i_time_first_seen,promoted_by=i_promoted_by,follower_count_at_0h=i_follow0,follower_count_at_24h=1,follower_count_at_48h=1,follower_count_at_72h=1,completed=0)  
+        query = Promotee(job_id=i_job_id,timestamp=i_timestamp,name=i_name,user_id=i_user_id,user_name=i_user_name,bio=i_bio,tweet_created_at=i_tweet_created_at,promoted_by=i_promoted_by,follower_count_at_0h=i_follow0,follower_count_at_24h=1,follower_count_at_48h=1,follower_count_at_72h=1,completed=0)  
 
         logging.info(f"Entry for User:{i_user_id} inserted successfully")
         print(f"Entry for User:{i_user_id} inserted successfully")

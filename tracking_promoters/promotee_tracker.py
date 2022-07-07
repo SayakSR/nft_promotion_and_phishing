@@ -17,7 +17,7 @@ logging.basicConfig(filename='pa.log', level=logging.DEBUG,
 # Get tweets from each account promoter every 1 hour
 
 
-def process_promotee(mentions,promoter,promoter_id,timestamp,datestamp):
+def process_promotee(mentions,promoter,promoter_id,created_at,datestamp): # This timestamp = Twitter converted created_at to python date time format
 
     # Step 1 is to extract the userid of the promoted account.
         # Step 1.1 We do this by finding the user who has been tagged in the promotion tweet (You will find this in the 'entities.mentions' column)
@@ -39,15 +39,16 @@ def process_promotee(mentions,promoter,promoter_id,timestamp,datestamp):
             bio=f"{user_description},{user_url}"
             for i in word_list:
                 if i in user_description_processed:
+                    
                     ### ===== DATABASE PART=====
 
                     try:
-                        insert_flag=insert_promotee_into_table(3333,datestamp,name,user_id,user_name,bio,timestamp,promoter_id,follower_count)
+                        insert_flag=insert_promotee_into_table(3333,datestamp,name,user_id,user_name,bio,created_at,promoter_id,follower_count)
 
                         
                         if(insert_flag==1):
                             print(f"User {user_id} entered succesfully into dataset")
-                            time.sleep(5)
+                            #time.sleep(5)
                             logging.info(f"User {user_id} entered succesfully into dataset")
       
 
@@ -60,7 +61,7 @@ def process_promotee(mentions,promoter,promoter_id,timestamp,datestamp):
 
 
                     print("<<<<<<<<<<<< Found an NFT account! >>>>>>>>>>>>>.")
-                    time.sleep(2)
+                    #time.sleep(2)
                     print(user_description)
                     file=open("promotees.txt","a")
                     file.write(f"{name},{user_id},{user_name},{bio},{timestamp},{promoter_id},null,null,null,null\n")
@@ -76,10 +77,10 @@ def process_promotee(mentions,promoter,promoter_id,timestamp,datestamp):
 
 
 def get_tweets_for_every_promoter(promoter_list):
-    timestamp=fetch_time()
-    datestamp=fetch_datestamp()
+    
     for promoter in promoter_list:
         try:
+            timestamp=fetch_time()
         # Step 1: This function loops through the promoter_list and queries timeline of each account account and checks for new tweets every 1 hour.
             logging.info(f"Getting timelin for {promoter} at time {timestamp}")
             print(f"Getting timeline for {promoter} at time {timestamp}")
@@ -92,19 +93,32 @@ def get_tweets_for_every_promoter(promoter_list):
             
             # Step 2: Checking each tweet in a promoters timeline to see if it matches the account promoting heuristic  
             for index, row in tweets.iterrows():
+                datestamp=fetch_datestamp() # Used to find when the promotee account (Promotee database "timestamp" column)
                 promoter_id=row['author_id']
                 tweet_text=row['text']
                 mentions=row['entities.mentions'] # Row contains users tagged by the promotion tweet
+                created_at_raw=row['created_at']
+                
+                created_at=convert_created_at(created_at_raw) # Converting Twitter created at to Python datetime stamp
 
                 check_tweet_promotion=check_if_tweet_is_promotion(tweet_text)
                 print(f"Result============{check_tweet_promotion}")
 
                 if(check_tweet_promotion)==True:
+                    
+                    created_at_epoch=convert_to_epoch(created_at_raw)
+                    #print(created_at_epoch)
+                    current_time=fetch_time()
+                    #print(current_time)
+                    if int(current_time)-int(created_at_epoch)<18000:
+                        # Why this condition? If the tweet is greater than 5 hours old when it is seen by the crawler, then its an old tweet and checking increase of follower count over 3 days will not be consistent.
+                        # For example a tweet that was posted yesterday has its 24 hours is today. If this condition does not exists, then the crawler thinks its 24 hours is tomorrow.
+                        # Thus we need to navigate these situations using this loop.
 
-                    print("Accousnt promotion tweet!")
-                    print(tweet_text)
-                    # Step 3: Check if promoted account is an NFT and if so store in database 
-                    process_promotee(mentions,promoter,promoter_id,timestamp,datestamp)
+                        print("Account promotion tweet!")
+                        print(tweet_text)
+                        # Step 3: Check if promoted account is an NFT and if so store in database 
+                        process_promotee(mentions,promoter,promoter_id,created_at,datestamp)
         except Exception as e:
             print(e)
 

@@ -28,12 +28,17 @@ def run_promotee_followers_main():
 
         logging.info(f"Checking {promotee_user_name}...")
         print(f"Checking {promotee_user_name}...")
-        promotee_time=row['time_first_seen']
+        promotee_time=row['tweet_created_at'] # When the tweet was created/posted
+        promotee_time=datetime_to_epoch(promotee_time) # Convert created at from python date time format to epoch format
         completed=row['completed']
         # 86,400 = 24 hrs
         # 172,800 = 48 hrs
         # 259,200 = 72 hrs
         if int(timestamp)-int(promotee_time)>86400 and int(timestamp)-int(promotee_time)<172800:
+
+        # TEST
+        #if int(timestamp)-int(promotee_time)>600 and int(timestamp)-int(promotee_time)<1200:  
+        # TEST  
             
             # DEBUG
 
@@ -65,7 +70,9 @@ def run_promotee_followers_main():
                 rs = con.execute(query)
         
         elif int(timestamp)-int(promotee_time)>172800 and int(timestamp)-int(promotee_time)<259200:
-
+        # TEST
+        #elif int(timestamp)-int(promotee_time)>1200 and int(timestamp)-int(promotee_time)<1800:
+        # TEST
             # DEBUG
 
             logging.info(f"promotee:{promotee_user_name} has reached 48 hour mark")
@@ -89,7 +96,10 @@ def run_promotee_followers_main():
                 rs = con.execute(query)
 
         elif int(timestamp)-int(promotee_time)>259200:
-
+        
+        # TEST
+        #elif int(timestamp)-int(promotee_time)>1800:
+        # TEST
             # DEBUG
 
             logging.info(f"promotee:{promotee_user_name} has reached 72 hour mark")
@@ -132,9 +142,9 @@ def run_promotee_followers_main():
                     #DEBUG
         else:
                 # DEBUG
-
-            logging.info(f"promotee:{promotee_user_name} has not reached 24 hours yet, skipping for now")
-            print(f"promotee:{promotee_user_name} has not reached 24 hours yet, skipping for now")
+            
+            logging.info(f"promotee:{promotee_user_name} does not match time criteria or is too new, skipping")
+            print(f"promotee:{promotee_user_name} does not match time criteria or is too new, skipping")
 
                 #DEBUG
 
