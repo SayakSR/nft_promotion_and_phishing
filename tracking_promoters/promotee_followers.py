@@ -2,6 +2,7 @@
 # This runs every hour
 
 from drivers.date_time_stamp import *
+from drivers.discord import *
 
 import sqlalchemy as db
 import os
@@ -15,6 +16,8 @@ logging.basicConfig(filename='pa.log', level=logging.DEBUG,
 from sqlalchemy import create_engine
 import pandas as pd
 
+
+
 def run_promotee_followers_main():
     engine = create_engine('postgresql+psycopg2://sayaksr:%s@128.111.49.111/nft_scam'% urlquote('HJ[bR`m49gHT~:{'))
     sql1 = "select * from promotee"
@@ -24,6 +27,8 @@ def run_promotee_followers_main():
     for index, row in promotees.iterrows():
         timestamp=fetch_time()
         promotee_user_name=row['user_name']
+        promotee_name=row['name'] # Doubles as invite code for discord channels 
+        type=row['type'] # Twitter or Discord
         #DEBUG
 
         logging.info(f"Checking {promotee_user_name}...")
@@ -34,6 +39,7 @@ def run_promotee_followers_main():
         # 86,400 = 24 hrs
         # 172,800 = 48 hrs
         # 259,200 = 72 hrs
+
         if int(timestamp)-int(promotee_time)>86400 and int(timestamp)-int(promotee_time)<172800:
 
         # TEST
@@ -46,20 +52,26 @@ def run_promotee_followers_main():
             print(f"promotee:{promotee_user_name} has reached 24 hour mark")
 
             #DEBUG
-            
-            os.system(f"twarc2 timeline --limit 2 {promotee_user_name} promotee_data/{promotee_user_name}_{timestamp}.json")
-            os.system(f"twarc2 csv promotee_data/{promotee_user_name}_{timestamp}.json promotee_data/{promotee_user_name}_{timestamp}.csv")
-            
-            # DEBUG
+            if type=="Twitter":
 
-            logging.info(f"timeline collected and processed for promotee:{promotee_user_name}")
-            print(f"timeline collected and processed for promotee:{promotee_user_name}")
+                os.system(f"twarc2 timeline --limit 2 {promotee_user_name} promotee_data/{promotee_user_name}_{timestamp}.json")
+                os.system(f"twarc2 csv promotee_data/{promotee_user_name}_{timestamp}.json promotee_data/{promotee_user_name}_{timestamp}.csv")
+                
+                # DEBUG
 
-            # DEBUG
+                logging.info(f"timeline collected and processed for promotee:{promotee_user_name}")
+                print(f"timeline collected and processed for promotee:{promotee_user_name}")
 
-            df=pd.read_csv(f"promotee_data/{promotee_user_name}_{timestamp}.csv")
-            for index, row in df.iterrows():
-                followers=row['author.public_metrics.followers_count']
+                # DEBUG
+
+                df=pd.read_csv(f"promotee_data/{promotee_user_name}_{timestamp}.csv")
+                for index, row in df.iterrows():
+                    followers=row['author.public_metrics.followers_count']
+            elif type=="Discord":
+                discord_output=discord_get_data(promotee_name) # Promotee name = discord invite code
+
+                followers=discord_output[4]
+
 
             query=f"""UPDATE promotee 
             SET follower_count_at_24h = {followers}
@@ -74,22 +86,36 @@ def run_promotee_followers_main():
         #elif int(timestamp)-int(promotee_time)>1200 and int(timestamp)-int(promotee_time)<1800:
         # TEST
             # DEBUG
-
             logging.info(f"promotee:{promotee_user_name} has reached 48 hour mark")
             print(f"promotee:{promotee_user_name} has reached 48 hour mark")
 
-            #DEBUG
+            if type=="Twitter":
+
+                #DEBUG
 
 
-            os.system(f"twarc2 timeline --limit 2 {promotee_user_name} promotee_data/{promotee_user_name}_{timestamp}.json")
-            os.system(f"twarc2 csv promotee_data/{promotee_user_name}_{timestamp}.json promotee_data/{promotee_user_name}_{timestamp}.csv")
-            df=pd.read_csv(f"promotee_data/{promotee_user_name}_{timestamp}.csv")
-            for index, row in df.iterrows():
-                followers=row['author.public_metrics.followers_count']
+                os.system(f"twarc2 timeline --limit 2 {promotee_user_name} promotee_data/{promotee_user_name}_{timestamp}.json")
+                os.system(f"twarc2 csv promotee_data/{promotee_user_name}_{timestamp}.json promotee_data/{promotee_user_name}_{timestamp}.csv")
+                df=pd.read_csv(f"promotee_data/{promotee_user_name}_{timestamp}.csv")
+                for index, row in df.iterrows():
+                    followers=row['author.public_metrics.followers_count']
+            elif type=="Discord":
+
+                discord_output=discord_get_data(promotee_name) # Promotee name = discord invite code
+
+                followers=discord_output[4]
+
+
+            query=f"""UPDATE promotee 
+            SET follower_count_at_24h = {followers}
+            WHERE user_name = '{promotee_user_name}';"""   # Query to update the follower count at 24hrs
+
+            
 
             query=f"""UPDATE promotee 
             SET follower_count_at_48h = {followers}
             WHERE user_name = '{promotee_user_name}';"""   # Query to update the follower count at 48 hrs
+
 
             with engine.connect() as con:
 
@@ -106,18 +132,25 @@ def run_promotee_followers_main():
             print(f"promotee:{promotee_user_name} has reached 72 hour mark")
 
             #DEBUG
-
+            
             if(completed==0): # Check if promotee 72 hr check has already completed
 
-                os.system(f"twarc2 timeline --limit 2 {promotee_user_name} promotee_data/{promotee_user_name}_{timestamp}.json")
-                os.system(f"twarc2 csv promotee_data/{promotee_user_name}_{timestamp}.json promotee_data/{promotee_user_name}_{timestamp}.csv")
-                df=pd.read_csv(f"promotee_data/{promotee_user_name}_{timestamp}.csv")
-                for index, row in df.iterrows():
-                    followers=row['author.public_metrics.followers_count']
+                
+                if type=="Twitter":
+                    os.system(f"twarc2 timeline --limit 2 {promotee_user_name} promotee_data/{promotee_user_name}_{timestamp}.json")
+                    os.system(f"twarc2 csv promotee_data/{promotee_user_name}_{timestamp}.json promotee_data/{promotee_user_name}_{timestamp}.csv")
+                    df=pd.read_csv(f"promotee_data/{promotee_user_name}_{timestamp}.csv")
+                    for index, row in df.iterrows():
+                        followers=row['author.public_metrics.followers_count']
 
-                query=f"""UPDATE promotee 
-                SET follower_count_at_72h = {followers}
-                WHERE user_name = '{promotee_user_name}';"""   # Query to update the follower count at 72 hrs
+                    query=f"""UPDATE promotee 
+                    SET follower_count_at_72h = {followers}
+                    WHERE user_name = '{promotee_user_name}';"""   # Query to update the follower count at 72 hrs
+                elif type=="Discord":
+                    discord_output=discord_get_data(promotee_name) # Promotee name = discord invite code
+
+                    followers=discord_output[4]
+
 
                 with engine.connect() as con:
 

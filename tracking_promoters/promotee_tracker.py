@@ -4,12 +4,14 @@ import pandas as pd
 from drivers.naive_heur_single import check_if_tweet_is_promotion
 from drivers.date_time_stamp import *
 from drivers.db_driver_promotee import *
-#from drivers.discord import *
+from drivers.discord import *
+import ast
 
 import os
 import json
 
 import logging
+
 
 logging.basicConfig(filename='pa.log', level=logging.DEBUG,
                     format='%(asctime)s:%(levelname)s:%(message)s')
@@ -17,6 +19,35 @@ logging.basicConfig(filename='pa.log', level=logging.DEBUG,
 # pseudo-code
 
 # Get tweets from each account promoter every 1 hour
+
+def process_discord_promotion(expanded_url,timestamp,created_at,datestamp,promoter_id):
+    discord_output=discord_driver(expanded_url,timestamp)
+    name=discord_output[0]
+    user_id=discord_output[1]
+    user_name=discord_output[2]
+    bio=discord_output[3]
+    follower_count=discord_output[4]
+
+
+    ### ===== DATABASE PART=====
+
+    try:
+        type="Discord"
+        insert_flag=insert_promotee_into_table(3333,datestamp,name,user_id,user_name,type,bio,created_at,promoter_id,follower_count)
+
+        
+        if(insert_flag==1):
+            print(f"User {user_id} entered succesfully into dataset")
+            #time.sleep(5)
+            logging.info(f"User {user_id} entered succesfully into dataset")
+
+
+    except Exception as e:
+        print(e)
+        print(f"Failed to enter {user_id} into dataset")
+        logging.warning(f"Error inserting User {user_id} into dataset")
+
+
 
 
 def process_promotee(mentions,promoter,promoter_id,created_at,datestamp): # This timestamp = Twitter converted created_at to python date time format
@@ -32,6 +63,8 @@ def process_promotee(mentions,promoter,promoter_id,created_at,datestamp): # This
 
             user_id=mention_data[k]['id']
             user_name=mention_data[k]['username']
+            # print(f"To be inserted {user_name}")
+            # time.sleep(2)
             name=mention_data[k]['name']
             user_description=mention_data[k]['description']
             follower_count=mention_data[k]["public_metrics"]['followers_count']
@@ -39,35 +72,39 @@ def process_promotee(mentions,promoter,promoter_id,created_at,datestamp): # This
             
             user_url=mention_data[k]['url']
             bio=f"{user_description},{user_url}"
-            for i in word_list:
-                if i in user_description_processed:
+
+            # Remove check if promotee description is NFT for now 
+
+            # for i in word_list: 
+            #     if i in user_description_processed:
                     
                     ### ===== DATABASE PART=====
 
-                    try:
-                        insert_flag=insert_promotee_into_table(3333,datestamp,name,user_id,user_name,bio,created_at,promoter_id,follower_count)
+            try:
+                type="Twitter"
+                insert_flag=insert_promotee_into_table(3333,datestamp,name,user_id,user_name,type,bio,created_at,promoter_id,follower_count)
 
-                        
-                        if(insert_flag==1):
-                            print(f"User {user_id} entered succesfully into dataset")
-                            #time.sleep(5)
-                            logging.info(f"User {user_id} entered succesfully into dataset")
-      
-
-                    except Exception as e:
-                        print(e)
-                        print(f"Failed to enter {user_id} into dataset")
-                        logging.warning(f"Error inserting User {userid} into dataset")
-
-            
+                
+                if(insert_flag==1):
+                    print(f"User {user_id} entered succesfully into dataset")
+                    #time.sleep(5)
+                    logging.info(f"User {user_id} entered succesfully into dataset")
 
 
-                    print("<<<<<<<<<<<< Found an NFT account! >>>>>>>>>>>>>.")
-                    #time.sleep(2)
-                    print(user_description)
-                    file=open("promotees.txt","a")
-                    file.write(f"{name},{user_id},{user_name},{bio},{timestamp},{promoter_id},null,null,null,null\n")
-                    file.close()
+            except Exception as e:
+                print(e)
+                print(f"Failed to enter {user_id} into dataset")
+                logging.warning(f"Error inserting User {user_id} into dataset")
+
+    
+
+
+            print("<<<<<<<<<<<< Found an NFT account! >>>>>>>>>>>>>.")
+            #time.sleep(2)
+            print(user_description)
+            file=open("promotees.txt","a")
+            file.write(f"{name},{user_id},{user_name},{bio},{datestamp},{promoter_id},null,null,null,null\n")
+            file.close()
             k=k+1
         
 
@@ -101,6 +138,15 @@ def get_tweets_for_every_promoter(promoter_list):
                 mentions=row['entities.mentions'] # Row contains users tagged by the promotion tweet
 
                 created_at_raw=row['created_at']
+
+                url=row['entities.urls']
+
+                try:
+                    url_json=ast.literal_eval(url) # Converts raw string into dictionary
+
+                    expanded_url=(url_json[0]['expanded_url'])
+                except:
+                    pass
                 
                 created_at=convert_created_at(created_at_raw) # Converting Twitter created at to Python datetime stamp
 
@@ -118,6 +164,13 @@ def get_tweets_for_every_promoter(promoter_list):
                         # For example a tweet that was posted yesterday has its 24 hours is today. If this condition does not exists, then the crawler thinks its 24 hours is tomorrow.
                         # Thus we need to navigate these situations using this loop.
 
+                        # Checks if a discord link is involved
+
+                        if "discord" in expanded_url:
+                            print("Discord promotion link found")
+                            logging.info("Discord promotion link found")
+                            process_discord_promotion(expanded_url,created_at_epoch,created_at,datestamp,promoter_id)
+                        
                         print("Account promotion tweet!")
                         print(tweet_text)
                         # Step 3: Check if promoted account is an NFT and if so store in database 
