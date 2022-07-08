@@ -14,3 +14,5 @@ nohup.out
 twarc.log
 **/tracking_promoters/promoter_timelines/
 **/tracking_promoters/promotee_data/
+**/tracking_promoters/pa.log
+**/tracking_promoters/twarc.log
