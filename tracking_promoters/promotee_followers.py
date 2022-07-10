@@ -6,6 +6,7 @@ from drivers.discord import *
 
 import sqlalchemy as db
 import os
+import string
 
 import logging
 from urllib.parse import quote_plus as urlquote
@@ -77,10 +78,11 @@ def run_promotee_followers_main():
                     discord_output=discord_get_data(promotee_name) # Promotee name = discord invite code
 
                     followers=discord_output[4]
+                    promotee_user_name=promotee_name
                 except:
                     pass
 
-
+            
             query=f"""UPDATE promotee 
             SET follower_count_at_24h = {followers}
             WHERE user_name = '{promotee_user_name}';"""   # Query to update the follower count at 24hrs
@@ -118,16 +120,11 @@ def run_promotee_followers_main():
                     discord_output=discord_get_data(promotee_name) # Promotee name = discord invite code
 
                     followers=discord_output[4]
+                    promotee_user_name=promotee_name
                 except:
                     pass
-
-
-            query=f"""UPDATE promotee 
-            SET follower_count_at_24h = {followers}
-            WHERE user_name = '{promotee_user_name}';"""   # Query to update the follower count at 24hrs
-
             
-
+            
             query=f"""UPDATE promotee 
             SET follower_count_at_48h = {followers}
             WHERE user_name = '{promotee_user_name}';"""   # Query to update the follower count at 48 hrs
@@ -159,7 +156,9 @@ def run_promotee_followers_main():
                         df=pd.read_csv(f"promotee_data/{promotee_user_name}_{timestamp}.csv")
                         for index, row in df.iterrows():
                             followers=row['author.public_metrics.followers_count']
+                        
 
+                        
                         query=f"""UPDATE promotee 
                         SET follower_count_at_72h = {followers}
                         WHERE user_name = '{promotee_user_name}';"""   # Query to update the follower count at 72 hrs
@@ -172,6 +171,7 @@ def run_promotee_followers_main():
                         discord_output=discord_get_data(promotee_name) # Promotee name = discord invite code
 
                         followers=discord_output[4]
+                        promotee_user_name=promotee_name
                     except:
                         pass
 
@@ -182,13 +182,31 @@ def run_promotee_followers_main():
 
                 # Also set completed to 1, so it follower check doesnt happen in future.
 
-                query2=f"""UPDATE promotee 
-                SET completed = 1
-                WHERE user_name = '{promotee_user_name}';"""   # Query to update the follower count at 72 hrs
 
-                with engine.connect() as con:
+                try:
 
-                    rs = con.execute(query2)
+                    
+                    query2=f"""UPDATE promotee 
+                    SET completed = 1
+                    WHERE user_name = '{promotee_user_name}';"""   # Query to update the follower count at 72 hrs
+
+                    with engine.connect() as con:
+
+                        rs = con.execute(query2)
+                except:
+
+                    if type=="Discord":
+
+                        promotee_user_name=promotee_name
+                    
+                        query2=f"""UPDATE promotee 
+                        SET completed = 1
+                        WHERE user_name = '{promotee_user_name}';"""   # Query to update the follower count at 72 hrs
+
+                        with engine.connect() as con:
+
+                            rs = con.execute(query2)
+
             
             else:
                     # DEBUG
