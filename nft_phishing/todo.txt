@@ -1,0 +1,1 @@
+Pulling vtotal json response and converting to dictionary before appending to it during new iteration.
