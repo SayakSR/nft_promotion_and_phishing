@@ -32,134 +32,139 @@ def run_promotee_followers_main():
     promotees = pd.read_sql(sql1,con=engine)
 
     for index, row in promotees.iterrows():
-        timestamp=fetch_time()
-        print(timestamp)
-        timestamp=int(timestamp)+7200 # Adding 2 hrs to catch up with Central time
+        try:
+            timestamp=fetch_time()
+            print(timestamp)
+            timestamp=int(timestamp)+7200 # Adding 2 hrs to catch up with Central time
 
-        promotee_user_name=row['user_name']
-        promotee_name=row['name'] # Doubles as invite code for discord channels 
-        type=row['type'] # Twitter or Discord
-        #DEBUG
-        tweet_id=row['tweet_id']
+            promotee_user_name=row['user_name']
+            promotee_name=row['name'] # Doubles as invite code for discord channels 
+            type=row['type'] # Twitter or Discord
+            #DEBUG
+            tweet_id=row['tweet_id']
 
-        logging.info(f"Checking {promotee_user_name}...")
-        print(f"Checking {promotee_user_name}...")
-        promotee_time=row['tweet_created_at'] # When the tweet was created/posted
-        promotee_time=datetime_to_epoch(promotee_time) # Convert created at from python date time format to epoch format
-        completed=row['completed']
-        print(promotee_time)
+            logging.info(f"Checking {promotee_user_name}...")
+            print(f"Checking {promotee_user_name}...")
+            promotee_time=row['tweet_created_at'] # When the tweet was created/posted
+            promotee_time=datetime_to_epoch(promotee_time) # Convert created at from python date time format to epoch format
+            completed=row['completed']
+            print(promotee_time)
 
-        scenario=0
-        activate=0
-        print("Here")
-        print(f"{timestamp}-{promotee_time} =========")
-        print(int(timestamp)-int(promotee_time))
-        if int(timestamp)-int(promotee_time)>1800 and int(timestamp)-int(promotee_time)<3600: # 8 - 12 hrs
-            scenario=1
-            activate=1
-        
-        # 57600 # 72000
-        if int(timestamp)-int(promotee_time)>57600 and int(timestamp)-int(promotee_time)<72000: # 16 - 20 hrs 
-            scenario=2
-            activate=1
-        # 86400 #100800
-        if int(timestamp)-int(promotee_time)>86400 and int(timestamp)-int(promotee_time)<100800: # 24 - 28 hrs 
-            scenario=3
-            activate=1
-        
-        # 115200 #129600
-        if int(timestamp)-int(promotee_time)>115200 and int(timestamp)-int(promotee_time)<129600: # 32 - 36 hrs 
-            scenario=4
-            activate=1
-
-        # 144000 # 158400
-        if int(timestamp)-int(promotee_time)>144000 and int(timestamp)-int(promotee_time)<158400: # 40 - 44 hrs
-            scenario=5
-            activate=1
-        # 172800 187200
-        if int(timestamp)-int(promotee_time)>172800 and int(timestamp)-int(promotee_time)<187200: # 48 - 52 hrs
-            scenario=6
-            activate=1
-        
-        if activate==1 and int(completed)==0:
-            if type=="Twitter":
-
-                try:
-                    
-                    os.system(f"twarc2 timeline --limit 2 {promotee_user_name} promotee_data/{promotee_user_name}_{timestamp}.json")
-                    os.system(f"twarc2 csv promotee_data/{promotee_user_name}_{timestamp}.json promotee_data/{promotee_user_name}_{timestamp}.csv")
-                    
-                    # DEBUG
-
-                    logging.info(f"timeline collected and processed for promotee:{promotee_user_name}")
-                    print(f"timeline collected and processed for promotee:{promotee_user_name}")
-
-                    # DEBUG
-
-                    df=pd.read_csv(f"promotee_data/{promotee_user_name}_{timestamp}.csv")
-                    for index, row in df.iterrows():
-                        followers=row['author.public_metrics.followers_count']
-                except Exception as e:
-                    print(e)
-            elif type=="Discord":
-
-                try:
-                    discord_output=discord_get_data(promotee_name) # Promotee name = discord invite code
-
-                    followers=discord_output[4]
-                    promotee_user_name=promotee_name
-                except Exception as e:
-                    print(e)
-            if scenario==1:
-                print(f"{promotee_user_name},{tweet_id}")
-                
-                
-                query=f"""UPDATE promotee 
-                SET follower_count_at_8h = {followers}
-                WHERE user_name='{promotee_user_name}' and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
+            scenario=0
+            activate=0
+            print("Here")
+            print(f"{timestamp}-{promotee_time} =========")
+            print(int(timestamp)-int(promotee_time))
+            # 28,800 - 43,200
+            if int(timestamp)-int(promotee_time)>28800 and int(timestamp)-int(promotee_time)<43200: # 8 - 12 hrs
+                scenario=1
+                activate=1
             
-            elif scenario==2:
+            # 57600 # 72000
+            if int(timestamp)-int(promotee_time)>57600 and int(timestamp)-int(promotee_time)<72000: # 16 - 20 hrs 
+                scenario=2
+                activate=1
+            # 86400 #100800
+            if int(timestamp)-int(promotee_time)>86400 and int(timestamp)-int(promotee_time)<100800: # 24 - 28 hrs 
+                scenario=3
+                activate=1
+            
+            # 115200 #129600
+            if int(timestamp)-int(promotee_time)>115200 and int(timestamp)-int(promotee_time)<129600: # 32 - 36 hrs 
+                scenario=4
+                activate=1
 
-                query=f"""UPDATE promotee 
-                SET follower_count_at_16h = {followers}
-                WHERE user_name='{promotee_user_name}' and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
+            # 144000 # 158400
+            if int(timestamp)-int(promotee_time)>144000 and int(timestamp)-int(promotee_time)<158400: # 40 - 44 hrs
+                scenario=5
+                activate=1
+            # 172800 187200
+            if int(timestamp)-int(promotee_time)>172800 and int(timestamp)-int(promotee_time)<187200: # 48 - 52 hrs
+                scenario=6
+                activate=1
+            
+            if activate==1 and int(completed)==0:
+                if type=="Twitter":
 
-            elif scenario==3:
+                    try:
+                        
+                        os.system(f"twarc2 timeline --limit 2 {promotee_user_name} promotee_data/{promotee_user_name}_{timestamp}.json")
+                        os.system(f"twarc2 csv promotee_data/{promotee_user_name}_{timestamp}.json promotee_data/{promotee_user_name}_{timestamp}.csv")
+                        
+                        # DEBUG
 
-                query=f"""UPDATE promotee 
-                SET follower_count_at_24h = {followers}
-                WHERE user_name='{promotee_user_name}' and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
+                        logging.info(f"timeline collected and processed for promotee:{promotee_user_name}")
+                        print(f"timeline collected and processed for promotee:{promotee_user_name}")
 
-            elif scenario==4:
+                        # DEBUG
 
-                query=f"""UPDATE promotee 
-                SET follower_count_at_32h = {followers}
-                WHERE user_name='{promotee_user_name}' and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
+                        df=pd.read_csv(f"promotee_data/{promotee_user_name}_{timestamp}.csv")
+                        for index, row in df.iterrows():
+                            followers=row['author.public_metrics.followers_count']
+                    except Exception as e:
+                        print(e)
+                elif type=="Discord":
 
-            elif scenario==5:
+                    try:
+                        discord_output=discord_get_data(promotee_name) # Promotee name = discord invite code
 
-                query=f"""UPDATE promotee 
-                SET follower_count_at_40h = {followers}
-                WHERE user_name='{promotee_user_name}' and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
+                        followers=discord_output[4]
+                        promotee_user_name=promotee_name
+                    except Exception as e:
+                        print(e)
+                if scenario==1:
+                    print(f"{promotee_user_name},{tweet_id}")
+                    
+                    
+                    query=f"""UPDATE promotee 
+                    SET follower_count_at_8h = {followers}
+                    WHERE user_name='{promotee_user_name}' and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
+                
+                elif scenario==2:
 
-            elif scenario==6:
+                    query=f"""UPDATE promotee 
+                    SET follower_count_at_16h = {followers}
+                    WHERE user_name='{promotee_user_name}' and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
 
-                query=f"""UPDATE promotee 
-                SET follower_count_at_48h = {followers}
-                WHERE user_name='{promotee_user_name}' and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
+                elif scenario==3:
+
+                    query=f"""UPDATE promotee 
+                    SET follower_count_at_24h = {followers}
+                    WHERE user_name='{promotee_user_name}' and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
+
+                elif scenario==4:
+
+                    query=f"""UPDATE promotee 
+                    SET follower_count_at_32h = {followers}
+                    WHERE user_name='{promotee_user_name}' and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
+
+                elif scenario==5:
+
+                    query=f"""UPDATE promotee 
+                    SET follower_count_at_40h = {followers}
+                    WHERE user_name='{promotee_user_name}' and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
+
+                elif scenario==6:
+
+                    query=f"""UPDATE promotee 
+                    SET follower_count_at_48h = {followers}
+                    WHERE user_name='{promotee_user_name}' and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
 
 
-                query2=f"""UPDATE promotee 
-                    SET completed = 1
-                    WHERE user_name='{promotee_user_name}' and tweet_id = '{tweet_id}';"""  
+                    query2=f"""UPDATE promotee 
+                        SET completed = 1
+                        WHERE user_name='{promotee_user_name}' and tweet_id = '{tweet_id}';"""  
 
-        
+            
 
-            with engine.connect() as con:
+                with engine.connect() as con:
 
-                rs = con.execute(query)
-                if(scenario==6):
-                     rs = con.execute(query2)
+                    rs = con.execute(query)
+                    if(scenario==6):
+                        rs = con.execute(query2)
+        except Exception as e:
+            print(e)
+            logging.info(f"{e}")
 
         
 
