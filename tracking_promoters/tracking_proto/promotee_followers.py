@@ -151,7 +151,7 @@ def run_promotee_followers_main():
 
                 query2=f"""UPDATE promotee 
                     SET completed = 1
-                    WHERE user_name={promotee_user_name} and tweet_id = '{tweet_id}';"""  
+                    WHERE user_name='{promotee_user_name}' and tweet_id = '{tweet_id}';"""  
 
         
 
