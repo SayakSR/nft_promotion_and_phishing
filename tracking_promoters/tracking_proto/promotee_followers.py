@@ -112,7 +112,7 @@ def run_promotee_followers_main():
                 
                 query=f"""UPDATE promotee 
                 SET follower_count_at_8h = {followers}
-                WHERE user_name='{promotee_user_name}' and tweet_id = {tweet_id};"""   # Query to update the follower count at 24hrs
+                WHERE user_name='{promotee_user_name}' and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
             
             elif scenario==2:
 
