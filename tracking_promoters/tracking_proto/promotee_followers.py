@@ -68,12 +68,12 @@ def run_promotee_followers_main():
             activate=1
         
         # 115200 #129600
-        if int(timestamp)-int(promotee_time)>1800 and int(timestamp)-int(promotee_time)<3600: # 32 - 36 hrs 
+        if int(timestamp)-int(promotee_time)>115200 and int(timestamp)-int(promotee_time)<129600: # 32 - 36 hrs 
             scenario=4
             activate=1
 
-        
-        if int(timestamp)-int(promotee_time)>144000 and int(timestamp)-int(promotee_time)<158400: # 40 - 44 hrs
+        # 144000 # 158400
+        if int(timestamp)-int(promotee_time)>1800 and int(timestamp)-int(promotee_time)<3600: # 40 - 44 hrs
             scenario=5
             activate=1
 
