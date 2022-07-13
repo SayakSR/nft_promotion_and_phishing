@@ -33,7 +33,7 @@ def process_discord_promotion(tweet_id,expanded_url,timestamp,created_at,datesta
 
     try:
         type="Discord"
-        insert_flag=insert_promotee_into_table(3333,datestamp,name,user_id,user_name,type,bio,created_at,tweet_id,promoter_id,follower_count)
+        insert_flag=insert_promotee_into_table(3333,datestamp,name,user_id,user_name,type,bio,created_at,str(tweet_id),promoter_id,follower_count)
 
         
         if(insert_flag==1):

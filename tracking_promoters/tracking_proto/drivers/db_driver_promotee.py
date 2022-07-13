@@ -42,7 +42,7 @@ class Promotee(base):
     type=Column(Text,nullable=False)
     bio = Column(Text,nullable=True)
     tweet_created_at=Column(TIMESTAMP,primary_key=True,nullable=False)
-    tweet_id=Column(Numeric, primary_key=True,nullable=False)
+    tweet_id=Column(Text, primary_key=True,nullable=False)
     promoted_by=Column(Numeric, primary_key=True,nullable=False)
     follower_count_at_0h=Column(Numeric,nullable=True)
     follower_count_at_8h=Column(Numeric,nullable=True)
