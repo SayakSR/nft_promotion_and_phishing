@@ -1,0 +1,374 @@
+2022-07-10 18:30:46,476:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 18:30:46,700:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=1ha-zukunft.org HTTP/1.1" 404 None
+2022-07-10 21:35:58,966:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:35:59,146:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=1ha-zukunft.org HTTP/1.1" 404 None
+2022-07-10 21:36:05,804:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:36:05,965:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=1ha-zukunft.org HTTP/1.1" 404 None
+2022-07-10 21:37:05,308:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:37:05,488:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=1ha-zukunft.org HTTP/1.1" 404 None
+2022-07-10 21:40:40,400:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:40:40,567:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=1ha-zukunft.org HTTP/1.1" 404 None
+2022-07-10 21:42:29,543:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:42:29,750:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=1ha-zukunft.org HTTP/1.1" 404 None
+2022-07-10 21:42:29,781:INFO:DB JOB ID 4444: Insertion error raised for:1ha-zukunft.org
+2022-07-10 21:42:29,783:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:42:29,937:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=allnfts.site HTTP/1.1" 404 None
+2022-07-10 21:42:29,942:INFO:DB JOB ID 4444: Insertion error raised for:allnfts.site
+2022-07-10 21:42:29,944:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:42:30,097:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=antiquesilvernfts.com HTTP/1.1" 404 None
+2022-07-10 21:42:30,102:INFO:DB JOB ID 4444: Insertion error raised for:antiquesilvernfts.com
+2022-07-10 21:42:30,104:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:42:30,264:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=armyofdreamersvrnft.com HTTP/1.1" 404 None
+2022-07-10 21:42:30,270:INFO:DB JOB ID 4444: Insertion error raised for:armyofdreamersvrnft.com
+2022-07-10 21:42:30,272:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:42:30,425:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=asianantiquenfts.com HTTP/1.1" 404 None
+2022-07-10 21:42:30,430:INFO:DB JOB ID 4444: Insertion error raised for:asianantiquenfts.com
+2022-07-10 21:42:30,432:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:42:30,596:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=b-boynft.com HTTP/1.1" 404 None
+2022-07-10 21:42:30,600:INFO:DB JOB ID 4444: Insertion error raised for:b-boynft.com
+2022-07-10 21:42:30,602:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:42:30,767:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=bagnernft.xyz HTTP/1.1" 404 None
+2022-07-10 21:42:30,772:INFO:DB JOB ID 4444: Insertion error raised for:bagnernft.xyz
+2022-07-10 21:42:30,774:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:42:30,926:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=bagnersnft.xyz HTTP/1.1" 404 None
+2022-07-10 21:42:30,931:INFO:DB JOB ID 4444: Insertion error raised for:bagnersnft.xyz
+2022-07-10 21:42:30,933:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:42:31,087:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=bear-nft.xyz HTTP/1.1" 404 None
+2022-07-10 21:42:31,092:INFO:DB JOB ID 4444: Insertion error raised for:bear-nft.xyz
+2022-07-10 21:42:31,094:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:42:31,245:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=billhatesnftees.xyz HTTP/1.1" 404 None
+2022-07-10 21:42:31,251:INFO:DB JOB ID 4444: Insertion error raised for:billhatesnftees.xyz
+2022-07-10 21:42:31,253:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:42:31,409:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=bnftchina.com HTTP/1.1" 404 None
+2022-07-10 21:42:31,419:INFO:DB JOB ID 4444: Insertion error raised for:bnftchina.com
+2022-07-10 21:42:31,421:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:42:31,582:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=bvpscnnfthgjl.com HTTP/1.1" 404 None
+2022-07-10 21:42:31,588:INFO:DB JOB ID 4444: Insertion error raised for:bvpscnnfthgjl.com
+2022-07-10 21:42:31,590:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:42:31,951:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=castello-snft.com HTTP/1.1" 404 None
+2022-07-10 21:43:07,664:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:43:07,831:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=1ha-zukunft.org HTTP/1.1" 404 None
+2022-07-10 21:43:07,863:INFO:DB JOB ID 4444: Insertion error raised for:1ha-zukunft.org
+2022-07-10 21:43:07,865:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:43:08,077:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=allnfts.site HTTP/1.1" 404 None
+2022-07-10 21:43:08,082:INFO:DB JOB ID 4444: Insertion error raised for:allnfts.site
+2022-07-10 21:43:08,085:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:43:08,396:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=antiquesilvernfts.com HTTP/1.1" 404 None
+2022-07-10 21:43:08,402:INFO:DB JOB ID 4444: Insertion error raised for:antiquesilvernfts.com
+2022-07-10 21:43:08,403:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:43:08,629:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=armyofdreamersvrnft.com HTTP/1.1" 404 None
+2022-07-10 21:43:08,634:INFO:DB JOB ID 4444: Insertion error raised for:armyofdreamersvrnft.com
+2022-07-10 21:43:08,636:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:43:08,858:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=asianantiquenfts.com HTTP/1.1" 404 None
+2022-07-10 21:43:08,863:INFO:DB JOB ID 4444: Insertion error raised for:asianantiquenfts.com
+2022-07-10 21:43:08,865:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:43:09,083:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=b-boynft.com HTTP/1.1" 404 None
+2022-07-10 21:43:09,087:INFO:DB JOB ID 4444: Insertion error raised for:b-boynft.com
+2022-07-10 21:43:09,089:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:44:47,251:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:44:47,419:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=1ha-zukunft.org HTTP/1.1" 404 None
+2022-07-10 21:44:47,453:INFO:Entry for URL:1ha-zukunft.org inserted successfully
+2022-07-10 21:44:49,463:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:44:49,626:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=allnfts.site HTTP/1.1" 404 None
+2022-07-10 21:44:49,632:INFO:Entry for URL:allnfts.site inserted successfully
+2022-07-10 21:49:31,472:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:49:31,658:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=1ha-zukunft.org HTTP/1.1" 404 None
+2022-07-10 21:49:31,693:INFO:Entry for URL:1ha-zukunft.org inserted successfully
+2022-07-10 21:49:33,704:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:49:34,590:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=allnfts.site HTTP/1.1" 404 None
+2022-07-10 21:49:34,596:INFO:Entry for URL:allnfts.site inserted successfully
+2022-07-10 21:52:59,023:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:52:59,190:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=1ha-zukunft.org HTTP/1.1" 404 None
+2022-07-10 21:52:59,222:INFO:Entry for URL:1ha-zukunft.org inserted successfully
+2022-07-10 21:53:01,232:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:53:01,448:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=allnfts.site HTTP/1.1" 404 None
+2022-07-10 21:53:01,454:INFO:Entry for URL:allnfts.site inserted successfully
+2022-07-10 21:54:00,015:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:00,240:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=1ha-zukunft.org HTTP/1.1" 404 None
+2022-07-10 21:54:00,274:INFO:Entry for URL:1ha-zukunft.org inserted successfully
+2022-07-10 21:54:49,338:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:49,520:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=1ha-zukunft.org HTTP/1.1" 404 None
+2022-07-10 21:54:49,564:INFO:Entry for URL:1ha-zukunft.org inserted successfully
+2022-07-10 21:54:49,572:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:49,753:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=allnfts.site HTTP/1.1" 404 None
+2022-07-10 21:54:49,757:INFO:Entry for URL:allnfts.site inserted successfully
+2022-07-10 21:54:49,761:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:49,921:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=antiquesilvernfts.com HTTP/1.1" 404 None
+2022-07-10 21:54:49,926:INFO:Entry for URL:antiquesilvernfts.com inserted successfully
+2022-07-10 21:54:49,931:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:50,088:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=armyofdreamersvrnft.com HTTP/1.1" 404 None
+2022-07-10 21:54:50,094:INFO:Entry for URL:armyofdreamersvrnft.com inserted successfully
+2022-07-10 21:54:50,098:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:50,257:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=asianantiquenfts.com HTTP/1.1" 404 None
+2022-07-10 21:54:50,262:INFO:Entry for URL:asianantiquenfts.com inserted successfully
+2022-07-10 21:54:50,266:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:50,416:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=b-boynft.com HTTP/1.1" 404 None
+2022-07-10 21:54:50,422:INFO:Entry for URL:b-boynft.com inserted successfully
+2022-07-10 21:54:50,426:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:50,579:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=bagnernft.xyz HTTP/1.1" 404 None
+2022-07-10 21:54:50,585:INFO:Entry for URL:bagnernft.xyz inserted successfully
+2022-07-10 21:54:50,765:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:50,927:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=bagnersnft.xyz HTTP/1.1" 404 None
+2022-07-10 21:54:50,932:INFO:Entry for URL:bagnersnft.xyz inserted successfully
+2022-07-10 21:54:50,937:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:51,094:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=bear-nft.xyz HTTP/1.1" 404 None
+2022-07-10 21:54:51,100:INFO:Entry for URL:bear-nft.xyz inserted successfully
+2022-07-10 21:54:51,104:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:51,271:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=billhatesnftees.xyz HTTP/1.1" 404 None
+2022-07-10 21:54:51,280:INFO:Entry for URL:billhatesnftees.xyz inserted successfully
+2022-07-10 21:54:51,285:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:51,438:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=bnftchina.com HTTP/1.1" 404 None
+2022-07-10 21:54:51,444:INFO:Entry for URL:bnftchina.com inserted successfully
+2022-07-10 21:54:51,448:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:51,602:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=bvpscnnfthgjl.com HTTP/1.1" 404 None
+2022-07-10 21:54:51,608:INFO:Entry for URL:bvpscnnfthgjl.com inserted successfully
+2022-07-10 21:54:51,612:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:51,765:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=castello-snft.com HTTP/1.1" 404 None
+2022-07-10 21:54:51,771:INFO:Entry for URL:castello-snft.com inserted successfully
+2022-07-10 21:54:51,776:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:51,925:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=chieftoadnft.com HTTP/1.1" 404 None
+2022-07-10 21:54:51,930:INFO:Entry for URL:chieftoadnft.com inserted successfully
+2022-07-10 21:54:51,935:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:52,090:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=claimnft.online HTTP/1.1" 404 None
+2022-07-10 21:54:52,095:INFO:Entry for URL:claimnft.online inserted successfully
+2022-07-10 21:54:52,100:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:52,256:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=collateralnft.com HTTP/1.1" 404 None
+2022-07-10 21:54:52,262:INFO:Entry for URL:collateralnft.com inserted successfully
+2022-07-10 21:54:52,267:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:52,420:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=coollcatsnft.com HTTP/1.1" 404 None
+2022-07-10 21:54:52,425:INFO:Entry for URL:coollcatsnft.com inserted successfully
+2022-07-10 21:54:52,430:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:52,588:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=copebearlolnft.xyz HTTP/1.1" 404 None
+2022-07-10 21:54:52,594:INFO:Entry for URL:copebearlolnft.xyz inserted successfully
+2022-07-10 21:54:52,598:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:52,753:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=cube-snft.com HTTP/1.1" 404 None
+2022-07-10 21:54:52,758:INFO:Entry for URL:cube-snft.com inserted successfully
+2022-07-10 21:54:52,762:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:52,915:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=cubeanznft.com HTTP/1.1" 404 None
+2022-07-10 21:54:52,921:INFO:Entry for URL:cubeanznft.com inserted successfully
+2022-07-10 21:54:52,926:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:53,079:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=culpicnft.com HTTP/1.1" 404 None
+2022-07-10 21:54:53,084:INFO:Entry for URL:culpicnft.com inserted successfully
+2022-07-10 21:54:53,089:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:53,246:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=deskheadsnft.xyz HTTP/1.1" 404 None
+2022-07-10 21:54:53,251:INFO:Entry for URL:deskheadsnft.xyz inserted successfully
+2022-07-10 21:54:53,255:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:53,415:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=digitaltwinnft.com HTTP/1.1" 404 None
+2022-07-10 21:54:53,420:INFO:Entry for URL:digitaltwinnft.com inserted successfully
+2022-07-10 21:54:53,425:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:53,577:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=dnightcitynft.com HTTP/1.1" 404 None
+2022-07-10 21:54:53,583:INFO:Entry for URL:dnightcitynft.com inserted successfully
+2022-07-10 21:54:53,588:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:53,742:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=eft.tools HTTP/1.1" 404 None
+2022-07-10 21:54:53,748:INFO:Entry for URL:eft.tools inserted successfully
+2022-07-10 21:54:53,752:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:53,911:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=einhektarzukunft.org HTTP/1.1" 404 None
+2022-07-10 21:54:53,917:INFO:Entry for URL:einhektarzukunft.org inserted successfully
+2022-07-10 21:54:53,922:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:54,079:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=elrondnft-shirt.com HTTP/1.1" 404 None
+2022-07-10 21:54:54,084:INFO:Entry for URL:elrondnft-shirt.com inserted successfully
+2022-07-10 21:54:54,089:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:54,239:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=enft.store HTTP/1.1" 404 None
+2022-07-10 21:54:54,245:INFO:Entry for URL:enft.store inserted successfully
+2022-07-10 21:54:54,249:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:54,401:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=ergonft.net HTTP/1.1" 404 None
+2022-07-10 21:54:54,406:INFO:Entry for URL:ergonft.net inserted successfully
+2022-07-10 21:54:54,411:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:54,565:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=everdomegensis-nft.site HTTP/1.1" 404 None
+2022-07-10 21:54:54,570:INFO:Entry for URL:everdomegensis-nft.site inserted successfully
+2022-07-10 21:54:54,575:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:54,732:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=exoticnfts.xyz HTTP/1.1" 404 None
+2022-07-10 21:54:54,737:INFO:Entry for URL:exoticnfts.xyz inserted successfully
+2022-07-10 21:54:54,742:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:54,895:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=experimentx-nft.com HTTP/1.1" 404 None
+2022-07-10 21:54:54,901:INFO:Entry for URL:experimentx-nft.com inserted successfully
+2022-07-10 21:54:54,906:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:55,064:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=fnftmusic.com HTTP/1.1" 404 None
+2022-07-10 21:54:55,069:INFO:Entry for URL:fnftmusic.com inserted successfully
+2022-07-10 21:54:55,073:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:55,234:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=fnftvault.com HTTP/1.1" 404 None
+2022-07-10 21:54:55,240:INFO:Entry for URL:fnftvault.com inserted successfully
+2022-07-10 21:54:55,244:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:55,396:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=fofnft.org HTTP/1.1" 404 None
+2022-07-10 21:54:55,401:INFO:Entry for URL:fofnft.org inserted successfully
+2022-07-10 21:54:55,406:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:55,559:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=frameyournfts.xyz HTTP/1.1" 404 None
+2022-07-10 21:54:55,564:INFO:Entry for URL:frameyournfts.xyz inserted successfully
+2022-07-10 21:54:55,569:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:55,720:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=freenft.design HTTP/1.1" 404 None
+2022-07-10 21:54:55,725:INFO:Entry for URL:freenft.design inserted successfully
+2022-07-10 21:54:55,912:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:56,068:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=fujingnft.com HTTP/1.1" 404 None
+2022-07-10 21:54:56,073:INFO:Entry for URL:fujingnft.com inserted successfully
+2022-07-10 21:54:56,078:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:56,234:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=get-free-nft.sbs HTTP/1.1" 404 None
+2022-07-10 21:54:56,240:INFO:Entry for URL:get-free-nft.sbs inserted successfully
+2022-07-10 21:54:56,244:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:56,394:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=giginft.wtf HTTP/1.1" 404 None
+2022-07-10 21:54:56,400:INFO:Entry for URL:giginft.wtf inserted successfully
+2022-07-10 21:54:56,405:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:56,573:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=godhatenftes.com HTTP/1.1" 404 None
+2022-07-10 21:54:56,579:INFO:Entry for URL:godhatenftes.com inserted successfully
+2022-07-10 21:54:56,583:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:56,734:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=godlovenft.wtf HTTP/1.1" 404 None
+2022-07-10 21:54:56,739:INFO:Entry for URL:godlovenft.wtf inserted successfully
+2022-07-10 21:54:56,744:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:56,898:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=godlovenft.xyz HTTP/1.1" 404 None
+2022-07-10 21:54:56,904:INFO:Entry for URL:godlovenft.xyz inserted successfully
+2022-07-10 21:54:56,909:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:57,060:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=gold-snft.com HTTP/1.1" 404 None
+2022-07-10 21:54:57,066:INFO:Entry for URL:gold-snft.com inserted successfully
+2022-07-10 21:54:57,070:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:57,220:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=goodiesnft.xyz HTTP/1.1" 404 None
+2022-07-10 21:54:57,225:INFO:Entry for URL:goodiesnft.xyz inserted successfully
+2022-07-10 21:54:57,230:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:57,381:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=guidancenftstore.com HTTP/1.1" 404 None
+2022-07-10 21:54:57,387:INFO:Entry for URL:guidancenftstore.com inserted successfully
+2022-07-10 21:54:57,391:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:57,541:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=horsinftaround.club HTTP/1.1" 404 None
+2022-07-10 21:54:57,546:INFO:Entry for URL:horsinftaround.club inserted successfully
+2022-07-10 21:54:57,550:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 21:54:57,704:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=hydroponicsnft.com HTTP/1.1" 404 None
+2022-07-10 21:54:57,709:INFO:Entry for URL:hydroponicsnft.com inserted successfully
+2022-07-10 21:54:57,714:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 23:13:19,349:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 23:13:19,574:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=1ha-zukunft.org HTTP/1.1" 404 None
+2022-07-10 23:13:19,619:INFO:Entry for URL:1ha-zukunft.org inserted successfully
+2022-07-10 23:13:43,660:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 23:13:43,846:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=allnfts.site HTTP/1.1" 404 None
+2022-07-10 23:13:43,852:INFO:Entry for URL:allnfts.site inserted successfully
+2022-07-10 23:13:48,109:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 23:13:48,276:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=antiquesilvernfts.com HTTP/1.1" 404 None
+2022-07-10 23:13:48,282:INFO:Entry for URL:antiquesilvernfts.com inserted successfully
+2022-07-10 23:13:52,313:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 23:13:52,470:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=armyofdreamersvrnft.com HTTP/1.1" 404 None
+2022-07-10 23:13:52,475:INFO:Entry for URL:armyofdreamersvrnft.com inserted successfully
+2022-07-10 23:13:56,661:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 23:13:56,824:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=asianantiquenfts.com HTTP/1.1" 404 None
+2022-07-10 23:13:56,830:INFO:Entry for URL:asianantiquenfts.com inserted successfully
+2022-07-10 23:13:57,746:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 23:13:57,899:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=b-boynft.com HTTP/1.1" 404 None
+2022-07-10 23:13:57,905:INFO:Entry for URL:b-boynft.com inserted successfully
+2022-07-10 23:13:59,959:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 23:14:00,122:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=bagnernft.xyz HTTP/1.1" 404 None
+2022-07-10 23:14:00,128:INFO:Entry for URL:bagnernft.xyz inserted successfully
+2022-07-10 23:14:02,303:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 23:14:02,466:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=bagnersnft.xyz HTTP/1.1" 404 None
+2022-07-10 23:14:02,479:INFO:Entry for URL:bagnersnft.xyz inserted successfully
+2022-07-10 23:14:05,012:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 23:14:05,862:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=bear-nft.xyz HTTP/1.1" 404 None
+2022-07-10 23:14:05,867:INFO:Entry for URL:bear-nft.xyz inserted successfully
+2022-07-10 23:14:07,113:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 23:14:07,277:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=billhatesnftees.xyz HTTP/1.1" 404 None
+2022-07-10 23:14:07,283:INFO:Entry for URL:billhatesnftees.xyz inserted successfully
+2022-07-10 23:14:31,322:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 23:14:31,485:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=bnftchina.com HTTP/1.1" 404 None
+2022-07-10 23:14:31,491:INFO:Entry for URL:bnftchina.com inserted successfully
+2022-07-10 23:14:32,069:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 23:14:32,224:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=bvpscnnfthgjl.com HTTP/1.1" 404 None
+2022-07-10 23:14:32,230:INFO:Entry for URL:bvpscnnfthgjl.com inserted successfully
+2022-07-10 23:14:32,899:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 23:14:33,051:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=castello-snft.com HTTP/1.1" 404 None
+2022-07-10 23:14:33,057:INFO:Entry for URL:castello-snft.com inserted successfully
+2022-07-10 23:14:37,124:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 23:14:37,285:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=chieftoadnft.com HTTP/1.1" 404 None
+2022-07-10 23:14:37,291:INFO:Entry for URL:chieftoadnft.com inserted successfully
+2022-07-10 23:14:50,577:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-10 23:14:50,729:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=claimnft.online HTTP/1.1" 404 None
+2022-07-10 23:14:50,735:INFO:Entry for URL:claimnft.online inserted successfully
+2022-07-11 00:29:23,998:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:29:24,217:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=centurysocialclub-mint.com HTTP/1.1" 404 None
+2022-07-11 00:29:24,263:INFO:Entry for URL:centurysocialclub-mint.com inserted successfully
+2022-07-11 00:29:44,300:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:29:44,463:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=doodles-mint.net HTTP/1.1" 404 None
+2022-07-11 00:29:44,469:INFO:Entry for URL:doodles-mint.net inserted successfully
+2022-07-11 00:29:47,167:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:29:47,325:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=exodia-mint.sbs HTTP/1.1" 404 None
+2022-07-11 00:29:47,330:INFO:Entry for URL:exodia-mint.sbs inserted successfully
+2022-07-11 00:29:48,146:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:29:48,305:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=forgotten-ethereal-worlds-mint.xyz HTTP/1.1" 404 None
+2022-07-11 00:29:48,310:INFO:Entry for URL:forgotten-ethereal-worlds-mint.xyz inserted successfully
+2022-07-11 00:29:51,173:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:29:51,324:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=hakka-mint.com HTTP/1.1" 404 None
+2022-07-11 00:29:51,330:INFO:Entry for URL:hakka-mint.com inserted successfully
+2022-07-11 00:29:52,194:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:29:52,348:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=haro-buru-mint.xyz HTTP/1.1" 404 None
+2022-07-11 00:29:52,354:INFO:Entry for URL:haro-buru-mint.xyz inserted successfully
+2022-07-11 00:29:53,757:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:29:53,936:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=spincats-mint.xyz HTTP/1.1" 404 None
+2022-07-11 00:29:53,953:INFO:Entry for URL:spincats-mint.xyz inserted successfully
+2022-07-11 00:29:54,788:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:29:54,948:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=suisei-mint.xyz HTTP/1.1" 404 None
+2022-07-11 00:29:54,954:INFO:Entry for URL:suisei-mint.xyz inserted successfully
+2022-07-11 00:29:56,017:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:29:56,179:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=weabove-mint.xyz HTTP/1.1" 404 None
+2022-07-11 00:29:56,184:INFO:Entry for URL:weabove-mint.xyz inserted successfully
+2022-07-11 00:29:56,279:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:29:56,435:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=cyberneticsnftmint.xyz HTTP/1.1" 404 None
+2022-07-11 00:29:56,440:INFO:Entry for URL:cyberneticsnftmint.xyz inserted successfully
+2022-07-11 00:29:57,143:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:29:57,297:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=nftmint.online HTTP/1.1" 404 None
+2022-07-11 00:29:57,303:INFO:Entry for URL:nftmint.online inserted successfully
+2022-07-11 00:29:58,143:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:29:58,296:DEBUG:https://www.virustotal.com:443 "POST /api/v3/url/scan?url=premints.info HTTP/1.1" 404 None
+2022-07-11 00:29:58,302:INFO:Entry for URL:premints.info inserted successfully
+2022-07-11 00:54:07,139:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:07,386:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/scan?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=centurysocialclub-mint.com HTTP/1.1" 405 187
+2022-07-11 00:54:07,390:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:07,601:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/report?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=centurysocialclub-mint.com HTTP/1.1" 200 119
+2022-07-11 00:54:07,643:INFO:Entry for URL:centurysocialclub-mint.com inserted successfully
+2022-07-11 00:54:27,681:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:27,857:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/scan?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=doodles-mint.net HTTP/1.1" 405 187
+2022-07-11 00:54:27,861:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:28,074:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/report?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=doodles-mint.net HTTP/1.1" 200 5876
+2022-07-11 00:54:28,080:INFO:Entry for URL:doodles-mint.net inserted successfully
+2022-07-11 00:54:30,781:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:30,953:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/scan?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=exodia-mint.sbs HTTP/1.1" 405 187
+2022-07-11 00:54:30,956:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:31,197:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/report?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=exodia-mint.sbs HTTP/1.1" 200 108
+2022-07-11 00:54:31,202:INFO:Entry for URL:exodia-mint.sbs inserted successfully
+2022-07-11 00:54:32,821:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:32,975:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/scan?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=forgotten-ethereal-worlds-mint.xyz HTTP/1.1" 405 187
+2022-07-11 00:54:32,979:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:33,245:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/report?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=forgotten-ethereal-worlds-mint.xyz HTTP/1.1" 200 127
+2022-07-11 00:54:33,263:INFO:Entry for URL:forgotten-ethereal-worlds-mint.xyz inserted successfully
+2022-07-11 00:54:35,064:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:35,261:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/scan?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=hakka-mint.com HTTP/1.1" 405 187
+2022-07-11 00:54:35,266:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:36,169:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/report?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=hakka-mint.com HTTP/1.1" 200 107
+2022-07-11 00:54:36,174:INFO:Entry for URL:hakka-mint.com inserted successfully
+2022-07-11 00:54:37,103:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:37,382:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/scan?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=haro-buru-mint.xyz HTTP/1.1" 405 187
+2022-07-11 00:54:37,386:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:37,656:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/report?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=haro-buru-mint.xyz HTTP/1.1" 200 111
+2022-07-11 00:54:37,662:INFO:Entry for URL:haro-buru-mint.xyz inserted successfully
+2022-07-11 00:54:38,491:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:38,646:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/scan?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=spincats-mint.xyz HTTP/1.1" 405 187
+2022-07-11 00:54:38,650:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:38,865:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/report?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=spincats-mint.xyz HTTP/1.1" 200 110
+2022-07-11 00:54:38,870:INFO:Entry for URL:spincats-mint.xyz inserted successfully
+2022-07-11 00:54:39,753:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:39,911:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/scan?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=suisei-mint.xyz HTTP/1.1" 405 187
+2022-07-11 00:54:39,915:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:40,124:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/report?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=suisei-mint.xyz HTTP/1.1" 200 108
+2022-07-11 00:54:40,130:INFO:Entry for URL:suisei-mint.xyz inserted successfully
+2022-07-11 00:54:41,014:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:41,169:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/scan?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=weabove-mint.xyz HTTP/1.1" 405 187
+2022-07-11 00:54:41,173:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:41,384:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/report?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=weabove-mint.xyz HTTP/1.1" 200 109
+2022-07-11 00:54:41,388:INFO:Entry for URL:weabove-mint.xyz inserted successfully
+2022-07-11 00:54:41,422:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:41,578:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/scan?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=cyberneticsnftmint.xyz HTTP/1.1" 405 187
+2022-07-11 00:54:41,582:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:41,764:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/report?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=cyberneticsnftmint.xyz HTTP/1.1" 200 5895
+2022-07-11 00:54:41,770:INFO:Entry for URL:cyberneticsnftmint.xyz inserted successfully
+2022-07-11 00:54:42,458:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:42,658:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/scan?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=nftmint.online HTTP/1.1" 405 187
+2022-07-11 00:54:42,662:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:42,897:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/report?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=nftmint.online HTTP/1.1" 200 107
+2022-07-11 00:54:43,844:INFO:Entry for URL:nftmint.online inserted successfully
+2022-07-11 00:54:44,621:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:44,778:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/scan?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=premints.info HTTP/1.1" 405 187
+2022-07-11 00:54:44,781:DEBUG:Starting new HTTPS connection (1): www.virustotal.com:443
+2022-07-11 00:54:45,032:DEBUG:https://www.virustotal.com:443 "GET /vtapi/v2/url/report?apikey=aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339&resource=premints.info HTTP/1.1" 200 106
+2022-07-11 00:54:45,037:INFO:Entry for URL:premints.info inserted successfully
