@@ -51,10 +51,6 @@ class Promotee(base):
     follower_count_at_32h=Column(Numeric,nullable=True)
     follower_count_at_40h=Column(Numeric,nullable=True)
     follower_count_at_48h=Column(Numeric,nullable=True)
-
-
-
-    follower_count_at_72h=Column(Numeric,nullable=True)
     completed=Column(Numeric,nullable=False)
 
 
