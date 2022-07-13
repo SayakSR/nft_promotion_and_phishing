@@ -124,7 +124,7 @@ def get_tweets_for_every_promoter(promoter_list):
             logging.info(f"Getting timelin for {promoter} at time {timestamp}")
             print(f"Getting timeline for {promoter} at time {timestamp}")
             # Top 20 tweets only
-            os.system(f"twarc2 timeline --limit 20 {promoter} promoter_timelines/{promoter}_{timestamp}.json")
+            os.system(f"twarc2 timeline --limit 10 {promoter} promoter_timelines/{promoter}_{timestamp}.json")
             logging.info(f"Fetched timeline for {promoter} at time {timestamp}")
             print(f"Fetched timeline for {promoter} at time {timestamp}")
             os.system(f"twarc2 csv promoter_timelines/{promoter}_{timestamp}.json promoter_timelines/{promoter}_{timestamp}.csv")
