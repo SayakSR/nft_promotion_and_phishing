@@ -110,37 +110,37 @@ def run_promotee_followers_main():
 
                 query=f"""UPDATE promotee 
                 SET follower_count_at_8h = {followers}
-                WHERE user_name={promotee_user_name} and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
+                WHERE user_name='{promotee_user_name}' and tweet_id = {tweet_id};"""   # Query to update the follower count at 24hrs
             
             elif scenario==2:
 
                 query=f"""UPDATE promotee 
                 SET follower_count_at_16h = {followers}
-                WHERE user_name={promotee_user_name} and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
+                WHERE user_name='{promotee_user_name}' and tweet_id = {tweet_id};"""   # Query to update the follower count at 24hrs
 
             elif scenario==3:
 
                 query=f"""UPDATE promotee 
                 SET follower_count_at_24h = {followers}
-                WHERE user_name={promotee_user_name} and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
+                WHERE user_name='{promotee_user_name}' and tweet_id = {tweet_id};"""   # Query to update the follower count at 24hrs
 
             elif scenario==4:
 
                 query=f"""UPDATE promotee 
                 SET follower_count_at_32h = {followers}
-                WHERE user_name={promotee_user_name} and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
+                WHERE user_name='{promotee_user_name}' and tweet_id = {tweet_id};"""   # Query to update the follower count at 24hrs
 
             elif scenario==5:
 
                 query=f"""UPDATE promotee 
                 SET follower_count_at_40h = {followers}
-                WHERE user_name={promotee_user_name} and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
+                WHERE user_name='{promotee_user_name}' and tweet_id = {tweet_id};"""   # Query to update the follower count at 24hrs
 
             elif scenario==6:
 
                 query=f"""UPDATE promotee 
                 SET follower_count_at_48h = {followers}
-                WHERE user_name={promotee_user_name} and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
+                WHERE user_name='{promotee_user_name}' and tweet_id = {tweet_id};"""   # Query to update the follower count at 24hrs
 
 
                 query2=f"""UPDATE promotee 
