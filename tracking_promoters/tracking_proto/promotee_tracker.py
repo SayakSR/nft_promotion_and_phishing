@@ -133,6 +133,8 @@ def get_tweets_for_every_promoter(promoter_list):
             # Step 2: Checking each tweet in a promoters timeline to see if it matches the account promoting heuristic  
             for index, row in tweets.iterrows():
                 datestamp=regular_datetime() # Used to find when the promotee account (Promotee database "timestamp" column)
+                print(datestamp)
+                time.sleep(10)
                 tweet_id=row['id']
                 promoter_id=row['author_id']
                 tweet_text=row['text']
