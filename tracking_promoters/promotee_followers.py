@@ -162,6 +162,10 @@ def run_promotee_followers_main():
                         query=f"""UPDATE promotee 
                         SET follower_count_at_72h = {followers}
                         WHERE user_name = '{promotee_user_name}';"""   # Query to update the follower count at 72 hrs
+
+                        with engine.connect() as con:
+
+                            rs = con.execute(query)
                     except:
                         pass
                 elif type=="Discord":
@@ -172,13 +176,18 @@ def run_promotee_followers_main():
 
                         followers=discord_output[4]
                         promotee_user_name=promotee_name
+                        query=f"""UPDATE promotee 
+                        SET follower_count_at_72h = {followers}
+                        WHERE user_name = '{promotee_user_name}';"""   # Query to update the follower count at 72 hrs
+
+                        with engine.connect() as con:
+
+                            rs = con.execute(query)
                     except:
                         pass
 
 
-                with engine.connect() as con:
-
-                    rs = con.execute(query)
+               
 
                 # Also set completed to 1, so it follower check doesnt happen in future.
 
