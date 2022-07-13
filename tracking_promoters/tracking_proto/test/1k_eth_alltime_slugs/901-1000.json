@@ -1,0 +1,4208 @@
+{
+	"data": {
+		"rankings": {
+			"edges": [{
+				"node": {
+					"createdDate": "2021-09-03T19:42:03.089822",
+					"name": "ENCODE Graphics",
+					"slug": "encode-graphics",
+					"logo": "https://lh3.googleusercontent.com/nYPsBOL1iuf--LJ52YPIqroXKO7612qtq_kRmR9fs3WoEtQbUTFtbpiHUzs4LYrDc-UAGnjJejU-UIZAqKHqFwrkB97ss8j55U-tZA=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.07",
+							"eth": "0.07"
+						},
+						"numOwners": 614,
+						"totalSupply": 1961.0,
+						"sevenDayChange": 0.0,
+						"sevenDayVolume": {
+							"unit": "1.5"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": 4.69811320754717,
+						"thirtyDayVolume": {
+							"unit": "1.510000000000000009"
+						},
+						"totalVolume": {
+							"unit": "1393.289569997001990487"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTMzOTY3Ng==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkwMA=="
+			}, {
+				"node": {
+					"createdDate": "2021-10-18T03:04:47.996135",
+					"name": "MUSHROHMS",
+					"slug": "mushrohms",
+					"logo": "https://lh3.googleusercontent.com/sEgpspPw1oDzYkAPrQOb_nmIyw2LuzGcVCttQqObVWxR4pidI3U3MC38Nf-N3BtphP2T1sk6pfivcweYbeaEjzRwBaVE1-wHtCxyaQ=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.149",
+							"eth": "0.149"
+						},
+						"numOwners": 1049,
+						"totalSupply": 1500.0,
+						"sevenDayChange": 0.0,
+						"sevenDayVolume": {
+							"unit": "0.101000000000000006"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": 0.2564756823629476,
+						"thirtyDayVolume": {
+							"unit": "1.625"
+						},
+						"totalVolume": {
+							"unit": "1390.995130407123951954"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MjIzNTk3NQ==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkwMQ=="
+			}, {
+				"node": {
+					"createdDate": "2022-01-30T23:24:20.310773",
+					"name": "STARKADE: Legion",
+					"slug": "starkade-legion",
+					"logo": "https://lh3.googleusercontent.com/6qRCCRmBDJyHPt6LIwcALDK-GM0j0F78RUBuLX0m2oT4zIkKtadt4gMrPoKTh1HmqBQj8HpZYmS-BagtU8sydiYMnEMO6Z32Cc06U6k=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.05",
+							"eth": "0.05"
+						},
+						"numOwners": 1811,
+						"totalSupply": 7015.0,
+						"sevenDayChange": 0.1250883868243903,
+						"sevenDayVolume": {
+							"unit": "3.659799999999998832"
+						},
+						"oneDayChange": 2.3510917030567695,
+						"oneDayVolume": {
+							"unit": "1.534800000000000386"
+						},
+						"thirtyDayChange": 1.1817872700570928,
+						"thirtyDayVolume": {
+							"unit": "13.406129988000005326"
+						},
+						"totalVolume": {
+							"unit": "1387.874853514058486326"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NjQ4NTk3Mw==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkwMg=="
+			}, {
+				"node": {
+					"createdDate": "2022-04-03T22:15:57.040635",
+					"name": "The Carton",
+					"slug": "the-carton",
+					"logo": "https://lh3.googleusercontent.com/o4KubaC4pO_Mvdl3X8l5gfDnjBdquKnk6iIw_6HhmDlBAJwVDRgBYZYuCb4N3mx54-8N6lG5j8QUsdMwtbD6Be-PqIUtf5HS-gkS3fM=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "1.48",
+							"eth": "1.48"
+						},
+						"numOwners": 348,
+						"totalSupply": 500.0,
+						"sevenDayChange": -0.7691715804836418,
+						"sevenDayVolume": {
+							"unit": "2.700000000000000178"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "1.199999999999999956"
+						},
+						"thirtyDayChange": -0.38446265887182396,
+						"thirtyDayVolume": {
+							"unit": "44.506999900000003834"
+						},
+						"totalVolume": {
+							"unit": "1385.211389778991588173"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTI3MTU2NzQ=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkwMw=="
+			}, {
+				"node": {
+					"createdDate": "2021-10-08T21:38:01.523453",
+					"name": "Kaiju Failed Experiments",
+					"slug": "kaiju-failed-experiments",
+					"logo": "https://lh3.googleusercontent.com/Dtej5cyvI7fjE7cZewvGIuoTNF4gZnm9kjGVtzexE3qHg8BuJfCHRR0ineibNGNg9lk5AH8I4ZH-ZP-rq0RP73oeLT5LHX4WhLDLjhY=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.3329999",
+							"eth": "0.3329999"
+						},
+						"numOwners": 197,
+						"totalSupply": 1815.0,
+						"sevenDayChange": 0.0,
+						"sevenDayVolume": {
+							"unit": "0"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.950537981829345,
+						"thirtyDayVolume": {
+							"unit": "0.449999999999999956"
+						},
+						"totalVolume": {
+							"unit": "1384.683747790722691207"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MjA2OTcwMg==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkwNA=="
+			}, {
+				"node": {
+					"createdDate": "2021-01-20T21:10:26.324044",
+					"name": "Foundation (FND)",
+					"slug": "fnd",
+					"logo": "https://lh3.googleusercontent.com/L87ncqbX2fgXIiy3bzsBZo7-HEtt7V9XVGXzfxoF-Z-DZR_qC65uIdCzdx_3jJWfIaKn4RNCvjo3RYoYHIXFE-Cq_eMHDvw8IFx0-y0=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.03",
+							"eth": "0.03"
+						},
+						"numOwners": 17870,
+						"totalSupply": 115075.0,
+						"sevenDayChange": -1.0,
+						"sevenDayVolume": {
+							"unit": "0"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.8733926166742364,
+						"thirtyDayVolume": {
+							"unit": "1.588909999999999823"
+						},
+						"totalVolume": {
+							"unit": "1381.547441261050153116"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTk2NjU=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkwNQ=="
+			}, {
+				"node": {
+					"createdDate": "2022-02-22T23:20:05.749504",
+					"name": "The mfer chicks",
+					"slug": "mferchicks",
+					"logo": "https://lh3.googleusercontent.com/HAUxTGFYaWP-c9v4cphTD-65SibKlWvusyEI62VeS9b2tvZhjieiHAkwvSeiH5MwXzWw7TNnB2B_F_iexJeTklopnd95VN76lK2sxQ=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0039",
+							"eth": "0.0039"
+						},
+						"numOwners": 2809,
+						"totalSupply": 5555.0,
+						"sevenDayChange": -0.6909185622503907,
+						"sevenDayVolume": {
+							"unit": "0.0178"
+						},
+						"oneDayChange": -1.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.7651025202285316,
+						"thirtyDayVolume": {
+							"unit": "0.161990000000000051"
+						},
+						"totalVolume": {
+							"unit": "1372.124438688923873997"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NzgwODY2MQ==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkwNg=="
+			}, {
+				"node": {
+					"createdDate": "2022-01-21T00:25:57.201842",
+					"name": "My Homies in Dreamland",
+					"slug": "myhomiesindreamland",
+					"logo": "https://lh3.googleusercontent.com/VrA947E_g2DY1udWYJwKGp1Ge4mSxgudZ-TWcsE_8GqKhus26yue9pyvJ6r-MJiLk1ganb5uit_beLOnsANwP_8LRCaTlvI_oHh9HQ=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.027",
+							"eth": "0.027"
+						},
+						"numOwners": 4960,
+						"totalSupply": 10420.0,
+						"sevenDayChange": -0.40126522571515766,
+						"sevenDayVolume": {
+							"unit": "2.157900000000000151"
+						},
+						"oneDayChange": 9.596875,
+						"oneDayVolume": {
+							"unit": "0.339100000000000013"
+						},
+						"thirtyDayChange": 0.7977152798598924,
+						"thirtyDayVolume": {
+							"unit": "13.684532999999991176"
+						},
+						"totalVolume": {
+							"unit": "1371.007956861181810382"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NTY0Nzg5OA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkwNw=="
+			}, {
+				"node": {
+					"createdDate": "2022-03-03T02:47:57.537740",
+					"name": "KPOPCTzen_Official",
+					"slug": "kpopctzen-official",
+					"logo": "https://lh3.googleusercontent.com/ceU5wK5QkYmHYxDaV2e4L3bWyeUQX-lLwa4Y1hA4WDcUVtkTxvLb_nVUnoW0ZozrZhLNPQKoD8jRV4HXpZE19qQDuNVGxXSdMFCJYA=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.11",
+							"eth": "0.11"
+						},
+						"numOwners": 3412,
+						"totalSupply": 8888.0,
+						"sevenDayChange": -0.24227981112416583,
+						"sevenDayVolume": {
+							"unit": "1.709000000000000297"
+						},
+						"oneDayChange": 4.869999999999999,
+						"oneDayVolume": {
+							"unit": "0.586999999999999966"
+						},
+						"thirtyDayChange": -0.8470550407529066,
+						"thirtyDayVolume": {
+							"unit": "14.341450000000007137"
+						},
+						"totalVolume": {
+							"unit": "1369.390861686656535312"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6ODA5Mzk5MQ==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkwOA=="
+			}, {
+				"node": {
+					"createdDate": "2022-02-06T13:57:05.354195",
+					"name": "Fortune Friends Club Official NFT",
+					"slug": "fortune-friends-club-official-nft",
+					"logo": "https://lh3.googleusercontent.com/hMbOHECbaMtuobe66b0D3XL7c27SCjuR-TB1YmyTOYv7fLEZqMjE_Qv-Y5sMuyz5wV3QlxSaiUOOlJ2_FsI26fRoEUE1Jh6RAFPowA=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.023",
+							"eth": "0.023"
+						},
+						"numOwners": 5102,
+						"totalSupply": 8888.0,
+						"sevenDayChange": -0.45644362266257293,
+						"sevenDayVolume": {
+							"unit": "0.779025000000000523"
+						},
+						"oneDayChange": -0.662860855843312,
+						"oneDayVolume": {
+							"unit": "0.090799999999999992"
+						},
+						"thirtyDayChange": -0.12017599237178456,
+						"thirtyDayVolume": {
+							"unit": "4.389014999999994338"
+						},
+						"totalVolume": {
+							"unit": "1368.022579996038530226"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NjkyMzAyOA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkwOQ=="
+			}, {
+				"node": {
+					"createdDate": "2021-10-19T17:53:13.082288",
+					"name": "Wonky Stonks",
+					"slug": "wonky-stonks",
+					"logo": "https://lh3.googleusercontent.com/rR7AbKxZfs4A2hKVczqBpoEAgY2BGOw0y0DkregG0IsNPajunf3lJQlfKoMADT3Gk21paUaVAl0O2CYV_xjiTWaXVVZQvGIAWShcnZU=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.079",
+							"eth": "0.079"
+						},
+						"numOwners": 4525,
+						"totalSupply": 8736.0,
+						"sevenDayChange": 1.5437634872680188,
+						"sevenDayVolume": {
+							"unit": "5.893900000000001249"
+						},
+						"oneDayChange": 5.4494186046511635,
+						"oneDayVolume": {
+							"unit": "2.21860000000000035"
+						},
+						"thirtyDayChange": 1.9245393424569224,
+						"thirtyDayVolume": {
+							"unit": "12.244899999900004772"
+						},
+						"totalVolume": {
+							"unit": "1365.319071117619841971"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MjI2Njc3OQ==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkxMA=="
+			}, {
+				"node": {
+					"createdDate": "2021-09-27T16:47:37.888389",
+					"name": "\"Crypto Packaged\" GOODS - Genesis Passes",
+					"slug": "crypto-packaged-goods",
+					"logo": "https://lh3.googleusercontent.com/YeBTuhBMz-YMrigj4_lofGAlxSElo06yivax8bTt0-cWs5fTw7Ta8yAaaSrCl_ji-CQWm6CveSvDMkdjDqKkxGrYOXb27bPJNIMSe4A=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "10",
+							"eth": "10"
+						},
+						"numOwners": 313,
+						"totalSupply": 11.0,
+						"sevenDayChange": 0.0,
+						"sevenDayVolume": {
+							"unit": "18.5"
+						},
+						"oneDayChange": -1.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.9174485925334398,
+						"thirtyDayVolume": {
+							"unit": "41.350000000000001421"
+						},
+						"totalVolume": {
+							"unit": "1363.274600000000191358"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTg4MjU5MA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkxMQ=="
+			}, {
+				"node": {
+					"createdDate": "2022-01-15T22:49:05.925454",
+					"name": "The Nifty Portal",
+					"slug": "nifty-portal",
+					"logo": "https://lh3.googleusercontent.com/V61m1w9IYCQHxLXfS0VMydS7njqAd62RlDUH91YU5Q836ywyrkjCQgqTjEJBJCvRcYcq1Uh2x2ydnw5T14bNJHklNS_G4jk2Buz5=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.21",
+							"eth": "0.21"
+						},
+						"numOwners": 4602,
+						"totalSupply": 1.0,
+						"sevenDayChange": 0.09281095167726103,
+						"sevenDayVolume": {
+							"unit": "16.604289808988994537"
+						},
+						"oneDayChange": 1.1858034231470393,
+						"oneDayVolume": {
+							"unit": "3.120889908989000094"
+						},
+						"thirtyDayChange": -0.31086488439782134,
+						"thirtyDayVolume": {
+							"unit": "100.648499808888956863"
+						},
+						"totalVolume": {
+							"unit": "1362.471410363880750083"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NTE0NjU2MA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkxMg=="
+			}, {
+				"node": {
+					"createdDate": "2021-10-04T22:15:56.324634",
+					"name": "Non-Fungible Fungi Genesis",
+					"slug": "nonfungiblefungigenesis",
+					"logo": "https://lh3.googleusercontent.com/YzNU2Yuo7vzM1D7BtgVRy8Zb38pWzLBUkK2brgf6CuiX4BMgxtmPyjI3hxzo9Sr1LTLwK-mlmN0aP3wqUb-tlvypTJfKx4eso9wLw58=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "3",
+							"eth": "3"
+						},
+						"numOwners": 68,
+						"totalSupply": 100.0,
+						"sevenDayChange": 0.0,
+						"sevenDayVolume": {
+							"unit": "0"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.841726618705036,
+						"thirtyDayVolume": {
+							"unit": "1.100000000000000089"
+						},
+						"totalVolume": {
+							"unit": "1359.31038888888974725"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MjAwMzgxOA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkxMw=="
+			}, {
+				"node": {
+					"createdDate": "2022-04-13T04:33:09.705261",
+					"name": "The MV3 Universe",
+					"slug": "MV3",
+					"logo": "https://lh3.googleusercontent.com/_4dMHkytDJlc3h85kgXGBQppopP_x0BPc4DOIR_R8UEC9ScttoQ7AjAx3Dksv6TNwV_C3ZkjNutYhXsbC4_fuaMgRmtMlBl0DmtaoZk=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.549",
+							"eth": "0.549"
+						},
+						"numOwners": 1727,
+						"totalSupply": 3254.0,
+						"sevenDayChange": -0.3081693056776351,
+						"sevenDayVolume": {
+							"unit": "25.690780000000003724"
+						},
+						"oneDayChange": -0.8231787152145005,
+						"oneDayVolume": {
+							"unit": "1.729999999999999982"
+						},
+						"thirtyDayChange": -0.6195901947200323,
+						"thirtyDayVolume": {
+							"unit": "176.545059899990036456"
+						},
+						"totalVolume": {
+							"unit": "1356.46863852605770262"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTMxNzkxODQ=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkxNA=="
+			}, {
+				"node": {
+					"createdDate": "2021-10-31T09:05:45.860981",
+					"name": "Fungible Fungi Mint Pass",
+					"slug": "nonfungiblefungimintpass",
+					"logo": "https://lh3.googleusercontent.com/nQlDaQzPmJxHfJVEltnH2hkyJ2hgN5Tret96CR-FW3iXG64Olr2g8C20_maejwWh1bCqafcFjtu6Y6UHY5s6nfGaRfoiudK25Zj4XsE=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.315",
+							"eth": "0.315"
+						},
+						"numOwners": 220,
+						"totalSupply": 10000.0,
+						"sevenDayChange": -0.8085208233604595,
+						"sevenDayVolume": {
+							"unit": "0.400000000000000022"
+						},
+						"oneDayChange": -1.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": 0.38214051214707856,
+						"thirtyDayVolume": {
+							"unit": "3.368000000000000771"
+						},
+						"totalVolume": {
+							"unit": "1352.391758458424874334"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MjQ3OTA2Nw==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkxNQ=="
+			}, {
+				"node": {
+					"createdDate": "2022-03-17T21:58:24.778326",
+					"name": "Space Riders NFT",
+					"slug": "spaceridersnft",
+					"logo": "https://lh3.googleusercontent.com/HupzZTfZI85dH-VfjpxLozik8IuS1w4bOwBhJR4eiBtWqNYc8gIaeQvp7Muo9uG3XdhN3Cj_MFXHcN48ucb5icFxSXc6gW_d54Jp_g=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.18999",
+							"eth": "0.18999"
+						},
+						"numOwners": 3347,
+						"totalSupply": 8888.0,
+						"sevenDayChange": 2.240852622407498,
+						"sevenDayVolume": {
+							"unit": "194.799220693167086438"
+						},
+						"oneDayChange": -0.11320210474253249,
+						"oneDayVolume": {
+							"unit": "24.144100210000004836"
+						},
+						"thirtyDayChange": 0.8472991153345671,
+						"thirtyDayVolume": {
+							"unit": "366.219409389137524613"
+						},
+						"totalVolume": {
+							"unit": "1349.027119687880713172"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6ODUzMDcxMg==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkxNg=="
+			}, {
+				"node": {
+					"createdDate": "2022-05-17T21:34:05.848601",
+					"name": "Kith Friends",
+					"slug": "kith-friends",
+					"logo": "https://lh3.googleusercontent.com/j8Pjrud-q2DP1GTBESnlRhCJvucbiw4eRum6xuK9p-cxm6Z9BCDBdjViK1lX0yMIve-ir2FqpQs19DTfG7GLI38U26DON_VL_r9bzHw=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.49",
+							"eth": "0.49"
+						},
+						"numOwners": 2517,
+						"totalSupply": 12.0,
+						"sevenDayChange": 0.04500276562865332,
+						"sevenDayVolume": {
+							"unit": "18.325900000000004297"
+						},
+						"oneDayChange": -0.8043881584254255,
+						"oneDayVolume": {
+							"unit": "0.969999999999999973"
+						},
+						"thirtyDayChange": -0.8980299090095443,
+						"thirtyDayVolume": {
+							"unit": "124.741276968988969998"
+						},
+						"totalVolume": {
+							"unit": "1348.05367923667336072"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTQ5ODkyMTk=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkxNw=="
+			}, {
+				"node": {
+					"createdDate": "2022-02-01T04:35:16.478629",
+					"name": "Shonen Junk Official",
+					"slug": "shonen-junk-official",
+					"logo": "https://lh3.googleusercontent.com/2BhnJeLjtYuJhzUu9djeBNOUEUBL6M-HaegFqTHJxeTtIjS6Juk-XIUlmF2oYfEI2Z4kNfEHS0scFUfjltfZfTEQqP7KI85fN8D2=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.085",
+							"eth": "0.085"
+						},
+						"numOwners": 2037,
+						"totalSupply": 9000.0,
+						"sevenDayChange": 1.2705812607632232,
+						"sevenDayVolume": {
+							"unit": "13.375284200000002954"
+						},
+						"oneDayChange": 0.528164347249834,
+						"oneDayVolume": {
+							"unit": "2.30600000000000005"
+						},
+						"thirtyDayChange": -0.028712835725479,
+						"thirtyDayVolume": {
+							"unit": "53.663217491587360541"
+						},
+						"totalVolume": {
+							"unit": "1346.866926778652896246"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NjU3MjI4Ng==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkxOA=="
+			}, {
+				"node": {
+					"createdDate": "2021-09-08T03:30:01.628012",
+					"name": "Heroes of Evermore",
+					"slug": "heroes-of-evermore",
+					"logo": "https://lh3.googleusercontent.com/PBRbv63oyHZK2xBakz_uX0fhafX4pV_T17ImkMuG9UHFVTLmcfFoACx37IN-7_RcHPEE7V-B3DCSc6qAJz7mCoFfjh5k6JOHRCrU8DE=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.029",
+							"eth": "0.029"
+						},
+						"numOwners": 2067,
+						"totalSupply": 10000.0,
+						"sevenDayChange": 3.189655172413794,
+						"sevenDayVolume": {
+							"unit": "0.486000000000000099"
+						},
+						"oneDayChange": 0.6949152542372883,
+						"oneDayVolume": {
+							"unit": "0.100000000000000006"
+						},
+						"thirtyDayChange": 0.11352217453505122,
+						"thirtyDayVolume": {
+							"unit": "1.945879999999999832"
+						},
+						"totalVolume": {
+							"unit": "1345.547255504451413799"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTQ0Njc3OA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkxOQ=="
+			}, {
+				"node": {
+					"createdDate": "2021-10-13T19:21:41.939910",
+					"name": "Genzee",
+					"slug": "genzee",
+					"logo": "https://openseauserdata.com/files/44b9c9a97ac3dc7acb641c6e4a1aeb42.jpg",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.07",
+							"eth": "0.07"
+						},
+						"numOwners": 2624,
+						"totalSupply": 9973.0,
+						"sevenDayChange": 0.3539322480921555,
+						"sevenDayVolume": {
+							"unit": "12.048358750000002004"
+						},
+						"oneDayChange": 27.741668604651153,
+						"oneDayVolume": {
+							"unit": "6.179458749999998446"
+						},
+						"thirtyDayChange": 0.028510628207584793,
+						"thirtyDayVolume": {
+							"unit": "28.952666750000020102"
+						},
+						"totalVolume": {
+							"unit": "1342.158592204491014854"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MjE1NzUyNg==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkyMA=="
+			}, {
+				"node": {
+					"createdDate": "2022-01-19T08:10:27.468024",
+					"name": "Crash Test Joyride",
+					"slug": "crashtestjoyride",
+					"logo": "https://lh3.googleusercontent.com/uiUCGDVsi79hbQjdfAgsUlLCY4K1eOAHnMy0ptITlxZ3jTMUILHZzHQJ_O3pr3doGcswLYyogPVul-hUrO4Z-xiMQO9OyUA69doGHQQ=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.095",
+							"eth": "0.095"
+						},
+						"numOwners": 2017,
+						"totalSupply": 4444.0,
+						"sevenDayChange": -0.06904378088027355,
+						"sevenDayVolume": {
+							"unit": "15.99689999999999479"
+						},
+						"oneDayChange": 1.8219887955182072,
+						"oneDayVolume": {
+							"unit": "4.029799999999999827"
+						},
+						"thirtyDayChange": 17.36336585503358,
+						"thirtyDayVolume": {
+							"unit": "119.868339688000119736"
+						},
+						"totalVolume": {
+							"unit": "1339.589141554453817662"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NTUwMTY2Mw==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkyMQ=="
+			}, {
+				"node": {
+					"createdDate": "2022-06-02T04:43:31.989959",
+					"name": "hobotown.wtf",
+					"slug": "hobotownwtf",
+					"logo": "https://lh3.googleusercontent.com/mbztYSSPt85P367NuVvIHNYccIXSye8qLDLalx3cBzjMeyNH8bjK7I_uBAAZe0qW42qovieEXKqnyxqQ2yQnQfBcvuNSFIZbRm-R3k0=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.015",
+							"eth": "0.015"
+						},
+						"numOwners": 3090,
+						"totalSupply": 6900.0,
+						"sevenDayChange": -0.6035154385368898,
+						"sevenDayVolume": {
+							"unit": "4.191314027777774953"
+						},
+						"oneDayChange": 0.3893058161350844,
+						"oneDayVolume": {
+							"unit": "0.296200000000000074"
+						},
+						"thirtyDayChange": -0.7628605999218827,
+						"thirtyDayVolume": {
+							"unit": "256.703713451902501674"
+						},
+						"totalVolume": {
+							"unit": "1339.205032791199073472"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTU5MTEyNjM=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkyMg=="
+			}, {
+				"node": {
+					"createdDate": "2021-12-22T14:17:54.367605",
+					"name": "Cool Ape Club Official",
+					"slug": "coolapeclubofficial",
+					"logo": "https://lh3.googleusercontent.com/dXbrL674433oq45TkN5OHf-xcquYV8ZtjTyzm1WLzuPDeZtcV9V5ccQ9bGBpN0srSTB6VkIqYfil2tr0fFFBz21tvUtnlPaNkcEb0Q=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.01",
+							"eth": "0.01"
+						},
+						"numOwners": 2537,
+						"totalSupply": 5555.0,
+						"sevenDayChange": 0.39092664092664076,
+						"sevenDayVolume": {
+							"unit": "0.144099999999999978"
+						},
+						"oneDayChange": -1.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.7029200920332891,
+						"thirtyDayVolume": {
+							"unit": "0.468700000000000228"
+						},
+						"totalVolume": {
+							"unit": "1338.864298175243447986"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MzkzMzk4NA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkyMw=="
+			}, {
+				"node": {
+					"createdDate": "2022-02-06T22:57:53.910934",
+					"name": "Cozy Penguins NFT",
+					"slug": "cozy-penguin",
+					"logo": "https://lh3.googleusercontent.com/H9leIupOk67FibLvho4ArXF07Pbiymr5kzcNoHghnS7FReIr6GG-klhn2KX2ftWCYK9QFcsCH3dd1kBEi-ghhc2nvDGeJCeAs_Kr-1c=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0337",
+							"eth": "0.0337"
+						},
+						"numOwners": 3403,
+						"totalSupply": 10000.0,
+						"sevenDayChange": -0.2827104792713033,
+						"sevenDayVolume": {
+							"unit": "0.842600000000000349"
+						},
+						"oneDayChange": -0.9216450216450216,
+						"oneDayVolume": {
+							"unit": "0.018100000000000002"
+						},
+						"thirtyDayChange": 4.765815171869542,
+						"thirtyDayVolume": {
+							"unit": "40.883088999999934288"
+						},
+						"totalVolume": {
+							"unit": "1338.379083798413148543"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6Njk1MTU0MQ==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkyNA=="
+			}, {
+				"node": {
+					"createdDate": "2022-03-04T08:01:12.156383",
+					"name": "Clay Friends",
+					"slug": "clayfriends",
+					"logo": "https://lh3.googleusercontent.com/4yq8GQqa4rYyiq51ntFtpZ3cRT8I-GmEbP3aQn5O0RPdfbuI0pMIqp2proFWeMo3pzdegKR3oX1F8CSUUsMEjVoUIqmTrJze-BkA3A=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.111",
+							"eth": "0.111"
+						},
+						"numOwners": 2558,
+						"totalSupply": 5000.0,
+						"sevenDayChange": -0.7791526394016901,
+						"sevenDayVolume": {
+							"unit": "4.205000000000000071"
+						},
+						"oneDayChange": 1.1379463295630958,
+						"oneDayVolume": {
+							"unit": "0.963999999999999968"
+						},
+						"thirtyDayChange": 0.26538098226478307,
+						"thirtyDayVolume": {
+							"unit": "34.435209999999955244"
+						},
+						"totalVolume": {
+							"unit": "1338.184082625876044403"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6ODEyOTE0Nw==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkyNQ=="
+			}, {
+				"node": {
+					"createdDate": "2021-08-28T00:22:13.642847",
+					"name": "Fast Food Frens Collection",
+					"slug": "fastfoodfrenscollection",
+					"logo": "https://lh3.googleusercontent.com/bleuoGCGW90rIdwVjgd6ySTNUxAMzKIEBBGpWGe_kLRmXbmEokQW9FsthhvaHyAmurgZDjFjiFE5--ei0R9c4jBkbrtIfh22Sk3U=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.035",
+							"eth": "0.035"
+						},
+						"numOwners": 1799,
+						"totalSupply": 5523.0,
+						"sevenDayChange": -0.871592701058797,
+						"sevenDayVolume": {
+							"unit": "0.284999999999999976"
+						},
+						"oneDayChange": -1.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": 0.31516344925281303,
+						"thirtyDayVolume": {
+							"unit": "2.689600000000000879"
+						},
+						"totalVolume": {
+							"unit": "1335.665989392796063839"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTEzODk1OQ==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkyNg=="
+			}, {
+				"node": {
+					"createdDate": "2021-08-21T19:48:14.892888",
+					"name": "BlockchainBikers",
+					"slug": "blockchainbikers",
+					"logo": "https://lh3.googleusercontent.com/sD4kKN2TG7JO4DNg4e8WK13lBkr9xa9wTBrBXchNXsCmd2NlBnZiMT9u4zaQ_OzmVeElw3XikRvYyxE2JCiaX5UMi6VBw6MT2ejN64o=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.002",
+							"eth": "0.002"
+						},
+						"numOwners": 4694,
+						"totalSupply": 11107.0,
+						"sevenDayChange": 1.0,
+						"sevenDayVolume": {
+							"unit": "0.004"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0.002"
+						},
+						"thirtyDayChange": -0.888244358478401,
+						"thirtyDayVolume": {
+							"unit": "0.017333300000000003"
+						},
+						"totalVolume": {
+							"unit": "1332.042270667371667514"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTAxNTgyNg==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkyNw=="
+			}, {
+				"node": {
+					"createdDate": "2021-12-30T03:23:34.208020",
+					"name": "RugBurn",
+					"slug": "rugburn",
+					"logo": "https://lh3.googleusercontent.com/WQOt803E0zoMQHFQFbMBklxH2tjccjSbunZFnQ99jzUf4w2GXA0Kqh-K0eU_8SIm_X3ztvwXYFfIbI9tIWdq2mnTVW98IdkOuVSwY-g=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.249",
+							"eth": "0.249"
+						},
+						"numOwners": 337,
+						"totalSupply": 999.0,
+						"sevenDayChange": 2.159901164842923,
+						"sevenDayVolume": {
+							"unit": "2.685599999999999987"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0.5"
+						},
+						"thirtyDayChange": -0.7055400372439479,
+						"thirtyDayVolume": {
+							"unit": "9.234500000000000597"
+						},
+						"totalVolume": {
+							"unit": "1331.426008163286269337"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NDIwMTI4OA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkyOA=="
+			}, {
+				"node": {
+					"createdDate": "2021-01-15T21:47:17.176104",
+					"name": "Cometh Spaceships",
+					"slug": "cometh-spaceships",
+					"logo": "https://lh3.googleusercontent.com/pBHo_M2eyjYKCQ38spToVmtPBIjXSjOPnESF__O_NQju7WGGR6mG2hUBfZPEJCGbkZOq_kIBqi6FTvlCyNHaHA_ZPVD4CG_P-gWIMg=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/265128aa51521c90f7905e5a43dcb456_new.svg",
+							"id": "QXNzZXRUeXBlOjE3OTgwNjkx"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0NTk="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0889",
+							"eth": "0.0889"
+						},
+						"numOwners": 817,
+						"totalSupply": 11508.0,
+						"sevenDayChange": 0.0,
+						"sevenDayVolume": {
+							"unit": "0.515800000000000036"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0.087999999999999995"
+						},
+						"thirtyDayChange": -0.9021780280821895,
+						"thirtyDayVolume": {
+							"unit": "2.919799999999999951"
+						},
+						"totalVolume": {
+							"unit": "1330.270524175009768442"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTg0OTQ=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkyOQ=="
+			}, {
+				"node": {
+					"createdDate": "2022-02-10T02:37:35.407099",
+					"name": "Neo Tokyo Outer Item Caches",
+					"slug": "neo-tokyo-outer-item-caches",
+					"logo": "https://lh3.googleusercontent.com/fmy3rZQgswpkd5TV3QWl66JG3SvIPGhWDtHr3dKKi15EAUb96k-lKFsi0amKXyJv9Lh7xnDBHG0Btq--bIorfDfL0dJ39RVQYofU=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.184",
+							"eth": "0.184"
+						},
+						"numOwners": 631,
+						"totalSupply": 4344.0,
+						"sevenDayChange": -0.6600100077332484,
+						"sevenDayVolume": {
+							"unit": "1.494799999999999907"
+						},
+						"oneDayChange": -1.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.2642157218552662,
+						"thirtyDayVolume": {
+							"unit": "10.136899999999997135"
+						},
+						"totalVolume": {
+							"unit": "1327.758226853745554763"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NzE0MjEwOA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkzMA=="
+			}, {
+				"node": {
+					"createdDate": "2022-02-07T00:37:44.399874",
+					"name": "DumpsterDorks",
+					"slug": "dumpsterdorks",
+					"logo": "https://lh3.googleusercontent.com/uRl7myNsKgbLq3D6bMuzVofPLW5GNZKyhowG2VJKD9n6cp-qzv1kLUz9HvM5BgLIXmbigLpt4rribDhdRvSX8KHdkiqDJt9pBUhQyA=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0499",
+							"eth": "0.0499"
+						},
+						"numOwners": 1711,
+						"totalSupply": 5000.0,
+						"sevenDayChange": -0.5286180308422301,
+						"sevenDayVolume": {
+							"unit": "2.543200000000000127"
+						},
+						"oneDayChange": -0.8725302740599108,
+						"oneDayVolume": {
+							"unit": "0.040000000000000001"
+						},
+						"thirtyDayChange": -0.2669776056821694,
+						"thirtyDayVolume": {
+							"unit": "20.576642310000018199"
+						},
+						"totalVolume": {
+							"unit": "1325.616705926681561323"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6Njk1NDY5MQ==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkzMQ=="
+			}, {
+				"node": {
+					"createdDate": "2022-05-13T19:06:19.600681",
+					"name": "PLUR Official",
+					"slug": "plurofficial",
+					"logo": "https://lh3.googleusercontent.com/4GXuJbjGGgxalz5MTxAi_efQZCvaVb2V_lQMS7VTLIOprbsTUL9-vbkb_CyoIq71Uz2BFT1EfcHCLxTNRpYNOiknd5BBecNmA3o5=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.12",
+							"eth": "0.12"
+						},
+						"numOwners": 2036,
+						"totalSupply": 8585.0,
+						"sevenDayChange": 0.6856330913167966,
+						"sevenDayVolume": {
+							"unit": "18.177799999999990632"
+						},
+						"oneDayChange": 2.0828571428571427,
+						"oneDayVolume": {
+							"unit": "2.157999999999999918"
+						},
+						"thirtyDayChange": -0.8733074001931427,
+						"thirtyDayVolume": {
+							"unit": "148.509372296907287136"
+						},
+						"totalVolume": {
+							"unit": "1320.71179393250645262"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTQ4MDg1MDE=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkzMg=="
+			}, {
+				"node": {
+					"createdDate": "2022-03-17T18:28:14.649292",
+					"name": "Meta Mansions by KEYS",
+					"slug": "metamansionsbykeys",
+					"logo": "https://lh3.googleusercontent.com/ANtaMusH4VT92PpgnP9HGa7gnSwRCTeDFJVPWYJ4I4Ca-qvW4ALMJUUez3uyHQR4CZ6qT7xdUm9ClBbIXtBlurU3mWECKjfGN5kXvA=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "1.395",
+							"eth": "1.395"
+						},
+						"numOwners": 1312,
+						"totalSupply": 4444.0,
+						"sevenDayChange": 0.4570857431867521,
+						"sevenDayVolume": {
+							"unit": "105.874399999999980082"
+						},
+						"oneDayChange": 0.11530199582480327,
+						"oneDayVolume": {
+							"unit": "11.059000000000001052"
+						},
+						"thirtyDayChange": 1.422578457638293,
+						"thirtyDayVolume": {
+							"unit": "250.643843352789957635"
+						},
+						"totalVolume": {
+							"unit": "1319.319327759980296833"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6ODUyNjExNw==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkzMw=="
+			}, {
+				"node": {
+					"createdDate": "2021-10-15T23:36:18.543877",
+					"name": "Anonymice Babies",
+					"slug": "anonymice-babies",
+					"logo": "https://lh3.googleusercontent.com/Zg42usewFZQAF5T_0w0aBzy2zxEAglm6uL45tpqH9k_CfbKvgWSK_n4hKBmIxurQHhVlCskKz06-w1PxuugoNC2tIwhUbGU6dslW2A=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.125",
+							"eth": "0.125"
+						},
+						"numOwners": 1790,
+						"totalSupply": 3550.0,
+						"sevenDayChange": 0.7151688064669512,
+						"sevenDayVolume": {
+							"unit": "3.967699999999998894"
+						},
+						"oneDayChange": 0.935719503287071,
+						"oneDayVolume": {
+							"unit": "0.265000000000000013"
+						},
+						"thirtyDayChange": -0.47999276848498046,
+						"thirtyDayVolume": {
+							"unit": "15.284206899999997376"
+						},
+						"totalVolume": {
+							"unit": "1307.66494680595360478"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MjE5NzQyOA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkzNA=="
+			}, {
+				"node": {
+					"createdDate": "2021-09-04T07:52:43.246271",
+					"name": "Flowtys",
+					"slug": "flowtys",
+					"logo": "https://lh3.googleusercontent.com/h2OySMQuEGQImctLFZGdHAXm8IZA8KffUcpgC8KooDCJoqP5XBJn3p519vbGaLf-SQSvBiq0jyIi4yDro01GjrmpmyYglihPH51c=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0239",
+							"eth": "0.0239"
+						},
+						"numOwners": 3744,
+						"totalSupply": 9999.0,
+						"sevenDayChange": -0.5926172264715664,
+						"sevenDayVolume": {
+							"unit": "0.244999999999999968"
+						},
+						"oneDayChange": 2.15,
+						"oneDayVolume": {
+							"unit": "0.063"
+						},
+						"thirtyDayChange": -0.4171004182379782,
+						"thirtyDayVolume": {
+							"unit": "1.626700000000000479"
+						},
+						"totalVolume": {
+							"unit": "1303.343628294506515886"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTM1MDYyMw==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkzNQ=="
+			}, {
+				"node": {
+					"createdDate": "2021-11-21T15:32:45.306798",
+					"name": "Non-Fungible Fungi Generative",
+					"slug": "nonfungiblefungi",
+					"logo": "https://lh3.googleusercontent.com/lN6tvFteQ1inKR44xofewf7a1xuZU4lNgyVjX5raXa1U13EUq9A0pYjyuFEHf7Z3uuT95kc-Vsbm67LEjerwiUM5Kdm_ZLc1zm4v-w=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.069",
+							"eth": "0.069"
+						},
+						"numOwners": 3375,
+						"totalSupply": 9633.0,
+						"sevenDayChange": 0.9631661190027584,
+						"sevenDayVolume": {
+							"unit": "3.052900000000000169"
+						},
+						"oneDayChange": 0.12499999999999983,
+						"oneDayVolume": {
+							"unit": "0.233999999999999986"
+						},
+						"thirtyDayChange": -0.3474742745940785,
+						"thirtyDayVolume": {
+							"unit": "16.572370000000002932"
+						},
+						"totalVolume": {
+							"unit": "1301.440660973361673314"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6Mjk1MjIzOQ==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkzNg=="
+			}, {
+				"node": {
+					"createdDate": "2022-01-30T11:47:23.243079",
+					"name": "Eyes of Fashion Official",
+					"slug": "eyesoffashionnft",
+					"logo": "https://lh3.googleusercontent.com/bZCclEyls0fQ8_BUM9FaFJa3x-YL1V6ucCG2UevoN4VYLwBMYC5WayddG1RwnyxH1Cm_mGE7ZnopSEInnAtJnu2VA7YkkDVgQ818=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.02",
+							"eth": "0.02"
+						},
+						"numOwners": 3228,
+						"totalSupply": 8888.0,
+						"sevenDayChange": 0.3807474075523383,
+						"sevenDayVolume": {
+							"unit": "0.705700000000000105"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0.235899999999999943"
+						},
+						"thirtyDayChange": -0.33654504664068857,
+						"thirtyDayVolume": {
+							"unit": "2.809399999999999231"
+						},
+						"totalVolume": {
+							"unit": "1293.336441045079936885"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NjQzODc3MQ==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkzNw=="
+			}, {
+				"node": {
+					"createdDate": "2022-03-23T15:49:42.501271",
+					"name": "Neo Tokyo Punks NFT",
+					"slug": "neo-tokyo-punks-nft",
+					"logo": "https://lh3.googleusercontent.com/cyltHbqNfXAAlz6PsKG9lUcgVvth_z7Sct4tbfRaVHvvrG4QaWUbzPI_4z5KN-pyiHhKo_nkDdeN3rp2xOKrX-1rsV7eYzMFjZv6Jls=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.685",
+							"eth": "0.685"
+						},
+						"numOwners": 1142,
+						"totalSupply": 2222.0,
+						"sevenDayChange": 0.2122979994102479,
+						"sevenDayVolume": {
+							"unit": "29.189589999999999037"
+						},
+						"oneDayChange": -0.5287464655984919,
+						"oneDayVolume": {
+							"unit": "2"
+						},
+						"thirtyDayChange": 1.2492125454469758,
+						"thirtyDayVolume": {
+							"unit": "172.607590000000072905"
+						},
+						"totalVolume": {
+							"unit": "1292.209772241591281272"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6ODY4ODY5Mw==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkzOA=="
+			}, {
+				"node": {
+					"createdDate": "2021-09-08T15:02:07.877475",
+					"name": "Savage Droids",
+					"slug": "savage-droids",
+					"logo": "https://lh3.googleusercontent.com/8RJY7K-hWX0Cmv_HNnd2GZGKPlMHXr682AECe7dEELBT59down-uwNojACEHDgANjAIPebPSzA8m2ZrdWv61AEz3SVDprwvWs-9aOA=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0319",
+							"eth": "0.0319"
+						},
+						"numOwners": 1953,
+						"totalSupply": 4970.0,
+						"sevenDayChange": -0.6422018348623852,
+						"sevenDayVolume": {
+							"unit": "0.078"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.6476994887752835,
+						"thirtyDayVolume": {
+							"unit": "0.31700000000000006"
+						},
+						"totalVolume": {
+							"unit": "1291.634556875573935031"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTQ1Njg2OA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjkzOQ=="
+			}, {
+				"node": {
+					"createdDate": "2021-02-23T21:13:01.495096",
+					"name": "Polka City Asset",
+					"slug": "polka-city-asset",
+					"logo": "https://lh3.googleusercontent.com/ohWULOqtOWbT4UsH-nHLFfOuWiRLMIJNRYt4y9Wf5cK2B-gHt3M_DV0SdvqkJDVM6j1j4luxWlhItSdnBZXzTdBb-5UTXezejhnpKlo=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.38",
+							"eth": "0.38"
+						},
+						"numOwners": 557,
+						"totalSupply": 1425.0,
+						"sevenDayChange": -1.0,
+						"sevenDayVolume": {
+							"unit": "0"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.8139897527288928,
+						"thirtyDayVolume": {
+							"unit": "0.834999999999999964"
+						},
+						"totalVolume": {
+							"unit": "1291.285447145985017414"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6Mzk3MTM=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk0MA=="
+			}, {
+				"node": {
+					"createdDate": "2021-01-18T18:59:22.998075",
+					"name": "RUDE BOYS",
+					"slug": "rude-boys",
+					"logo": "https://lh3.googleusercontent.com/c9MRoFsN_ZBM3vmQVdrqwRZS2vZo2vWSzInevMOm55eROvVfevEdWBsdkSP5xTDdpdpUzjrfnfqWUkwjSHI9EtG0eoEmm725Se23tA=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.105",
+							"eth": "0.105"
+						},
+						"numOwners": 1296,
+						"totalSupply": 134.0,
+						"sevenDayChange": -0.6862814604750089,
+						"sevenDayVolume": {
+							"unit": "0.885000000000000009"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0.368999999999999995"
+						},
+						"thirtyDayChange": -0.3380349095356474,
+						"thirtyDayVolume": {
+							"unit": "9.959000000000003183"
+						},
+						"totalVolume": {
+							"unit": "1290.864206828222449985"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTg5ODY=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk0MQ=="
+			}, {
+				"node": {
+					"createdDate": "2022-04-23T13:30:53.359583",
+					"name": "PsychonautzNFT",
+					"slug": "psychonautznft",
+					"logo": "https://openseauserdata.com/files/64210c963542191ba508a8e048481245.png",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.025",
+							"eth": "0.025"
+						},
+						"numOwners": 4161,
+						"totalSupply": 9999.0,
+						"sevenDayChange": -0.350485009235194,
+						"sevenDayVolume": {
+							"unit": "11.811956473999996931"
+						},
+						"oneDayChange": -0.5392250821467688,
+						"oneDayVolume": {
+							"unit": "0.673100000000000143"
+						},
+						"thirtyDayChange": -0.865233267084316,
+						"thirtyDayVolume": {
+							"unit": "153.171499737614993819"
+						},
+						"totalVolume": {
+							"unit": "1289.739081541674067921"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTM3NzI4NTg=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk0Mg=="
+			}, {
+				"node": {
+					"createdDate": "2022-03-06T01:00:14.375465",
+					"name": "DAPE: Genesis",
+					"slug": "dape-nft-activated",
+					"logo": "https://lh3.googleusercontent.com/HYOSmgUMy2-L1oyzdDpfyJ6mluwAgUG9LaQ-QwcA7dO6UjbxVwudWfNmat48ruxBF3Ub8U_b1yma2Xuu4BCCcO0ofJMRdCeFKNTe8g=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.087",
+							"eth": "0.087"
+						},
+						"numOwners": 1410,
+						"totalSupply": 2444.0,
+						"sevenDayChange": 0.427644548009652,
+						"sevenDayVolume": {
+							"unit": "2.585449999999999804"
+						},
+						"oneDayChange": 0.08149882903981265,
+						"oneDayVolume": {
+							"unit": "0.461799999999999988"
+						},
+						"thirtyDayChange": -0.4760327561298125,
+						"thirtyDayVolume": {
+							"unit": "7.670880397809953344"
+						},
+						"totalVolume": {
+							"unit": "1286.812957495438240585"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6ODE4MTYxNA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk0Mw=="
+			}, {
+				"node": {
+					"createdDate": "2021-12-16T01:53:24.325274",
+					"name": "Imps by SuperNfty",
+					"slug": "imps-by-supernfty",
+					"logo": "https://lh3.googleusercontent.com/71Voq6wk0M7le1VXZFYd18t4QSkPKZs7ecg-r_LGKNVg96SHVBzKp50SS1ToRbelZSkjh2xwT9vUe9ow3_nPmX58re7qk7DjOnoA=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.062",
+							"eth": "0.062"
+						},
+						"numOwners": 3897,
+						"totalSupply": 10000.0,
+						"sevenDayChange": 0.3790048356085357,
+						"sevenDayVolume": {
+							"unit": "4.996299999989997964"
+						},
+						"oneDayChange": 3.616455696177217,
+						"oneDayVolume": {
+							"unit": "1.823499999990000564"
+						},
+						"thirtyDayChange": 0.3385308454281534,
+						"thirtyDayVolume": {
+							"unit": "20.372919999990006801"
+						},
+						"totalVolume": {
+							"unit": "1286.309778649449754084"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MzcwMjY5NQ==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk0NA=="
+			}, {
+				"node": {
+					"createdDate": "2022-01-28T16:57:33.782020",
+					"name": "Emotes by Heart You",
+					"slug": "emotes-by-heart-you",
+					"logo": "https://lh3.googleusercontent.com/-kxIlBio2zoopZarSFm63j21x5DSvH3zZygD78qECq4QotqhB5IR7MXV_I71oN_wv_DqUh-L_tlYXjp4y_ObOXgke_yY7tBgQAZJnQg=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.82949999",
+							"eth": "0.82949999"
+						},
+						"numOwners": 1092,
+						"totalSupply": 1433.0,
+						"sevenDayChange": -0.17979429329794294,
+						"sevenDayVolume": {
+							"unit": "4.944200000000000372"
+						},
+						"oneDayChange": 0.7739999999999999,
+						"oneDayVolume": {
+							"unit": "1.419200000000000017"
+						},
+						"thirtyDayChange": 0.020345226054412142,
+						"thirtyDayVolume": {
+							"unit": "42.826100000000003831"
+						},
+						"totalVolume": {
+							"unit": "1284.311933874009582723"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NjMwNDE5OA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk0NQ=="
+			}, {
+				"node": {
+					"createdDate": "2021-11-03T17:08:22.010682",
+					"name": "2+2 Genesis",
+					"slug": "twoplustwogenesis",
+					"logo": "https://lh3.googleusercontent.com/mVIAqunb0whCPpFlLbq3RXkPdbC9BCghkkaK3HtktItfvO8GYbLged1IpBqLENaNNCPj4hvftpGEQSvLXdHPuwhIFY-P8C9MKdlp=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.099",
+							"eth": "0.099"
+						},
+						"numOwners": 1212,
+						"totalSupply": 1953.0,
+						"sevenDayChange": -0.8183576956147893,
+						"sevenDayVolume": {
+							"unit": "0.169000000000000011"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0.070000000000000007"
+						},
+						"thirtyDayChange": -0.46154838693193223,
+						"thirtyDayVolume": {
+							"unit": "2.107400000000000162"
+						},
+						"totalVolume": {
+							"unit": "1284.261117927498617064"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MjU0Nzc0MQ==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk0Ng=="
+			}, {
+				"node": {
+					"createdDate": "2021-11-01T22:30:34.662928",
+					"name": "Chubbiverse Frens",
+					"slug": "chubbiverse-frens",
+					"logo": "https://lh3.googleusercontent.com/YcB7nLPfOlmsF9l5milmw4T6nAEufqPZxfHwTDNPs_gJGYsIogQuJCHRDcBtxeaaQgB4eJO87OZHBkXJg1QYwPOLUqf94z-LzxrmLg=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.085",
+							"eth": "0.085"
+						},
+						"numOwners": 2478,
+						"totalSupply": 8888.0,
+						"sevenDayChange": -0.7596326658395464,
+						"sevenDayVolume": {
+							"unit": "2.072999999999999954"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": 0.9779235966735971,
+						"thirtyDayVolume": {
+							"unit": "13.699889999999994572"
+						},
+						"totalVolume": {
+							"unit": "1283.545670431675034706"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MjUxMTI2MQ==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk0Nw=="
+			}, {
+				"node": {
+					"createdDate": "2022-01-15T06:04:46.384861",
+					"name": "isoworld - Genesis isoroom",
+					"slug": "genesis-isoroom",
+					"logo": "https://lh3.googleusercontent.com/XtZQp0bMmchll0Ftp1VFzusSW4UvngFqpuhkVOFw6BUPttEo3tooRIMh44AzcLk4RvAf3lnQ_fyPUjVckzmCfzoMZeJBJTaZzwdHpAA=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0469",
+							"eth": "0.0469"
+						},
+						"numOwners": 249,
+						"totalSupply": 3000.0,
+						"sevenDayChange": -0.7945750452079566,
+						"sevenDayVolume": {
+							"unit": "0.283999999999999975"
+						},
+						"oneDayChange": 0.8999999999999999,
+						"oneDayVolume": {
+							"unit": "0.095000000000000001"
+						},
+						"thirtyDayChange": -0.8474267846148564,
+						"thirtyDayVolume": {
+							"unit": "3.044399999999999551"
+						},
+						"totalVolume": {
+							"unit": "1281.140287688615217121"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NTA2ODU2MA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk0OA=="
+			}, {
+				"node": {
+					"createdDate": "2021-11-08T22:12:31.362378",
+					"name": "Angry Apes United",
+					"slug": "angryapesunited",
+					"logo": "https://lh3.googleusercontent.com/mMUZ2gijOQmlALT8cTEGVeyirR2OofRwUAfN006mTDycQFpD0cg4pJLm9k6AUoUM-lIBJTcxgt0V04DmTajdxR-kaK1waIVs9U7YCg=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.015",
+							"eth": "0.015"
+						},
+						"numOwners": 4569,
+						"totalSupply": 8888.0,
+						"sevenDayChange": 0.0,
+						"sevenDayVolume": {
+							"unit": "0.144799999999999984"
+						},
+						"oneDayChange": -1.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.7231793265465936,
+						"thirtyDayVolume": {
+							"unit": "0.282799999999999996"
+						},
+						"totalVolume": {
+							"unit": "1280.213734591431830268"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MjY1NjM2Ng==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk0OQ=="
+			}, {
+				"node": {
+					"createdDate": "2021-11-23T12:23:31.525897",
+					"name": "Official Dormant Dragons",
+					"slug": "official-dormant-dragons",
+					"logo": "https://lh3.googleusercontent.com/5qj0LkP_QVVzWIMt2yFKy3myxOE-C4sx-xi7qbcZaaQheEGmv91umJLtVxjvDy6rcotG7Hnh9J4Y-QqNVy3TCUmBFiK0VZo9n5_D=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.06",
+							"eth": "0.06"
+						},
+						"numOwners": 1561,
+						"totalSupply": 5000.0,
+						"sevenDayChange": -0.4922421948912016,
+						"sevenDayVolume": {
+							"unit": "1.610099999999999643"
+						},
+						"oneDayChange": -0.7495053067098398,
+						"oneDayVolume": {
+							"unit": "0.278500000000000025"
+						},
+						"thirtyDayChange": 1.214716961741105,
+						"thirtyDayVolume": {
+							"unit": "13.589290000000003644"
+						},
+						"totalVolume": {
+							"unit": "1276.115332181109806697"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6Mjk5NTc3OA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk1MA=="
+			}, {
+				"node": {
+					"createdDate": "2022-03-31T09:58:07.860507",
+					"name": "Dreadfulz",
+					"slug": "dreadfulz",
+					"logo": "https://lh3.googleusercontent.com/oQSLnpxU-UkQ_uYPNKL2MIpHAwjylHeguSiBOpsNbJAmspGswIOzRKy8KIvLlFn7-Oq-jcpp8gYeGtuEi49iXDxkiNl0kast1oZauQ=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.019",
+							"eth": "0.019"
+						},
+						"numOwners": 1182,
+						"totalSupply": 7777.0,
+						"sevenDayChange": -0.6583694237827973,
+						"sevenDayVolume": {
+							"unit": "1.759089999999999598"
+						},
+						"oneDayChange": 2.6888888888888896,
+						"oneDayVolume": {
+							"unit": "0.398400000000000032"
+						},
+						"thirtyDayChange": -0.2341379915099904,
+						"thirtyDayVolume": {
+							"unit": "11.603588899999992989"
+						},
+						"totalVolume": {
+							"unit": "1274.41458473838270038"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTI1MjQ4Mzc=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk1MQ=="
+			}, {
+				"node": {
+					"createdDate": "2021-11-01T08:00:58.685796",
+					"name": "EvoSnails NFT",
+					"slug": "evosnails-nft",
+					"logo": "https://lh3.googleusercontent.com/fbiNJk2dT_OkI9V5cOkC2yzyntHjEAJuxHOvfj6hiZ7GIkWSmXwB2rIplA5fDsWUtgPAVEvGJnnLQdF7lHoJgKDJzoMH24H2ki47NxY=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0089",
+							"eth": "0.0089"
+						},
+						"numOwners": 864,
+						"totalSupply": 5556.0,
+						"sevenDayChange": 3.44,
+						"sevenDayVolume": {
+							"unit": "0.0111"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0.01"
+						},
+						"thirtyDayChange": 34.490010000000005,
+						"thirtyDayVolume": {
+							"unit": "0.035490010000000002"
+						},
+						"totalVolume": {
+							"unit": "1271.702271342157928302"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MjQ5Nzk5Nw==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk1Mg=="
+			}, {
+				"node": {
+					"createdDate": "2021-12-17T21:03:52.324929",
+					"name": "DEGENERATE/REGENERATE",
+					"slug": "degenerate-regenerate",
+					"logo": "https://lh3.googleusercontent.com/NwKupgupe7JVDZkob6YkfGwZ8d9dhyhMAszTCslzjGyHS3CjNtGPYLnn7PTyuDhDw3fG0KyxPllSd-UEFkNjTfil4B9kBheE1v9MtA=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.125",
+							"eth": "0.125"
+						},
+						"numOwners": 4197,
+						"totalSupply": 7400.0,
+						"sevenDayChange": 0.8924425535036398,
+						"sevenDayVolume": {
+							"unit": "10.319300000000000139"
+						},
+						"oneDayChange": -0.40430273420759405,
+						"oneDayVolume": {
+							"unit": "0.694999999999999951"
+						},
+						"thirtyDayChange": 1.5854769674038045,
+						"thirtyDayVolume": {
+							"unit": "22.40495999999998844"
+						},
+						"totalVolume": {
+							"unit": "1271.61613626510074937"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6Mzc2NjYyOA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk1Mw=="
+			}, {
+				"node": {
+					"createdDate": "2022-02-04T14:30:08.531080",
+					"name": "Lucky Lion Club Official (LLC)",
+					"slug": "llc-lucky-lion-club-official",
+					"logo": "https://lh3.googleusercontent.com/KpvJIrdKRLfyyVa7aUE3Giu8OxFIRYEUNlJtPL1IneFflWggz8GMEyza8FOn4j8wh0eXY2XvkZna8cqeQYbWcWXDfZSZVbOiOXQV9w=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.055",
+							"eth": "0.055"
+						},
+						"numOwners": 2464,
+						"totalSupply": 4000.0,
+						"sevenDayChange": -0.02213855925117005,
+						"sevenDayVolume": {
+							"unit": "2.340218000000100051"
+						},
+						"oneDayChange": 0.49469390472358943,
+						"oneDayVolume": {
+							"unit": "0.493950000000099976"
+						},
+						"thirtyDayChange": -0.20730376865777667,
+						"thirtyDayVolume": {
+							"unit": "9.244138000000104327"
+						},
+						"totalVolume": {
+							"unit": "1270.208502093659262755"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NjgwMjg0MA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk1NA=="
+			}, {
+				"node": {
+					"createdDate": "2021-02-18T05:50:52.530458",
+					"name": "NFP",
+					"slug": "nfp",
+					"logo": "https://lh3.googleusercontent.com/Sn2DVfdCENG6edbX211cJ3YA6G2R4B1nUpSJ-M9X6joC0ZbQmhf-uW7imNjenkTyHie4EqmryPh_wCNoJ3KIJ2xhS3tocUEpSs-W2_w=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "100",
+							"eth": "100"
+						},
+						"numOwners": 13,
+						"totalSupply": 94.0,
+						"sevenDayChange": 0.0,
+						"sevenDayVolume": {
+							"unit": "0"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": 0.0,
+						"thirtyDayVolume": {
+							"unit": "0"
+						},
+						"totalVolume": {
+							"unit": "1267.762714411094066236"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MzEyOTU=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk1NQ=="
+			}, {
+				"node": {
+					"createdDate": "2021-07-29T10:31:06.131406",
+					"name": "MOONDOGS ODYSSEY",
+					"slug": "moondogs-odyssey",
+					"logo": "https://lh3.googleusercontent.com/kZU7F71H2Tu1OaBtPsjGU1IuYtYskwR1q-TIOW3Kjh3s9_oAHPq5O4SN4ghEFNW0QWyEeIKPyNZKIsDU66l3OOUyKmwDMreBGoUOFjg=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.01",
+							"eth": "0.01"
+						},
+						"numOwners": 1949,
+						"totalSupply": 5000.0,
+						"sevenDayChange": 0.7741935483870968,
+						"sevenDayVolume": {
+							"unit": "0.055"
+						},
+						"oneDayChange": -1.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.6712090461003192,
+						"thirtyDayVolume": {
+							"unit": "0.113399999999999987"
+						},
+						"totalVolume": {
+							"unit": "1267.491386871542772496"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6ODM3NjIy",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk1Ng=="
+			}, {
+				"node": {
+					"createdDate": "2022-02-19T17:20:46.073180",
+					"name": "Floppy Collection",
+					"slug": "floppycollection",
+					"logo": "https://lh3.googleusercontent.com/9JcqsCOvO3x-NUeoAyaKs5_viSzyq8gejqM6ddK2jIpJC-G1bb1nygG3tYQv2OoEj7Cr8yaf5jxQTeaZmUn3BAIUowHp05UyDy5_3So=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0095",
+							"eth": "0.0095"
+						},
+						"numOwners": 4418,
+						"totalSupply": 10001.0,
+						"sevenDayChange": -0.15489046593677872,
+						"sevenDayVolume": {
+							"unit": "0.273899999989890064"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0.0195"
+						},
+						"thirtyDayChange": -0.43866052921143506,
+						"thirtyDayVolume": {
+							"unit": "3.50259999998988425"
+						},
+						"totalVolume": {
+							"unit": "1267.190536063851368453"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NzY2MTk0Mg==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk1Nw=="
+			}, {
+				"node": {
+					"createdDate": "2022-01-11T18:25:03.143228",
+					"name": "The Jims",
+					"slug": "the-jims",
+					"logo": "https://lh3.googleusercontent.com/5BRd4ZVOYOgAfC3ah4YDMcZAMsbA19tKJFJa1sIvLUMa3pMcqG8QLDpwmfAjXG6USXtMcSeXmo_ro0eVXzC0R7lfRn_6IFyxYf4LKVs=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0999",
+							"eth": "0.0999"
+						},
+						"numOwners": 1037,
+						"totalSupply": 2048.0,
+						"sevenDayChange": 2.0734328358208955,
+						"sevenDayVolume": {
+							"unit": "1.029599999999999849"
+						},
+						"oneDayChange": -1.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.28074987552300845,
+						"thirtyDayVolume": {
+							"unit": "4.164505720000001077"
+						},
+						"totalVolume": {
+							"unit": "1254.455413242535769314"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NDc0NDc4MA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk1OA=="
+			}, {
+				"node": {
+					"createdDate": "2022-05-03T00:00:54.039612",
+					"name": "Impostors Genesis UFOs",
+					"slug": "impostors-ufo",
+					"logo": "https://lh3.googleusercontent.com/G9OrgtEv8XmsvtMAGGOWTLvxKE1z8vdkuYmaJIvuSSAhkpZMSYO6zdquxDXPV5sQPRFaPpC7z40nNrrSbVhj9d63FzBeFgjG1S8P=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.179",
+							"eth": "0.179"
+						},
+						"numOwners": 4381,
+						"totalSupply": 9125.0,
+						"sevenDayChange": 0.3305518796874988,
+						"sevenDayVolume": {
+							"unit": "28.947500000000015774"
+						},
+						"oneDayChange": 0.4105913798864016,
+						"oneDayVolume": {
+							"unit": "4.221899999999999764"
+						},
+						"thirtyDayChange": -0.7177669038302648,
+						"thirtyDayVolume": {
+							"unit": "137.431189000000188116"
+						},
+						"totalVolume": {
+							"unit": "1248.485941242588523892"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTQyNTAyOTA=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk1OQ=="
+			}, {
+				"node": {
+					"createdDate": "2022-04-07T11:39:37.682950",
+					"name": "Metakages Official",
+					"slug": "metakages-official-collection",
+					"logo": "https://lh3.googleusercontent.com/s6iDl4DkOH3QghGZ4KoYcg5gbLgE66OCi9Z9j4C13Xij-5ivSEOKZ1_VGQK1ZS06vOZVCeKkQRjADSOpDqpwSRL_0HTz5XoBI731bas=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.025",
+							"eth": "0.025"
+						},
+						"numOwners": 1332,
+						"totalSupply": 3000.0,
+						"sevenDayChange": -0.622789152106335,
+						"sevenDayVolume": {
+							"unit": "0.351900000000000102"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.7787204955650632,
+						"thirtyDayVolume": {
+							"unit": "2.692499999999997229"
+						},
+						"totalVolume": {
+							"unit": "1248.312629482790725888"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTI4NTY3MjQ=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk2MA=="
+			}, {
+				"node": {
+					"createdDate": "2022-04-08T16:05:40.568996",
+					"name": "Kureiji NFT Official",
+					"slug": "kureiji-nft-official",
+					"logo": "https://lh3.googleusercontent.com/zenT-HOEa_NtAlD_6tgO59Q8Ey74BOl4sq4Z6vO2Mr-tlBskAA7OEtwRnHwrR7I4eKB83fI1ers-GRKxqR4Jl3AGnZ44tsxvcUyPYw=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.004",
+							"eth": "0.004"
+						},
+						"numOwners": 2549,
+						"totalSupply": 5555.0,
+						"sevenDayChange": 0.406337271750806,
+						"sevenDayVolume": {
+							"unit": "0.130930000000000019"
+						},
+						"oneDayChange": 13.342857142857143,
+						"oneDayVolume": {
+							"unit": "0.100400000000000003"
+						},
+						"thirtyDayChange": -0.8698490512802426,
+						"thirtyDayVolume": {
+							"unit": "0.36903000000000008"
+						},
+						"totalVolume": {
+							"unit": "1247.871143399789616524"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTI5MDY0MjI=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk2MQ=="
+			}, {
+				"node": {
+					"createdDate": "2021-03-02T19:42:07.422779",
+					"name": "Ethernity's Master Collection",
+					"slug": "ethernity-master",
+					"logo": "https://lh3.googleusercontent.com/GId53RudYB4l7e6Irj3_5JGyC3bwybdotwXAEgGaq4KCqjtfQChbolTQSJRYzb1bYrHM_G9xH4Il9vh_CM3ZPtMTwSgtkU5Wu7RVVQ=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.013",
+							"eth": "0.013"
+						},
+						"numOwners": 8271,
+						"totalSupply": 23517.0,
+						"sevenDayChange": -0.347547974413646,
+						"sevenDayVolume": {
+							"unit": "0.918000000000000149"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0.056000000000000001"
+						},
+						"thirtyDayChange": -0.6970469698477463,
+						"thirtyDayVolume": {
+							"unit": "4.870999999999996888"
+						},
+						"totalVolume": {
+							"unit": "1247.343396185842493651"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NTk3OTM=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk2Mg=="
+			}, {
+				"node": {
+					"createdDate": "2022-05-01T15:02:24.346871",
+					"name": "OneOnesNFT",
+					"slug": "oneonesnft",
+					"logo": "https://lh3.googleusercontent.com/MxnNfife_FnNA9awFJhdbHLEyWxYkdhKy3uwtDN645RN2i0JfY28jAFzsHezBDMIvbF_rlFXr-pNcVQOfdWxrhjEa_9R6e5ChPT1=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.01",
+							"eth": "0.01"
+						},
+						"numOwners": 3380,
+						"totalSupply": 6565.0,
+						"sevenDayChange": -0.3878099211597181,
+						"sevenDayVolume": {
+							"unit": "0.565210000000000101"
+						},
+						"oneDayChange": 3.472462677204868,
+						"oneDayVolume": {
+							"unit": "0.356500000000000039"
+						},
+						"thirtyDayChange": -0.9056564751053152,
+						"thirtyDayVolume": {
+							"unit": "4.307888999999997637"
+						},
+						"totalVolume": {
+							"unit": "1246.944574605546449675"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTQxNzU4NzY=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk2Mw=="
+			}, {
+				"node": {
+					"createdDate": "2019-12-10T08:55:01.591598",
+					"name": "Unstoppable Domains",
+					"slug": "unstoppable-domains",
+					"logo": "https://lh3.googleusercontent.com/Ak1PwcaxSjJmX2ZR4XN1GOYw1ZqQPlJo48FJaD_RHJykq9p_-lrmLDDv2x5cjgDncxJphoSkWL4hEPA_693aXHJB=s60",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0085",
+							"eth": "0.0085"
+						},
+						"numOwners": 64613,
+						"totalSupply": 318980.0,
+						"sevenDayChange": 0.14239482200647224,
+						"sevenDayVolume": {
+							"unit": "0.35299999999999998"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.708317602642756,
+						"thirtyDayVolume": {
+							"unit": "2.472299999999997944"
+						},
+						"totalVolume": {
+							"unit": "1245.779219652133633645"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NTY1Nw==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk2NA=="
+			}, {
+				"node": {
+					"createdDate": "2022-01-14T17:48:25.948051",
+					"name": "Rubber Duckz",
+					"slug": "rubberduckz",
+					"logo": "https://lh3.googleusercontent.com/FZUXPi29VHw3bGPlzyA09OwyAh9tXKuJM-bb7745A3PUo9XlDxPY1r_4hgo6WLXmF7DA_epMLSsEW-dGApdGr4JuJND7DiVyVbO_Yw=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.383",
+							"eth": "0.383"
+						},
+						"numOwners": 866,
+						"totalSupply": 2000.0,
+						"sevenDayChange": -0.12826603325415664,
+						"sevenDayVolume": {
+							"unit": "10.276000000000001577"
+						},
+						"oneDayChange": -0.4666666666666666,
+						"oneDayVolume": {
+							"unit": "0.400000000000000022"
+						},
+						"thirtyDayChange": -0.032474591609088437,
+						"thirtyDayVolume": {
+							"unit": "43.824419999999975062"
+						},
+						"totalVolume": {
+							"unit": "1245.277282387694867793"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NTAyMzYxNw==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk2NQ=="
+			}, {
+				"node": {
+					"createdDate": "2021-06-22T16:15:01.440696",
+					"name": "BitcoinBillionaires",
+					"slug": "bitcoinbillionaires",
+					"logo": "https://lh3.googleusercontent.com/6Yv993upc3BPkhYwScYjM-bjz412-ZbLbFAnMKcDMA9oY1jReVlf_mJKoRVl5Kc7-cVpnuEYSWYS-em92j7DN6jXwI2R7vKf-0sVFA=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.08",
+							"eth": "0.08"
+						},
+						"numOwners": 4439,
+						"totalSupply": 13337.0,
+						"sevenDayChange": 0.9183696155627631,
+						"sevenDayVolume": {
+							"unit": "10.354400000000000048"
+						},
+						"oneDayChange": 0.36954087346024633,
+						"oneDayVolume": {
+							"unit": "1.222999999999999865"
+						},
+						"thirtyDayChange": -0.4338458128519454,
+						"thirtyDayVolume": {
+							"unit": "24.308899999999997732"
+						},
+						"totalVolume": {
+							"unit": "1243.515615659078093813"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NzM0NTk2",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk2Ng=="
+			}, {
+				"node": {
+					"createdDate": "2021-10-03T15:55:13.385332",
+					"name": "Fomoverse",
+					"slug": "fomoverse",
+					"logo": "https://lh3.googleusercontent.com/5FISp624HQlLUEU1DviAsdImqt9wQFWHjqSpiCgBw26AqRUKJDIxRmxu5sqT1QzCqrdWhjFLDNe-djwMr0ZbNfFbk8cTWEupwpZrgg=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.59",
+							"eth": "0.59"
+						},
+						"numOwners": 772,
+						"totalSupply": 1234.0,
+						"sevenDayChange": -1.0,
+						"sevenDayVolume": {
+							"unit": "0"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.5880013992537313,
+						"thirtyDayVolume": {
+							"unit": "3.533300000000000107"
+						},
+						"totalVolume": {
+							"unit": "1241.820633333333262271"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTk4MTQ5MQ==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk2Nw=="
+			}, {
+				"node": {
+					"createdDate": "2021-08-15T08:00:37.309132",
+					"name": "Rivermen",
+					"slug": "rivermen",
+					"logo": "https://lh3.googleusercontent.com/Kc96kxOK06q1eJ5n_xEp_xExRvEue0NdN2NdjAvleeru1k8XoBhgMkqLayoKKiBpYyvPnva2IPhlFbMw0IW1_-YOL96r-zvtIA_DcA=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.048",
+							"eth": "0.048"
+						},
+						"numOwners": 1678,
+						"totalSupply": 9966.0,
+						"sevenDayChange": 0.0,
+						"sevenDayVolume": {
+							"unit": "0.043999999999999997"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.750636570750292,
+						"thirtyDayVolume": {
+							"unit": "0.260500000000000009"
+						},
+						"totalVolume": {
+							"unit": "1240.328091597029015247"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6OTUxNjI4",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk2OA=="
+			}, {
+				"node": {
+					"createdDate": "2019-06-26T01:57:16.840905",
+					"name": "Neon District",
+					"slug": "neon-district",
+					"logo": "https://lh3.googleusercontent.com/4NU_hkDs7GdAFJxCuc2385wbFWnPpoa2IDYTGWpPGP6anRPPGC0iILc0t4VEE5-H2w6LnGthod-RZvrNmpX02N4m=s60",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.01",
+							"eth": "0.01"
+						},
+						"numOwners": 2461,
+						"totalSupply": 46853.0,
+						"sevenDayChange": -0.9833333333333333,
+						"sevenDayVolume": {
+							"unit": "0.002"
+						},
+						"oneDayChange": -1.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": 64.99999999999999,
+						"thirtyDayVolume": {
+							"unit": "0.296999999999999986"
+						},
+						"totalVolume": {
+							"unit": "1237.195731063454559262"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MzY3MA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk2OQ=="
+			}, {
+				"node": {
+					"createdDate": "2021-09-25T23:34:51.295322",
+					"name": "RareBunniClub",
+					"slug": "rarebunniclub",
+					"logo": "https://lh3.googleusercontent.com/-vsSZDMDUSUo52m5jorAgr83qPNgos7quCVdETvq1H4YBr0N39IbcxC0cbBcKu1CHAr_x8XBIJCWbcPuscMyhw7gLVpIy-H03mU_QQ=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0125",
+							"eth": "0.0125"
+						},
+						"numOwners": 1990,
+						"totalSupply": 5500.0,
+						"sevenDayChange": 21.502777777500004,
+						"sevenDayVolume": {
+							"unit": "0.180022222220000028"
+						},
+						"oneDayChange": -1.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.7490639710995147,
+						"thirtyDayVolume": {
+							"unit": "0.382022222220000096"
+						},
+						"totalVolume": {
+							"unit": "1237.100518262588593643"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTg0NDQ1OA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk3MA=="
+			}, {
+				"node": {
+					"createdDate": "2021-08-17T10:26:06.479365",
+					"name": "HappyLand Gummy Bears",
+					"slug": "happyland-gummy-bears",
+					"logo": "https://lh3.googleusercontent.com/X35qtFjwEtQ5mLbCL7dG85jR8Pk3kJzQHP3lTD786FedDJodkYYtREsrtut00w7R-FBkmCUVq92YEyNyoKqMxeZV3HBmltL5z_FIoQ=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0168",
+							"eth": "0.0168"
+						},
+						"numOwners": 4166,
+						"totalSupply": 9600.0,
+						"sevenDayChange": 0.5280561122244488,
+						"sevenDayVolume": {
+							"unit": "0.152499999999999997"
+						},
+						"oneDayChange": -1.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.13458511991076413,
+						"thirtyDayVolume": {
+							"unit": "0.775844440000000302"
+						},
+						"totalVolume": {
+							"unit": "1236.877868367836981633"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6OTczODYw",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk3MQ=="
+			}, {
+				"node": {
+					"createdDate": "2022-04-25T09:31:44.119940",
+					"name": "Whiskers",
+					"slug": "whiskersnft",
+					"logo": "https://lh3.googleusercontent.com/E4oud4l-eafKmFsT6PYRdUL27D_ayMoGOLz2p8wU4YTSbUjuOq5SCOYMzG1aJjIVpEMV9HUNFHnelqHCAYuNvZAIE7LmJf_hye9M13Y=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0255",
+							"eth": "0.0255"
+						},
+						"numOwners": 3441,
+						"totalSupply": 5555.0,
+						"sevenDayChange": -0.10920876249039203,
+						"sevenDayVolume": {
+							"unit": "1.738379099999999955"
+						},
+						"oneDayChange": -0.48765982515553497,
+						"oneDayVolume": {
+							"unit": "0.236899999999999999"
+						},
+						"thirtyDayChange": -0.7970531033069611,
+						"thirtyDayVolume": {
+							"unit": "10.796331624999986332"
+						},
+						"totalVolume": {
+							"unit": "1234.172172855295002591"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTM4NjA2NjE=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk3Mg=="
+			}, {
+				"node": {
+					"createdDate": "2021-12-19T14:15:38.809607",
+					"name": "House Of Legends",
+					"slug": "house-of-legends",
+					"logo": "https://lh3.googleusercontent.com/AXxr1gAFmRtf0UrqBdKp6AZuQ90iMZykXx1OtWB2k5eKbleeUCqcpLYpo3mhQIQOlUdkapAHo7jojU9gWF4BFhk6FT8rahNZlP5T=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.029",
+							"eth": "0.029"
+						},
+						"numOwners": 2434,
+						"totalSupply": 9993.0,
+						"sevenDayChange": -0.6752728240617515,
+						"sevenDayVolume": {
+							"unit": "0.243999999999999995"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.4543977656142877,
+						"thirtyDayVolume": {
+							"unit": "2.667142690000000371"
+						},
+						"totalVolume": {
+							"unit": "1228.057935057225904529"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MzgyMDUzMQ==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk3Mw=="
+			}, {
+				"node": {
+					"createdDate": "2021-08-09T08:24:24.856995",
+					"name": "Glue Factory Show",
+					"slug": "gluefactoryshow",
+					"logo": "https://lh3.googleusercontent.com/SiP-0JD-lUe6auBBnVwCVVy2FMGXhdq7ikMh0X1qo9AtE55wOoEp_Z4JJ-RWAUpvLL7BjIk8XkPjeJdW9FkcQtNvULNspDa3uOlhAQ=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.025",
+							"eth": "0.025"
+						},
+						"numOwners": 3465,
+						"totalSupply": 10000.0,
+						"sevenDayChange": 0.08264462809917363,
+						"sevenDayVolume": {
+							"unit": "0.262000000000000011"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0.056999999999999995"
+						},
+						"thirtyDayChange": -0.09572742022714995,
+						"thirtyDayVolume": {
+							"unit": "2.090000000000000302"
+						},
+						"totalVolume": {
+							"unit": "1226.668500398314336053"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6OTAwNzYx",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk3NA=="
+			}, {
+				"node": {
+					"createdDate": "2021-04-04T02:31:50.630725",
+					"name": "Influence Asteroids",
+					"slug": "influenceth-asteroids",
+					"logo": "https://lh3.googleusercontent.com/5742ExtD_kaqBxjWdwFudDd30s7hGUki5Lod2vFpBeBvKvT00BcZQbZvcxKnqH8jcC2yWJGN267eMdp3jsdccPqOXyV_G--pFfosBw=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0295",
+							"eth": "0.0295"
+						},
+						"numOwners": 2288,
+						"totalSupply": 11143.0,
+						"sevenDayChange": -0.12343803935105314,
+						"sevenDayVolume": {
+							"unit": "5.078799999999999315"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "3.079800000000000093"
+						},
+						"thirtyDayChange": 0.05790238597099069,
+						"thirtyDayVolume": {
+							"unit": "21.982999999999982776"
+						},
+						"totalVolume": {
+							"unit": "1226.398642925220883626"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MzcyOTQy",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk3NQ=="
+			}, {
+				"node": {
+					"createdDate": "2021-06-27T17:59:36.613167",
+					"name": "Polymorphs",
+					"slug": "polymorphs",
+					"logo": "https://lh3.googleusercontent.com/ooq7xxvwJjzXffNZ_pyct8-234WwTyHhQZUzD1oBp82EQVitaYdoxxP3s3X8i6dtYqF0bDiDQC0VoGjQDtAxaGqg97_TVoMlNYW55Q=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.09",
+							"eth": "0.09"
+						},
+						"numOwners": 2221,
+						"totalSupply": 9999.0,
+						"sevenDayChange": -0.6866382544162403,
+						"sevenDayVolume": {
+							"unit": "1.250000000000000222"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0.709999999999999964"
+						},
+						"thirtyDayChange": -0.5083799858741525,
+						"thirtyDayVolume": {
+							"unit": "8.49189998999999851"
+						},
+						"totalVolume": {
+							"unit": "1219.971613935414552543"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NzQ3Nzgy",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk3Ng=="
+			}, {
+				"node": {
+					"createdDate": "2021-09-25T13:37:23.189988",
+					"name": "Bastard Penguins",
+					"slug": "bastard-penguins",
+					"logo": "https://lh3.googleusercontent.com/MfvWPJkKKORvzDYfRaD53uJu9laH06FgKbUvc_xyEKf-jMyPNo7glGrzjtIVdbZpU_6HIGrZFQtGAn_v6eLeugIOspi0lc2K9NBy=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.01",
+							"eth": "0.01"
+						},
+						"numOwners": 3824,
+						"totalSupply": 9579.0,
+						"sevenDayChange": -0.5216107163359542,
+						"sevenDayVolume": {
+							"unit": "0.114999999899999997"
+						},
+						"oneDayChange": -0.8648648648648649,
+						"oneDayVolume": {
+							"unit": "0.01"
+						},
+						"thirtyDayChange": -0.29001238148301006,
+						"thirtyDayVolume": {
+							"unit": "0.516089999900000151"
+						},
+						"totalVolume": {
+							"unit": "1219.116805394355651515"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTgzNTczNQ==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk3Nw=="
+			}, {
+				"node": {
+					"createdDate": "2021-11-20T06:19:55.974273",
+					"name": "NounPunks.eth",
+					"slug": "nounpunks-eth",
+					"logo": "https://lh3.googleusercontent.com/meJRoR8SF9Q8yNRjc46aH_-ElnqXe4PFwxTL9fWT66x8grPGdm1aTpDmERLwZ_Nm63826dSw3CKx2HmVR6RYH_wRDJd5FFp0UPWFoQ=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.042",
+							"eth": "0.042"
+						},
+						"numOwners": 4189,
+						"totalSupply": 9969.0,
+						"sevenDayChange": 2.1518305562074627,
+						"sevenDayVolume": {
+							"unit": "2.685990000000000322"
+						},
+						"oneDayChange": 4.563241106719367,
+						"oneDayVolume": {
+							"unit": "1.12599999999999989"
+						},
+						"thirtyDayChange": -0.17785401419383548,
+						"thirtyDayVolume": {
+							"unit": "5.9312899999999944"
+						},
+						"totalVolume": {
+							"unit": "1218.242604002217376546"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MjkxODMxOA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk3OA=="
+			}, {
+				"node": {
+					"createdDate": "2021-09-12T23:37:49.100849",
+					"name": "Wicked Hound Bone Club",
+					"slug": "wicked-hound-bone-club",
+					"logo": "https://lh3.googleusercontent.com/d_b41f6KVhHqVDG6xpL8uyCwiOzxUZOTkybYn6clI3V0stR9UtR_wcQYJRWflSvycAknSOYjylMJrYoQ94Mt2kApQzX_kY8cMNDljy8=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.009",
+							"eth": "0.009"
+						},
+						"numOwners": 4194,
+						"totalSupply": 11111.0,
+						"sevenDayChange": -0.42075975191030884,
+						"sevenDayVolume": {
+							"unit": "0.063600000000000004"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0.009900000000000001"
+						},
+						"thirtyDayChange": 0.6878858248669573,
+						"thirtyDayVolume": {
+							"unit": "0.523329000000000266"
+						},
+						"totalVolume": {
+							"unit": "1215.945474114491389628"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTU1NDMwMg==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk3OQ=="
+			}, {
+				"node": {
+					"createdDate": "2022-04-15T18:02:20.290918",
+					"name": "Quantum Access Pass",
+					"slug": "quantum-access-pass",
+					"logo": "https://lh3.googleusercontent.com/qxb9gbY-kjKY93oUe7Pl2oXAHfjSwJhw2oHcgRCJem73vHqkZDrVVOzcKBMEsauN7_B9sWxKCb2zh52n_-i_Ijkf6HeOcHlsiazjEw=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.179",
+							"eth": "0.179"
+						},
+						"numOwners": 1702,
+						"totalSupply": 2000.0,
+						"sevenDayChange": -0.6882636060718252,
+						"sevenDayVolume": {
+							"unit": "0.842000000000000082"
+						},
+						"oneDayChange": -1.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.8028071396041343,
+						"thirtyDayVolume": {
+							"unit": "10.769099999999999895"
+						},
+						"totalVolume": {
+							"unit": "1215.699525762213397684"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTMzNjIwMzA=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk4MA=="
+			}, {
+				"node": {
+					"createdDate": "2022-05-02T19:31:27.386915",
+					"name": "Oddstronauts 1.0",
+					"slug": "oddstronauts",
+					"logo": "https://lh3.googleusercontent.com/PIH0mPPgKWOm1_9IauVzalFG029pC1krwtW6_kcxqLGLc_CGBJpO9nTCewF10r9zqlxNkXH_sIBtR2ttL8HYxIa_dWDVV08CIfaH=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.027",
+							"eth": "0.027"
+						},
+						"numOwners": 4335,
+						"totalSupply": 10000.0,
+						"sevenDayChange": 0.5985807798027558,
+						"sevenDayVolume": {
+							"unit": "6.449649999999994776"
+						},
+						"oneDayChange": 0.03423108552631555,
+						"oneDayVolume": {
+							"unit": "0.503049999999999997"
+						},
+						"thirtyDayChange": -0.8674544882010286,
+						"thirtyDayVolume": {
+							"unit": "19.644270788899941493"
+						},
+						"totalVolume": {
+							"unit": "1213.624381642312755503"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTQyMzkwMjk=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk4MQ=="
+			}, {
+				"node": {
+					"createdDate": "2021-10-02T02:20:07.056878",
+					"name": "The Forgotten Runes Infinity Veil",
+					"slug": "infinityveil",
+					"logo": "https://lh3.googleusercontent.com/7nV2lPNF1qYpeTGIh1K-yBX9ezG9ziX45pUHM_fhnNlGj_htRXILODtNHSbp0prFixct4ndPSugqI5D_gMxFYtSd_1BsIrKxBNRcjw=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "4.2",
+							"eth": "4.2"
+						},
+						"numOwners": 398,
+						"totalSupply": 1.0,
+						"sevenDayChange": 0.0,
+						"sevenDayVolume": {
+							"unit": "18.829999999999998295"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "3.470000000000000195"
+						},
+						"thirtyDayChange": 0.10970231532524798,
+						"thirtyDayVolume": {
+							"unit": "40.25999999999999801"
+						},
+						"totalVolume": {
+							"unit": "1213.530324900001460264"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTk1NTQyMw==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk4Mg=="
+			}, {
+				"node": {
+					"createdDate": "2021-08-16T17:40:27.718740",
+					"name": "Shabu Town Shibas",
+					"slug": "shabu-town-shibas",
+					"logo": "https://lh3.googleusercontent.com/v7gKn8ibk-wrnBjFTpfsichIiupcdfhPrLFIqjK8afWmcAp2QUPN7nDX1DmCqvsuu9NNs1F1TlwCiEW3IAjSOHfwwQNcjf4U35tdDQ=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0005",
+							"eth": "0.0005"
+						},
+						"numOwners": 3184,
+						"totalSupply": 10000.0,
+						"sevenDayChange": 2.0569948186528495,
+						"sevenDayVolume": {
+							"unit": "0.059000000000000011"
+						},
+						"oneDayChange": -1.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": 0.14080459770114986,
+						"thirtyDayVolume": {
+							"unit": "0.07940000000000004"
+						},
+						"totalVolume": {
+							"unit": "1213.240416424175464272"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6OTY2ODQ3",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk4Mw=="
+			}, {
+				"node": {
+					"createdDate": "2020-02-05T15:58:33.294887",
+					"name": "Decentraland Names",
+					"slug": "dcl-names",
+					"logo": "https://lh3.googleusercontent.com/5KIxEGmnAiL5psnMCSLPlfSxDxfRSk4sTQRSyhPdgnu70nGb2YsuVxTmO2iKEkOZOfq476Bl1hAu6aJIKjs1myY=s60",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.06",
+							"eth": "0.06"
+						},
+						"numOwners": 13386,
+						"totalSupply": 34387.0,
+						"sevenDayChange": -0.9176991666214313,
+						"sevenDayVolume": {
+							"unit": "0.576140399999999997"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0.155612"
+						},
+						"thirtyDayChange": 4.834095064595029,
+						"thirtyDayVolume": {
+							"unit": "10.584142339999997873"
+						},
+						"totalVolume": {
+							"unit": "1211.059480599065409478"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NjYxOQ==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk4NA=="
+			}, {
+				"node": {
+					"createdDate": "2021-08-10T15:25:57.839890",
+					"name": "Warriors of Aradena",
+					"slug": "warriors-of-aradena",
+					"logo": "https://lh3.googleusercontent.com/3DqotLLetbGkR8ZlcOtFd2B1lDZOg4qC19dm6H6h0rLp_Rp1n8_ygo88KtneYpFjB9F6yTjuoh-aqs5b6BcYBIhpsoaToytntqJrlg=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.05",
+							"eth": "0.05"
+						},
+						"numOwners": 1967,
+						"totalSupply": 8000.0,
+						"sevenDayChange": 0.9276419798127203,
+						"sevenDayVolume": {
+							"unit": "1.585099999999999953"
+						},
+						"oneDayChange": -0.5637755102040817,
+						"oneDayVolume": {
+							"unit": "0.119700000000000001"
+						},
+						"thirtyDayChange": -0.4222742007635299,
+						"thirtyDayVolume": {
+							"unit": "5.597799999999999443"
+						},
+						"totalVolume": {
+							"unit": "1209.145651073276667375"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6OTEwMzIx",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk4NQ=="
+			}, {
+				"node": {
+					"createdDate": "2022-03-12T21:20:49.489929",
+					"name": "Look Labs - 420 Buds",
+					"slug": "look-labs-420-buds",
+					"logo": "https://lh3.googleusercontent.com/ghyCZGvZKk4up5CdcDrino1M0WFRl4t6-J8AZgDKyjkqXHbGehOpZaGtzPEnrtQi5KUjCar_gSAVdIubXe-0xdjT9rRFa-u_71LY=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0229",
+							"eth": "0.0229"
+						},
+						"numOwners": 1221,
+						"totalSupply": 19798.0,
+						"sevenDayChange": 0.020278610926639296,
+						"sevenDayVolume": {
+							"unit": "3.923399276092998988"
+						},
+						"oneDayChange": -0.1956729848745933,
+						"oneDayVolume": {
+							"unit": "0.420100000000000084"
+						},
+						"thirtyDayChange": -0.34559355181387874,
+						"thirtyDayVolume": {
+							"unit": "27.964798786092970317"
+						},
+						"totalVolume": {
+							"unit": "1206.112612129301396635"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6ODM3OTkyNg==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk4Ng=="
+			}, {
+				"node": {
+					"createdDate": "2021-09-23T12:30:03.410309",
+					"name": "Evolved Apes Inc",
+					"slug": "evolved-apes-inc",
+					"logo": "https://lh3.googleusercontent.com/GEQS-4K68RouEsvN9o-Fm7kM0Meszn20pc2_2FPFPEwni09qIqQYDmMaJv8M21SIgvitlnfPWQoRG3uzwoQnhEAsl8J2FR9bdZ2Tmw=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.01",
+							"eth": "0.01"
+						},
+						"numOwners": 4174,
+						"totalSupply": 9981.0,
+						"sevenDayChange": 0.0,
+						"sevenDayVolume": {
+							"unit": "0.004"
+						},
+						"oneDayChange": -1.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.8448275861801426,
+						"thirtyDayVolume": {
+							"unit": "0.009000000000000001"
+						},
+						"totalVolume": {
+							"unit": "1202.581503162251920003"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTc4ODI0OQ==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk4Nw=="
+			}, {
+				"node": {
+					"createdDate": "2021-03-14T18:02:40.306471",
+					"name": "Wrapped CryptoCats Official",
+					"slug": "wrappedcryptocats",
+					"logo": "https://lh3.googleusercontent.com/kDRG_18a9nmmpSaNS2O4y3-Adl2RUUuIPYm51oOJ2D70DFUTOFWsSX5qbhoJ3CeT4ZVCdgXDvbMBKjVb4u0CFzA5rPgW9CAF9ZaskQ=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "2.8",
+							"eth": "2.8"
+						},
+						"numOwners": 161,
+						"totalSupply": 305.0,
+						"sevenDayChange": 0.0,
+						"sevenDayVolume": {
+							"unit": "6.900000000000000355"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": 8.875,
+						"thirtyDayVolume": {
+							"unit": "15.800000000000000711"
+						},
+						"totalVolume": {
+							"unit": "1200.060519999999769425"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTUzODky",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk4OA=="
+			}, {
+				"node": {
+					"createdDate": "2021-12-28T15:55:09.709476",
+					"name": "Bad Face Bots",
+					"slug": "badfacebots",
+					"logo": "https://lh3.googleusercontent.com/9Rwp3TpgKMcODwN7Fqbxuwjm2EeTUTfijYAiI9h2tZEb-kfraWtevv5SJvhTb43CmrZR99jCT3q1-PPikFQ-z-9FBnZFYUcCTADaXeM=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.05",
+							"eth": "0.05"
+						},
+						"numOwners": 2533,
+						"totalSupply": 5555.0,
+						"sevenDayChange": -0.2080882352941176,
+						"sevenDayVolume": {
+							"unit": "0.430799999999999961"
+						},
+						"oneDayChange": -1.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.6284328598820426,
+						"thirtyDayVolume": {
+							"unit": "2.674800000000000288"
+						},
+						"totalVolume": {
+							"unit": "1199.071632232980618937"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NDEzOTQ4NA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk4OQ=="
+			}, {
+				"node": {
+					"createdDate": "2022-03-20T13:24:44.436879",
+					"name": "Women From Venus",
+					"slug": "women-from-venus",
+					"logo": "https://lh3.googleusercontent.com/WBWJmDNLvy2pm8ugXF14NT9hL8K7t2_HjTSs24No9QwWiwEH0Nnl7n0aNtqmo3_bDKhsQ6n9NUa0zqpQ95tNoZn6VaY6CL67GvB36Q=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.02",
+							"eth": "0.02"
+						},
+						"numOwners": 2603,
+						"totalSupply": 5555.0,
+						"sevenDayChange": -0.7367988038769999,
+						"sevenDayVolume": {
+							"unit": "0.36949999999999994"
+						},
+						"oneDayChange": -1.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.5803786794550948,
+						"thirtyDayVolume": {
+							"unit": "4.820768999999995863"
+						},
+						"totalVolume": {
+							"unit": "1198.183744846402760231"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6ODYwMTQwOQ==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk5MA=="
+			}, {
+				"node": {
+					"createdDate": "2021-03-10T19:00:33.906527",
+					"name": "Pixlton - The Awkward NFT Town",
+					"slug": "pixls-official",
+					"logo": "https://lh3.googleusercontent.com/0N5YFTU_8K47ck45wk4noFrWPNCFRHPZEULildc6YZ8mNK80bq0mgpUZKbQl00ovOca0pRI4n5jeXPGQXAKlqaZVJ7u0ghGtc9ZKBkA=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.09",
+							"eth": "0.09"
+						},
+						"numOwners": 1620,
+						"totalSupply": 5471.0,
+						"sevenDayChange": -0.7468354430379747,
+						"sevenDayVolume": {
+							"unit": "0.100000000000000006"
+						},
+						"oneDayChange": -1.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": 0.19936637248246186,
+						"thirtyDayVolume": {
+							"unit": "1.059999999999999831"
+						},
+						"totalVolume": {
+							"unit": "1194.62598933511640098"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTEwMDEz",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk5MQ=="
+			}, {
+				"node": {
+					"createdDate": "2021-08-17T18:06:54.280854",
+					"name": "Golden Token Crypto New Yorkers",
+					"slug": "golden-token-crypto-new-yorkers",
+					"logo": "https://lh3.googleusercontent.com/7pHLk9s9w7IMl5vP_DFkBKqrFmAWOmHOFXgHF9PXKimWvfr8hQypfLcEsJSLlVLpg46G7nlGhrsJ6V6RwxIY3BNeN03coYg6QIKZ_gY=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": null,
+						"numOwners": 34,
+						"totalSupply": 840.0,
+						"sevenDayChange": 0.0,
+						"sevenDayVolume": {
+							"unit": "0"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -1.0,
+						"thirtyDayVolume": {
+							"unit": "0"
+						},
+						"totalVolume": {
+							"unit": "1191.883483891070909522"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6OTc4MTY0",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk5Mg=="
+			}, {
+				"node": {
+					"createdDate": "2021-09-05T23:29:46.811011",
+					"name": "sLoot (Loot for Scammers)",
+					"slug": "sloot-scammer-loot",
+					"logo": "https://lh3.googleusercontent.com/lg5JPMbBgdKw5AwGqX59PozYc1SEV_gn57zFNTo3U1-5MCQ8tYEk_n8zMYLaeuZeYmKVnrt4_mhTswwCV41Zb1GAUmZ6CSCs0_2d=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.001",
+							"eth": "0.001"
+						},
+						"numOwners": 2083,
+						"totalSupply": 7808.0,
+						"sevenDayChange": 49.0,
+						"sevenDayVolume": {
+							"unit": "0.001"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": 9.209999999999999,
+						"thirtyDayVolume": {
+							"unit": "0.001021"
+						},
+						"totalVolume": {
+							"unit": "1188.505725296386572154"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTM5NTI2Nw==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk5Mw=="
+			}, {
+				"node": {
+					"createdDate": "2021-08-16T19:41:31.194830",
+					"name": "Krazy Koalas NFT",
+					"slug": "krazykoalas",
+					"logo": "https://lh3.googleusercontent.com/FAcDoZB0_TzT3pvYcRO9Pp5OOifsoxdQFMGigfFwbQZALcqYAG2FqqJy40xkkEe0BdArh5EZdvf0E_S0-wYImcsexsyy0541MdvAJcw=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0048",
+							"eth": "0.0048"
+						},
+						"numOwners": 3910,
+						"totalSupply": 9999.0,
+						"sevenDayChange": -0.14425427872860658,
+						"sevenDayVolume": {
+							"unit": "0.034999999999999996"
+						},
+						"oneDayChange": 5.0,
+						"oneDayVolume": {
+							"unit": "0.029999999999999999"
+						},
+						"thirtyDayChange": -0.5509013785790033,
+						"thirtyDayVolume": {
+							"unit": "0.169399999999999995"
+						},
+						"totalVolume": {
+							"unit": "1188.047711803126503582"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6OTY3Nzkz",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk5NA=="
+			}, {
+				"node": {
+					"createdDate": "2021-12-16T17:59:02.889863",
+					"name": "Infinite Realm Official",
+					"slug": "infinite-realm-official",
+					"logo": "https://lh3.googleusercontent.com/gnTVl9UYoPbMFGYaTJjdn9VecaTiAQvQXxrOWGQZPtsRMHBSl4ux8asGk62JtGLXnlLvUgv6O571XCs2ElokGW-v-7x-UQ_RUu_Njg=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0069",
+							"eth": "0.0069"
+						},
+						"numOwners": 2943,
+						"totalSupply": 7704.0,
+						"sevenDayChange": -0.3789954337899545,
+						"sevenDayVolume": {
+							"unit": "0.067999999999999991"
+						},
+						"oneDayChange": -1.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.7391077981249781,
+						"thirtyDayVolume": {
+							"unit": "0.260600000000000054"
+						},
+						"totalVolume": {
+							"unit": "1185.918808253626366422"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MzcyNzQyNQ==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk5NQ=="
+			}, {
+				"node": {
+					"createdDate": "2022-01-11T07:19:32.147215",
+					"name": "LordSocietyNFT Official",
+					"slug": "lordsocietynft-v2",
+					"logo": "https://lh3.googleusercontent.com/dOFzMzMH5UVl83Zfh7bynQTy0BbElMJDKxlVVgxLh5PbtY4Lu-PsGDSyTKCYHQ7cTqOeoxT_CItu1IGXB2lCrCl-8KnSAI3Zm5lsAcY=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0099",
+							"eth": "0.0099"
+						},
+						"numOwners": 5170,
+						"totalSupply": 7777.0,
+						"sevenDayChange": -0.8326639892904953,
+						"sevenDayVolume": {
+							"unit": "0.005"
+						},
+						"oneDayChange": 0.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": -0.6287466330448737,
+						"thirtyDayVolume": {
+							"unit": "0.064780000000000004"
+						},
+						"totalVolume": {
+							"unit": "1184.195522771015021135"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6NDcyMTk1Mg==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk5Ng=="
+			}, {
+				"node": {
+					"createdDate": "2021-12-07T12:52:12.972817",
+					"name": "BYOVape",
+					"slug": "byovape",
+					"logo": "https://lh3.googleusercontent.com/YtQGocanZe58Q1Pq3_390Acxy0h6XFK_RsuH-bMx7H2LDJaSXSRhnKeeb6luB3TAVi8vovMD4yenI-W5lfqLFQhMQG6dxxAdYsK1og=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.141",
+							"eth": "0.141"
+						},
+						"numOwners": 2661,
+						"totalSupply": 1.0,
+						"sevenDayChange": 0.18162851582761097,
+						"sevenDayVolume": {
+							"unit": "3.395999999999999908"
+						},
+						"oneDayChange": -0.5903614457831325,
+						"oneDayVolume": {
+							"unit": "0.510000000000000009"
+						},
+						"thirtyDayChange": -0.4850912366849698,
+						"thirtyDayVolume": {
+							"unit": "11.926659699990006303"
+						},
+						"totalVolume": {
+							"unit": "1182.317018168290815083"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MzM4OTU0MA==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk5Nw=="
+			}, {
+				"node": {
+					"createdDate": "2020-09-26T17:28:51.359147",
+					"name": "Dego Finance",
+					"slug": "gego-dego",
+					"logo": "https://lh3.googleusercontent.com/f0YtO3z_dII2_ltEzTs4Ml-cjmALWLXJp-eqm8x1v1t6FzAO3VZpPtE6JeCtOf1_dAiMhzpMKRFPrEDmM5TNvko=s120",
+					"isVerified": true,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.005",
+							"eth": "0.005"
+						},
+						"numOwners": 26296,
+						"totalSupply": 52137.0,
+						"sevenDayChange": 0.0,
+						"sevenDayVolume": {
+							"unit": "0.081000000000000003"
+						},
+						"oneDayChange": -1.0,
+						"oneDayVolume": {
+							"unit": "0"
+						},
+						"thirtyDayChange": 0.3502700540108022,
+						"thirtyDayVolume": {
+							"unit": "0.081000000000000003"
+						},
+						"totalVolume": {
+							"unit": "1180.303782915751980909"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTE2NzY=",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk5OA=="
+			}, {
+				"node": {
+					"createdDate": "2021-09-16T08:37:24.112670",
+					"name": "Roaring Leaders",
+					"slug": "roaringleaders",
+					"logo": "https://lh3.googleusercontent.com/X_ijvzLOgQpj7esZkRJOs1V7Wnzivcb74UyqouOkZtvHCnpol0V9Qp0ADm1fH_vD3oq7GqdULaxnHaqosJDtKnh66G-AaIPrn1kCqQ=s120",
+					"isVerified": false,
+					"nativePaymentAsset": {
+						"symbol": "ETH",
+						"asset": {
+							"imageUrl": "https://openseauserdata.com/files/6f8e2979d428180222796ff4a33ab929.svg",
+							"id": "QXNzZXRUeXBlOjEzNjg5MDc3"
+						},
+						"id": "UGF5bWVudEFzc2V0VHlwZTo0Mg=="
+					},
+					"statsV2": {
+						"floorPrice": {
+							"unit": "0.0389",
+							"eth": "0.0389"
+						},
+						"numOwners": 1581,
+						"totalSupply": 8099.0,
+						"sevenDayChange": 2.1248791803595592,
+						"sevenDayVolume": {
+							"unit": "1.616500000000000048"
+						},
+						"oneDayChange": 0.7,
+						"oneDayVolume": {
+							"unit": "0.238000000000000017"
+						},
+						"thirtyDayChange": 0.9766680213238985,
+						"thirtyDayVolume": {
+							"unit": "3.307440000000000158"
+						},
+						"totalVolume": {
+							"unit": "1180.170586437019892401"
+						}
+					},
+					"id": "Q29sbGVjdGlvblR5cGU6MTYzNTA3OQ==",
+					"__typename": "CollectionType"
+				},
+				"cursor": "YXJyYXljb25uZWN0aW9uOjk5OQ=="
+			}],
+			"pageInfo": {
+				"endCursor": "YXJyYXljb25uZWN0aW9uOjk5OQ==",
+				"hasNextPage": true
+			}
+		}
+	}
+}
