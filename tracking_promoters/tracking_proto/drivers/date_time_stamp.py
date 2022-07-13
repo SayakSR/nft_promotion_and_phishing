@@ -12,6 +12,7 @@ def regular_datetime():
     import datetime
     date= datetime.datetime.today() 
     date=date.strftime('%Y-%m-%d %H:%M:%S')
+    return date
 
 
 def fetch_time(): # Epoch timestamp
