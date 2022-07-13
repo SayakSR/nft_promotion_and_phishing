@@ -22,6 +22,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 def run_promotee_followers_main():
+
     engine = create_engine('postgresql+psycopg2://sayaksr:%s@128.111.49.111/nft_scam'% urlquote('HJ[bR`m49gHT~:{'))
     sql1 = "select * from promotee"
 
@@ -32,6 +33,7 @@ def run_promotee_followers_main():
     promotees = pd.read_sql(sql1,con=engine)
 
     for index, row in promotees.iterrows():
+        seen_users=[] # promotees seen in this iteration
         try:
             timestamp=fetch_time()
             print(timestamp)
@@ -85,33 +87,53 @@ def run_promotee_followers_main():
             
             if activate==1 and int(completed)==0:
                 if type=="Twitter":
+                    if promotee_user_name not in seen_users:
+                        try:
 
-                    try:
-                        
-                        os.system(f"twarc2 timeline --limit 2 {promotee_user_name} promotee_data/{promotee_user_name}_{timestamp}.json")
-                        os.system(f"twarc2 csv promotee_data/{promotee_user_name}_{timestamp}.json promotee_data/{promotee_user_name}_{timestamp}.csv")
-                        
-                        # DEBUG
+                            
+                            os.system(f"twarc2 timeline --limit 2 {promotee_user_name} promotee_data/{promotee_user_name}.json")
+                            seen_users.append(promotee_user_name)
+                            os.system(f"twarc2 csv promotee_data/{promotee_user_name}.json promotee_data/{promotee_user_name}_{timestamp}.csv")
+                            
+                            # DEBUG
 
-                        logging.info(f"timeline collected and processed for promotee:{promotee_user_name}")
-                        print(f"timeline collected and processed for promotee:{promotee_user_name}")
+                            logging.info(f"timeline collected and processed for promotee:{promotee_user_name}")
+                            print(f"timeline collected and processed for promotee:{promotee_user_name}")
 
-                        # DEBUG
+                            # DEBUG
 
-                        df=pd.read_csv(f"promotee_data/{promotee_user_name}_{timestamp}.csv")
-                        for index, row in df.iterrows():
-                            followers=row['author.public_metrics.followers_count']
-                    except Exception as e:
-                        print(e)
+                            df=pd.read_csv(f"promotee_data/{promotee_user_name}_{timestamp}.csv")
+                            for index, row in df.iterrows():
+                                followers=row['author.public_metrics.followers_count']
+                            seen_users.append(promotee_user_name)
+                        except Exception as e:
+                            print(e)
+                    else:
+                        try:
+                            os.system(f"twarc2 csv promotee_data/{promotee_user_name}.json promotee_data/{promotee_user_name}_{timestamp}.csv")
+                            
+                            # DEBUG
+
+                            logging.info(f"timeline processed for promotee:{promotee_user_name}")
+
+                            # DEBUG
+
+                            df=pd.read_csv(f"promotee_data/{promotee_user_name}_{timestamp}.csv")
+                            for index, row in df.iterrows():
+                                followers=row['author.public_metrics.followers_count']
+                        except Exception as e:
+                            print(e)
+
                 elif type=="Discord":
 
                     try:
                         discord_output=discord_get_data(promotee_name) # Promotee name = discord invite code
-
+                        seen_users.append(promotee_user_name)
                         followers=discord_output[4]
                         promotee_user_name=promotee_name
                     except Exception as e:
                         print(e)
+                        
                 if scenario==1:
                     print(f"{promotee_user_name},{tweet_id}")
                     
