@@ -4,7 +4,7 @@ from sqlalchemy import Column, Date, ForeignKey, Integer, String, Text, Boolean,
 import time
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-
+import time
 
 import logging
 
@@ -90,6 +90,7 @@ def insert_promotee_into_table(i_job_id,i_timestamp,i_name,i_user_id,i_user_name
     except Exception as e:
         flag=0
         print(e)
+        time.sleep(2)
         print(f"DB JOB ID 3333: Insertion error raised for:{i_user_id}")
         logging.info(f"DB JOB ID 3333: Insertion error raised for:{i_user_id}")
     

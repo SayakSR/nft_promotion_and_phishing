@@ -20,7 +20,7 @@ logging.basicConfig(filename='pa.log', level=logging.DEBUG,
 
 # Get tweets from each account promoter every 1 hour
 
-def process_discord_promotion(expanded_url,timestamp,created_at,datestamp,promoter_id):
+def process_discord_promotion(tweet_id,expanded_url,timestamp,created_at,datestamp,promoter_id):
     discord_output=discord_driver(expanded_url,timestamp)
     name=discord_output[0]
     user_id=discord_output[1]
@@ -170,7 +170,7 @@ def get_tweets_for_every_promoter(promoter_list):
                         if "discord" in expanded_url:
                             print("Discord promotion link found")
                             logging.info("Discord promotion link found")
-                            process_discord_promotion(expanded_url,created_at_epoch,created_at,datestamp,promoter_id)
+                            process_discord_promotion(tweet_id,expanded_url,created_at_epoch,created_at,datestamp,promoter_id)
                         
                         print("Account promotion tweet!")
                         print(tweet_text)
