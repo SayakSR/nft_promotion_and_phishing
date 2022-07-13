@@ -107,7 +107,9 @@ def run_promotee_followers_main():
                 except Exception as e:
                     print(e)
             if scenario==1:
-
+                print(f"{promotee_user_name},{tweet_id}")
+                time.sleep(10)
+                
                 query=f"""UPDATE promotee 
                 SET follower_count_at_8h = {followers}
                 WHERE user_name='{promotee_user_name}' and tweet_id = {tweet_id};"""   # Query to update the follower count at 24hrs
@@ -147,13 +149,14 @@ def run_promotee_followers_main():
                     SET completed = 1
                     WHERE user_name={promotee_user_name} and tweet_id = {tweet_id};"""  
 
-                with engine.connect() as con:
-
-                        rs = con.execute(query2)
+        
 
             with engine.connect() as con:
 
                 rs = con.execute(query)
+                if(scenario==6):
+                     rs = con.execute(query2)
+
         
 
 
