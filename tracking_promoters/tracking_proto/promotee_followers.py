@@ -95,8 +95,8 @@ def run_promotee_followers_main():
                     df=pd.read_csv(f"promotee_data/{promotee_user_name}_{timestamp}.csv")
                     for index, row in df.iterrows():
                         followers=row['author.public_metrics.followers_count']
-                except:
-                    pass
+                except Exception as e:
+                    print(e)
             elif type=="Discord":
 
                 try:
@@ -104,8 +104,8 @@ def run_promotee_followers_main():
 
                     followers=discord_output[4]
                     promotee_user_name=promotee_name
-                except:
-                    pass
+                except Exception as e:
+                    print(e)
             if scenario==1:
 
                 query=f"""UPDATE promotee 
@@ -145,7 +145,7 @@ def run_promotee_followers_main():
 
                 query2=f"""UPDATE promotee 
                     SET completed = 1
-                    WHERE user_name={promotee_user_name} and tweet_id = '{tweet_id};"""  
+                    WHERE user_name={promotee_user_name} and tweet_id = {tweet_id};"""  
 
                 with engine.connect() as con:
 
