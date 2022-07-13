@@ -34,6 +34,7 @@ def run_promotee_followers_main():
     for index, row in promotees.iterrows():
         timestamp=fetch_time()
         print(timestamp)
+        timestamp=int(timestamp)+7200 # Adding 2 hrs to catch up with Central time
 
         promotee_user_name=row['user_name']
         promotee_name=row['name'] # Doubles as invite code for discord channels 
