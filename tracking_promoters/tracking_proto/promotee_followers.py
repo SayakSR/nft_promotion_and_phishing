@@ -54,10 +54,12 @@ def run_promotee_followers_main():
         print("Here")
         print(f"{timestamp}-{promotee_time} =========")
         print(int(timestamp)-int(promotee_time))
-        if int(timestamp)-int(promotee_time)>1800 and int(timestamp)-int(promotee_time)<3600: # 8 - 12 hrs
+        if int(timestamp)-int(promotee_time)>28800 and int(timestamp)-int(promotee_time)<43200: # 8 - 12 hrs
             scenario=1
             activate=1
-        if int(timestamp)-int(promotee_time)>57600 and int(timestamp)-int(promotee_time)<72000: # 16 - 20 hrs 
+        
+        # 57600 # 72000
+        if int(timestamp)-int(promotee_time)>1800 and int(timestamp)-int(promotee_time)<3600: # 16 - 20 hrs 
             scenario=2
             activate=1
         
@@ -108,7 +110,7 @@ def run_promotee_followers_main():
                     print(e)
             if scenario==1:
                 print(f"{promotee_user_name},{tweet_id}")
-                time.sleep(10)
+                
                 
                 query=f"""UPDATE promotee 
                 SET follower_count_at_8h = {followers}
