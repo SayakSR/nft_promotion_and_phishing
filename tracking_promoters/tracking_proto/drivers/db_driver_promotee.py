@@ -89,7 +89,7 @@ def insert_promotee_into_table(i_job_id,i_timestamp,i_name,i_user_id,i_user_name
             session_promo.rollback() 
     except Exception as e:
         flag=0
-        #print(e)
+        print(e)
         print(f"DB JOB ID 3333: Insertion error raised for:{i_user_id}")
         logging.info(f"DB JOB ID 3333: Insertion error raised for:{i_user_id}")
     
