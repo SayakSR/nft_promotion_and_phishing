@@ -33,6 +33,8 @@ def run_promotee_followers_main():
 
     for index, row in promotees.iterrows():
         timestamp=fetch_time()
+        print(timestamp)
+
         promotee_user_name=row['user_name']
         promotee_name=row['name'] # Doubles as invite code for discord channels 
         type=row['type'] # Twitter or Discord
@@ -44,7 +46,7 @@ def run_promotee_followers_main():
         promotee_time=row['tweet_created_at'] # When the tweet was created/posted
         promotee_time=datetime_to_epoch(promotee_time) # Convert created at from python date time format to epoch format
         completed=row['completed']
-    
+        print(promotee_time)
 
         scenario=0
         activate=0
