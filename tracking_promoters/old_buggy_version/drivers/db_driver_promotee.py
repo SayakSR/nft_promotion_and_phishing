@@ -4,7 +4,7 @@ from sqlalchemy import Column, Date, ForeignKey, Integer, String, Text, Boolean,
 import time
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-import time
+
 
 import logging
 
@@ -42,20 +42,16 @@ class Promotee(base):
     type=Column(Text,nullable=False)
     bio = Column(Text,nullable=True)
     tweet_created_at=Column(TIMESTAMP,primary_key=True,nullable=False)
-    tweet_id=Column(Text, primary_key=True,nullable=False)
     promoted_by=Column(Numeric, primary_key=True,nullable=False)
     follower_count_at_0h=Column(Numeric,nullable=True)
-    follower_count_at_8h=Column(Numeric,nullable=True)
-    follower_count_at_16h=Column(Numeric,nullable=True)
     follower_count_at_24h=Column(Numeric,nullable=True)
-    follower_count_at_32h=Column(Numeric,nullable=True)
-    follower_count_at_40h=Column(Numeric,nullable=True)
     follower_count_at_48h=Column(Numeric,nullable=True)
+    follower_count_at_72h=Column(Numeric,nullable=True)
     completed=Column(Numeric,nullable=False)
 
 
 
-def insert_promotee_into_table(i_job_id,i_timestamp,i_name,i_user_id,i_user_name,i_type,i_bio,i_tweet_created_at,i_tweet_id,i_promoted_by,i_follow0):
+def insert_promotee_into_table(i_job_id,i_timestamp,i_name,i_user_id,i_user_name,i_type,i_bio,i_tweet_created_at,i_promoted_by,i_follow0):
 
     base.metadata.create_all(db)
 
@@ -64,7 +60,7 @@ def insert_promotee_into_table(i_job_id,i_timestamp,i_name,i_user_id,i_user_name
     try:
         # Create
         print(i_user_id)
-        query = Promotee(job_id=i_job_id,timestamp=i_timestamp,name=i_name,user_id=i_user_id,user_name=i_user_name,type=i_type,bio=i_bio,tweet_created_at=i_tweet_created_at,tweet_id=i_tweet_id,promoted_by=i_promoted_by,follower_count_at_0h=i_follow0,follower_count_at_8h=None,follower_count_at_16h=None,follower_count_at_24h=None,follower_count_at_32h=None,follower_count_at_40h=None,follower_count_at_48h=None,completed=0)  
+        query = Promotee(job_id=i_job_id,timestamp=i_timestamp,name=i_name,user_id=i_user_id,user_name=i_user_name,type=i_type,bio=i_bio,tweet_created_at=i_tweet_created_at,promoted_by=i_promoted_by,follower_count_at_0h=i_follow0,follower_count_at_24h=None,follower_count_at_48h=None,follower_count_at_72h=None,completed=0)  
 
         logging.info(f"Entry for User:{i_user_id} inserted successfully")
         print(f"Entry for User:{i_user_id} inserted successfully")
@@ -85,8 +81,7 @@ def insert_promotee_into_table(i_job_id,i_timestamp,i_name,i_user_id,i_user_name
             session_promo.rollback() 
     except Exception as e:
         flag=0
-        print(e)
-        time.sleep(2)
+        #print(e)
         print(f"DB JOB ID 3333: Insertion error raised for:{i_user_id}")
         logging.info(f"DB JOB ID 3333: Insertion error raised for:{i_user_id}")
     

@@ -20,7 +20,7 @@ logging.basicConfig(filename='pa.log', level=logging.DEBUG,
 
 # Get tweets from each account promoter every 1 hour
 
-def process_discord_promotion(expanded_url,timestamp,created_at,datestamp,promoter_id):
+def process_discord_promotion(tweet_id,expanded_url,timestamp,created_at,datestamp,promoter_id):
     discord_output=discord_driver(expanded_url,timestamp)
     name=discord_output[0]
     user_id=discord_output[1]
@@ -33,7 +33,7 @@ def process_discord_promotion(expanded_url,timestamp,created_at,datestamp,promot
 
     try:
         type="Discord"
-        insert_flag=insert_promotee_into_table(3333,datestamp,name,user_id,user_name,type,bio,created_at,promoter_id,follower_count)
+        insert_flag=insert_promotee_into_table(3333,datestamp,name,user_id,user_name,type,bio,created_at,str(tweet_id),promoter_id,follower_count)
 
         
         if(insert_flag==1):
@@ -50,7 +50,7 @@ def process_discord_promotion(expanded_url,timestamp,created_at,datestamp,promot
 
 
 
-def process_promotee(mentions,promoter,promoter_id,created_at,datestamp): # This timestamp = Twitter converted created_at to python date time format
+def process_promotee(tweet_id,mentions,promoter,promoter_id,created_at,datestamp): # This timestamp = Twitter converted created_at to python date time format
 
     # Step 1 is to extract the userid of the promoted account.
         # Step 1.1 We do this by finding the user who has been tagged in the promotion tweet (You will find this in the 'entities.mentions' column)
@@ -82,7 +82,7 @@ def process_promotee(mentions,promoter,promoter_id,created_at,datestamp): # This
 
             try:
                 type="Twitter"
-                insert_flag=insert_promotee_into_table(3333,datestamp,name,user_id,user_name,type,bio,created_at,promoter_id,follower_count)
+                insert_flag=insert_promotee_into_table(3333,datestamp,name,user_id,user_name,type,bio,created_at,tweet_id,promoter_id,follower_count)
 
                 
                 if(insert_flag==1):
@@ -124,7 +124,7 @@ def get_tweets_for_every_promoter(promoter_list):
             logging.info(f"Getting timelin for {promoter} at time {timestamp}")
             print(f"Getting timeline for {promoter} at time {timestamp}")
             # Top 20 tweets only
-            os.system(f"twarc2 timeline --limit 20 {promoter} promoter_timelines/{promoter}_{timestamp}.json")
+            os.system(f"twarc2 timeline --limit 10 {promoter} promoter_timelines/{promoter}_{timestamp}.json")
             logging.info(f"Fetched timeline for {promoter} at time {timestamp}")
             print(f"Fetched timeline for {promoter} at time {timestamp}")
             os.system(f"twarc2 csv promoter_timelines/{promoter}_{timestamp}.json promoter_timelines/{promoter}_{timestamp}.csv")
@@ -132,7 +132,9 @@ def get_tweets_for_every_promoter(promoter_list):
             
             # Step 2: Checking each tweet in a promoters timeline to see if it matches the account promoting heuristic  
             for index, row in tweets.iterrows():
-                datestamp=fetch_datestamp() # Used to find when the promotee account (Promotee database "timestamp" column)
+                datestamp=regular_datetime() # Used to find when the promotee account (Promotee database "timestamp" column)
+                print(datestamp)
+                tweet_id=row['id']
                 promoter_id=row['author_id']
                 tweet_text=row['text']
                 mentions=row['entities.mentions'] # Row contains users tagged by the promotion tweet
@@ -169,12 +171,12 @@ def get_tweets_for_every_promoter(promoter_list):
                         if "discord" in expanded_url:
                             print("Discord promotion link found")
                             logging.info("Discord promotion link found")
-                            process_discord_promotion(expanded_url,created_at_epoch,created_at,datestamp,promoter_id)
+                            process_discord_promotion(tweet_id,expanded_url,created_at_epoch,created_at,datestamp,promoter_id)
                         
                         print("Account promotion tweet!")
                         print(tweet_text)
                         # Step 3: Check if promoted account is an NFT and if so store in database 
-                        process_promotee(mentions,promoter,promoter_id,created_at,datestamp)
+                        process_promotee(tweet_id,mentions,promoter,promoter_id,created_at,datestamp)
         except Exception as e:
             print(e)
 
