@@ -23,6 +23,8 @@ from sqlalchemy.orm import sessionmaker
 
 def run_promotee_followers_main():
 
+    seen_users=[] # promotees seen in this iteration
+
     engine = create_engine('postgresql+psycopg2://sayaksr:%s@128.111.49.111/nft_scam'% urlquote('HJ[bR`m49gHT~:{'))
     sql1 = "select * from promotee"
 
@@ -33,7 +35,6 @@ def run_promotee_followers_main():
     promotees = pd.read_sql(sql1,con=engine)
 
     for index, row in promotees.iterrows():
-        seen_users=[] # promotees seen in this iteration
         try:
             timestamp=fetch_time()
             print(timestamp)
@@ -133,7 +134,7 @@ def run_promotee_followers_main():
                         promotee_user_name=promotee_name
                     except Exception as e:
                         print(e)
-                        
+
                 if scenario==1:
                     print(f"{promotee_user_name},{tweet_id}")
                     
