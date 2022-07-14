@@ -100,42 +100,27 @@ def run_promotee_followers_main():
             
             if activate==1 and int(completed)==0:
                 if type=="Twitter":
-                    if promotee_user_name not in seen_users:
-                        try:
+                    try:
 
-                            
-                            os.system(f'twarc2 timeline --use-search --start-time "{query_time_dt}"  --limit 10 --exclude-retweets --exclude-replies {promotee_user_name} promotee_data/{promotee_user_name}.json')
-                            seen_users.append(promotee_user_name)
-                            os.system(f"twarc2 csv promotee_data/{promotee_user_name}.json promotee_data/{promotee_user_name}_{timestamp}.csv")
-                            
-                            # DEBUG
+                        
+                        os.system(f'twarc2 timeline --use-search --start-time "{query_time_dt}"  --limit 10 --exclude-retweets --exclude-replies {promotee_user_name} promotee_data/{promotee_user_name}_{timestamp}.json')
+                        seen_users.append(promotee_user_name)
+                        os.system(f"twarc2 csv promotee_data/{promotee_user_name}_{timestamp}.json promotee_data/{promotee_user_name}_{timestamp}.csv")
+                        
+                        # DEBUG
 
-                            logging.info(f"timeline collected and processed for promotee:{promotee_user_name}")
-                            print(f"timeline collected and processed for promotee:{promotee_user_name}")
+                        logging.info(f"timeline collected and processed for promotee:{promotee_user_name}")
+                        print(f"timeline collected and processed for promotee:{promotee_user_name}")
 
-                            # DEBUG
+                        # DEBUG
 
-                            df=pd.read_csv(f"promotee_data/{promotee_user_name}_{timestamp}.csv")
-                            for index, row in df.iterrows():
-                                followers=row['author.public_metrics.followers_count']
-                            seen_users.append(promotee_user_name)
-                        except Exception as e:
-                            print(e)
-                    else:
-                        try:
-                            os.system(f"twarc2 csv promotee_data/{promotee_user_name}.json promotee_data/{promotee_user_name}_{timestamp}.csv")
-                            
-                            # DEBUG
-
-                            logging.info(f"timeline processed for promotee:{promotee_user_name}")
-
-                            # DEBUG
-
-                            df=pd.read_csv(f"promotee_data/{promotee_user_name}_{timestamp}.csv")
-                            for index, row in df.iterrows():
-                                followers=row['author.public_metrics.followers_count']
-                        except Exception as e:
-                            print(e)
+                        df=pd.read_csv(f"promotee_data/{promotee_user_name}_{timestamp}.csv")
+                        for index, row in df.iterrows():
+                            followers=row['author.public_metrics.followers_count']
+                        seen_users.append(promotee_user_name)
+                    except Exception as e:
+                        print(e)
+                   
 
                 elif type=="Discord":
 
