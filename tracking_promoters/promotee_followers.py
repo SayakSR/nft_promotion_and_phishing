@@ -120,17 +120,20 @@ def run_promotee_followers_main():
                         seen_users.append(promotee_user_name)
                     except Exception as e:
                         print(e)
+                        logging.info(f"{e}")
+
                    
 
                 elif type=="Discord":
 
                     try:
                         discord_output=discord_get_data(promotee_name) # Promotee name = discord invite code
-                        seen_users.append(promotee_user_name)
+                        #seen_users.append(promotee_user_name)
                         followers=discord_output[4]
                         promotee_user_name=promotee_name
                     except Exception as e:
                         print(e)
+                        logging.info(f"{e}")
 
 
                 if scenario==7:
