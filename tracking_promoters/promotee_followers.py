@@ -65,10 +65,6 @@ def run_promotee_followers_main():
             follower_count_at_32h=row['follower_count_at_32h']
             follower_count_at_40h=row['follower_count_at_40h']
             
-            print(follower_count_at_40h)
-            if follower_count_at_40h==None:
-                print("Converted")
-            time.sleep(2)
 
             logging.info(f"Checking {promotee_user_name}...")
             print(f"Checking {promotee_user_name}...")
@@ -166,7 +162,7 @@ def run_promotee_followers_main():
                 else:
                     scenario=5
                     activate=1
-                    
+
             # 172800 187200
             if int(timestamp)-int(promotee_time)>172800 and int(timestamp)-int(promotee_time)<187200: # 48 - 52 hrs
                 scenario=6
