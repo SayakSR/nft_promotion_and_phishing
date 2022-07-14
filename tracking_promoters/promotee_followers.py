@@ -49,6 +49,25 @@ def run_promotee_followers_main():
             #DEBUG
             tweet_id=row['tweet_id']
 
+            # Follower counts 
+
+            follower_count_at_0h=row['follower_count_at_0h']
+            follower_count_at_1h=row['follower_count_at_1h']
+            
+            follower_count_at_3h=row['follower_count_at_3h']
+            follower_count_at_8h=row['follower_count_at_8h']
+
+            
+            follower_count_at_16h=row['follower_count_at_16h']
+            follower_count_at_24h=row['follower_count_at_24h']
+
+            
+            follower_count_at_32h=row['follower_count_at_32h']
+            follower_count_at_40h=row['follower_count_at_40h']
+            
+            print(follower_count_at_40h)
+            time.sleep(2)
+
             logging.info(f"Checking {promotee_user_name}...")
             print(f"Checking {promotee_user_name}...")
             promotee_time=row['tweet_created_at'] # When the tweet was created/posted
