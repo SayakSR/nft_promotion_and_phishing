@@ -84,36 +84,89 @@ def run_promotee_followers_main():
             print(int(timestamp)-int(promotee_time))
 
             if int(timestamp)-int(promotee_time)>3600 and int(timestamp)-int(promotee_time)<6600: # 1hr - 1hr 50 min
-                scenario=7
-                activate=1
+
+                if follower_count_at_1h==None:
+                    follower_count_at_1h=0
+                
+                if follower_count_at_1h>0:
+                    activate=0
+                else:
+                    scenario=7
+                    activate=1
             
             if int(timestamp)-int(promotee_time)>10800 and int(timestamp)-int(promotee_time)<18000: # 3 - 5 hrs
-                scenario=8
-                activate=1
+
+                if follower_count_at_3h==None:
+                    follower_count_at_3h=0
+                
+                if follower_count_at_3h>0:
+                    activate=0
+                else:
+                    scenario=8
+                    activate=1
 
             # 28,800 - 43,200
             if int(timestamp)-int(promotee_time)>28800 and int(timestamp)-int(promotee_time)<43200: # 8 - 12 hrs
-                scenario=1
-                activate=1
+                
+
+                if follower_count_at_8h==None:
+                    follower_count_at_8h=0
+                
+                if follower_count_at_8h>0:
+                    activate=0
+                else:
+                    scenario=1
+                    activate=1
             
             # 57600 # 72000
             if int(timestamp)-int(promotee_time)>57600 and int(timestamp)-int(promotee_time)<72000: # 16 - 20 hrs 
-                scenario=2
-                activate=1
+
+
+                if follower_count_at_16h==None:
+                    follower_count_at_16h=0
+                
+                if follower_count_at_16h>0:
+                    activate=0
+                else:
+                    scenario=2
+                    activate=1
             # 86400 #100800
             if int(timestamp)-int(promotee_time)>86400 and int(timestamp)-int(promotee_time)<100800: # 24 - 28 hrs 
-                scenario=3
-                activate=1
+                
+                
+                if follower_count_at_24h==None:
+                    follower_count_at_24h=0
+                
+                if follower_count_at_24h>0:
+                    activate=0
+                else:
+                    scenario=3
+                    activate=1
             
             # 115200 #129600
             if int(timestamp)-int(promotee_time)>115200 and int(timestamp)-int(promotee_time)<129600: # 32 - 36 hrs 
-                scenario=4
-                activate=1
+                
+                if follower_count_at_32h==None:
+                    follower_count_at_32h=0
+                
+                if follower_count_at_32h>0:
+                    activate=0
+                else:
+                    scenario=4
+                    activate=1
 
             # 144000 # 158400
             if int(timestamp)-int(promotee_time)>144000 and int(timestamp)-int(promotee_time)<158400: # 40 - 44 hrs
-                scenario=5
-                activate=1
+                
+                if follower_count_at_40h==None:
+                    follower_count_at_40h=0
+                
+                if follower_count_at_40h>0:
+                    activate=0
+                else:
+                    scenario=5
+                    activate=1
+                    
             # 172800 187200
             if int(timestamp)-int(promotee_time)>172800 and int(timestamp)-int(promotee_time)<187200: # 48 - 52 hrs
                 scenario=6
