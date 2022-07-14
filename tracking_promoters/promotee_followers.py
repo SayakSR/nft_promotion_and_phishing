@@ -86,6 +86,8 @@ def run_promotee_followers_main():
                 
                 if follower_count_at_1h>0:
                     activate=0
+                    logging.info("Already has entry at 1hr")
+                    print("Already has entry at 1hr")
                 else:
                     scenario=7
                     activate=1
@@ -97,6 +99,8 @@ def run_promotee_followers_main():
                 
                 if follower_count_at_3h>0:
                     activate=0
+                    logging.info("Already has entry at 3hr")
+                    print("Already has entry at 3hr")
                 else:
                     scenario=8
                     activate=1
@@ -110,6 +114,8 @@ def run_promotee_followers_main():
                 
                 if follower_count_at_8h>0:
                     activate=0
+                    logging.info("Already has entry at 8hr")
+                    print("Already has entry at 8hr")
                 else:
                     scenario=1
                     activate=1
@@ -123,6 +129,8 @@ def run_promotee_followers_main():
                 
                 if follower_count_at_16h>0:
                     activate=0
+                    logging.info("Already has entry at 16hr")
+                    print("Already has entry at 16hr")
                 else:
                     scenario=2
                     activate=1
@@ -135,6 +143,8 @@ def run_promotee_followers_main():
                 
                 if follower_count_at_24h>0:
                     activate=0
+                    logging.info("Already has entry at 24hr")
+                    print("Already has entry at 24hr")
                 else:
                     scenario=3
                     activate=1
@@ -147,6 +157,8 @@ def run_promotee_followers_main():
                 
                 if follower_count_at_32h>0:
                     activate=0
+                    logging.info("Already has entry at 32hr")
+                    print("Already has entry at 32hr")
                 else:
                     scenario=4
                     activate=1
@@ -159,6 +171,8 @@ def run_promotee_followers_main():
                 
                 if follower_count_at_40h>0:
                     activate=0
+                    logging.info("Already has entry at 40hr")
+                    print("Already has entry at 40hr")
                 else:
                     scenario=5
                     activate=1
