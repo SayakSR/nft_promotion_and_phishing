@@ -7,6 +7,6 @@ import time
 
 while 1:
     run_promotee_tracker_main()
-    countdown(10800)
+    #countdown(10800)
 
 
