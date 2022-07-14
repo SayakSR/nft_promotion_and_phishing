@@ -66,6 +66,8 @@ def run_promotee_followers_main():
             follower_count_at_40h=row['follower_count_at_40h']
             
             print(follower_count_at_40h)
+            if follower_count_at_40h==None:
+                print("Converted")
             time.sleep(2)
 
             logging.info(f"Checking {promotee_user_name}...")
