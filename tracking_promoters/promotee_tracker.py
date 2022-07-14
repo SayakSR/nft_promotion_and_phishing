@@ -120,6 +120,9 @@ def get_tweets_for_every_promoter(promoter_list):
     for promoter in promoter_list:
         try:
             timestamp=fetch_time()
+
+            timestamp=timestamp+7200 # To Catch up with CST
+
             query_time=timestamp-600 # Query 10 mins before.
             query_time_dt=convert_epoch_to_datetime(query_time) # Query time in a modified python date-time format to match with Twitter API format.
         # Step 1: This function loops through the promoter_list and queries timeline of each account account and checks for new tweets every 1 hour.
@@ -162,6 +165,7 @@ def get_tweets_for_every_promoter(promoter_list):
                     created_at_epoch=convert_to_epoch(created_at_raw)
                     #print(created_at_epoch)
                     current_time=fetch_time()
+                    current_time=current_time+7200 # To catch up with CST
                     #print(current_time)
                     if int(current_time)-int(created_at_epoch)<600:
                         # Why this condition? If the tweet is greater than 10 mins old when it is seen by the crawler, then its an old tweet and checking increase of follower count over 3 days will not be consistent.
