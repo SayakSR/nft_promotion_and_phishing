@@ -120,11 +120,13 @@ def get_tweets_for_every_promoter(promoter_list):
     for promoter in promoter_list:
         try:
             timestamp=fetch_time()
+            query_time=timestamp-600 # Query 10 mins before.
+            query_time_dt=convert_epoch_to_datetime(query_time) # Query time in a modified python date-time format to match with Twitter API format.
         # Step 1: This function loops through the promoter_list and queries timeline of each account account and checks for new tweets every 1 hour.
             logging.info(f"Getting timelin for {promoter} at time {timestamp}")
             print(f"Getting timeline for {promoter} at time {timestamp}")
             # Top 20 tweets only
-            os.system(f"twarc2 timeline --limit 10 {promoter} promoter_timelines/{promoter}_{timestamp}.json")
+            os.system(f'twarc2 timeline --use-search --start-time "{query_time_dt}"  --limit 10 --exclude-retweets --exclude-replies {promoter} promoter_timelines/{promoter}_{timestamp}.json')
             logging.info(f"Fetched timeline for {promoter} at time {timestamp}")
             print(f"Fetched timeline for {promoter} at time {timestamp}")
             os.system(f"twarc2 csv promoter_timelines/{promoter}_{timestamp}.json promoter_timelines/{promoter}_{timestamp}.csv")
@@ -161,8 +163,8 @@ def get_tweets_for_every_promoter(promoter_list):
                     #print(created_at_epoch)
                     current_time=fetch_time()
                     #print(current_time)
-                    if int(current_time)-int(created_at_epoch)<18000:
-                        # Why this condition? If the tweet is greater than 5 hours old when it is seen by the crawler, then its an old tweet and checking increase of follower count over 3 days will not be consistent.
+                    if int(current_time)-int(created_at_epoch)<600:
+                        # Why this condition? If the tweet is greater than 10 mins old when it is seen by the crawler, then its an old tweet and checking increase of follower count over 3 days will not be consistent.
                         # For example a tweet that was posted yesterday has its 24 hours is today. If this condition does not exists, then the crawler thinks its 24 hours is tomorrow.
                         # Thus we need to navigate these situations using this loop.
 

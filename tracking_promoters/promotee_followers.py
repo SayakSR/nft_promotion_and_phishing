@@ -37,8 +37,12 @@ def run_promotee_followers_main():
     for index, row in promotees.iterrows():
         try:
             timestamp=fetch_time()
+            query_time=timestamp-604800 # Query 7 days before.
+            query_time_dt=convert_epoch_to_datetime(query_time) # Query time in a modified python date-time format to match with Twitter API format.
             print(timestamp)
+
             timestamp=int(timestamp)+7200 # Adding 2 hrs to catch up with Central time
+            
 
             promotee_user_name=row['user_name']
             promotee_name=row['name'] # Doubles as invite code for discord channels 
@@ -58,6 +62,15 @@ def run_promotee_followers_main():
             print("Here")
             print(f"{timestamp}-{promotee_time} =========")
             print(int(timestamp)-int(promotee_time))
+
+            if int(timestamp)-int(promotee_time)>3600 and int(timestamp)-int(promotee_time)<6600: # 1hr - 1hr 50 min
+                scenario=7
+                activate=1
+            
+            if int(timestamp)-int(promotee_time)>10800 and int(timestamp)-int(promotee_time)<18000: # 3 - 5 hrs
+                scenario=8
+                activate=1
+
             # 28,800 - 43,200
             if int(timestamp)-int(promotee_time)>28800 and int(timestamp)-int(promotee_time)<43200: # 8 - 12 hrs
                 scenario=1
@@ -92,7 +105,7 @@ def run_promotee_followers_main():
                         try:
 
                             
-                            os.system(f"twarc2 timeline --limit 2 {promotee_user_name} promotee_data/{promotee_user_name}.json")
+                            os.system(f'twarc2 timeline --use-search --start-time "{query_time_dt}"  --limit 10 --exclude-retweets --exclude-replies {promotee_user_name} promotee_data/{promotee_user_name}.json')
                             seen_users.append(promotee_user_name)
                             os.system(f"twarc2 csv promotee_data/{promotee_user_name}.json promotee_data/{promotee_user_name}_{timestamp}.csv")
                             
@@ -135,6 +148,23 @@ def run_promotee_followers_main():
                     except Exception as e:
                         print(e)
 
+
+                if scenario==7:
+                    print(f"{promotee_user_name},{tweet_id}")
+                    
+                    
+                    query=f"""UPDATE promotee 
+                    SET follower_count_at_1h = {followers}
+                    WHERE user_name='{promotee_user_name}' and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
+                
+                if scenario==8:
+                    print(f"{promotee_user_name},{tweet_id}")
+                    
+                    
+                    query=f"""UPDATE promotee 
+                    SET follower_count_at_3h = {followers}
+                    WHERE user_name='{promotee_user_name}' and tweet_id = '{tweet_id}';"""   # Query to update the follower count at 24hrs
+                
                 if scenario==1:
                     print(f"{promotee_user_name},{tweet_id}")
                     

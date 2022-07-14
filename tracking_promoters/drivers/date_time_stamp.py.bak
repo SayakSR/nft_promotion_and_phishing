@@ -19,11 +19,17 @@ def fetch_time(): # Epoch timestamp
 
     timestamp=time.time()
 
-    return timestamp 
+    return str(int(timestamp)) 
 
 
-def convert_epoch_to_datetime(timestamp):
-    return time.strftime('%Y-%m-%dT%H:%M:%S', time.localtime(timestamp))
+def fetch_datestamp():
+
+    from datetime import datetime  
+    time_stamp = 1617295943.17321
+
+    dstamp = datetime.fromtimestamp(time_stamp)
+
+    return dstamp
 
 def convert_created_at(created_at): # Function to convert twitter created_at to python timestamp
  
