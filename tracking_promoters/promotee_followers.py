@@ -37,12 +37,10 @@ def run_promotee_followers_main():
     for index, row in promotees.iterrows():
         try:
             timestamp=fetch_time()
-            timestamp=timestamp+7200 # To catch up with CST
+            timestamp=timestamp+25200 # To catch up with UTC
             query_time=timestamp-604800 # Query 7 days before.
             query_time_dt=convert_epoch_to_datetime(query_time) # Query time in a modified python date-time format to match with Twitter API format.
             print(timestamp)
-
-            timestamp=int(timestamp)+7200 # Adding 2 hrs to catch up with Central time
             
 
             promotee_user_name=row['user_name']
