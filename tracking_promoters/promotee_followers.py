@@ -187,7 +187,7 @@ def run_promotee_followers_main():
                     try:
 
                         
-                        os.system(f'twarc2 timeline --use-search --start-time "{query_time_dt}"  --limit 10 --exclude-retweets --exclude-replies {promotee_user_name} promotee_data/{promotee_user_name}_{timestamp}.json')
+                        os.system(f'twarc2 timeline  --limit 10 {promotee_user_name} promotee_data/{promotee_user_name}_{timestamp}.json')
                         seen_users.append(promotee_user_name)
                         os.system(f"twarc2 csv promotee_data/{promotee_user_name}_{timestamp}.json promotee_data/{promotee_user_name}_{timestamp}.csv")
                         
