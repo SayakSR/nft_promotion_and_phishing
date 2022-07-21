@@ -55,10 +55,6 @@ base = declarative_base()
     # Example 1123234: file.png
     # filename= {url_id}_{timestamp}.png
 
-# 10) Website location name: A local dump of the website including its html,css,js dependencies. The folder name is stored in the database and can be found in /saved_webpages/
-
-
-
 class phishing(base): 
 
     __tablename__ = 'phishing' 
@@ -77,12 +73,10 @@ class phishing(base):
     last_checked= Column(TIMESTAMP,nullable=False)
     detections=Column(Text,nullable=False)
     screenshots=Column(Text,nullable=True)
-    last_screenshoted=Column(TIMESTAMP,nullable=True)
-    webpage_filename=Column(Text,nullable=True)
 
 
 
-def insert_phishing_into_table(i_job_id,i_url_id,i_url,i_first_seen,i_initial_state,i_present_state,i_url_became_active_time,i_url_became_inactive_time,i_last_checked,i_detections,i_screenshots,i_last_screenshoted,i_webpage_filename):
+def insert_phishing_into_table(i_job_id,i_url_id,i_url,i_first_seen,i_initial_state,i_present_state,i_url_became_active_time,i_url_became_inactive_time,i_last_checked,i_detections,i_screenshots):
 
     base.metadata.create_all(db)
 
@@ -91,7 +85,7 @@ def insert_phishing_into_table(i_job_id,i_url_id,i_url,i_first_seen,i_initial_st
     try:
         # Create
         
-        query = phishing(job_id=i_job_id,url_id=i_url_id,url=i_url,first_seen=i_first_seen,initial_state=i_initial_state,present_state=i_present_state,url_became_active_time=i_url_became_active_time,url_became_inactive_time=i_url_became_inactive_time,last_checked=i_last_checked,detections=i_detections,screenshots=i_screenshots, last_screenshoted=i_last_screenshoted,webpage_filename=i_webpage_filename)
+        query = phishing(job_id=i_job_id,url_id=i_url_id,url=i_url,first_seen=i_first_seen,initial_state=i_initial_state,present_state=i_present_state,url_became_active_time=i_url_became_active_time,url_became_inactive_time=i_url_became_inactive_time,last_checked=i_last_checked,detections=i_detections,screenshots=i_screenshots)
         
         logging.info(f"Entry for URL:{i_url} inserted successfully")
         print(f"Entry for URL:{i_url} inserted successfully")

@@ -14,10 +14,9 @@ from itertools import zip_longest
 from pathlib import Path
 
 def vt_scan_and_get_report(url,url_id,timestamp):
-
     URL_ = 'https://www.virustotal.com/vtapi/v2/url/scan' # vtotal url where we scan URLs  
     URL_r = 'https://www.virustotal.com/vtapi/v2/url/report'  # to get report.
-    key = 'd80137e9f5e82896483095b49a7f0e73b5fd0dbc7bd98f1d418ff3ae9c83951e'
+    key = 'aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339'
     tc = -1 # initialize threatcount value to be -1 
    
     params = {'apikey': key, 'resource': url}  # parameters needed for vtotal API call. 
@@ -37,7 +36,7 @@ def vt_scan_and_get_report(url,url_id,timestamp):
     try:
         resp = requests.get(URL_r, params=params)
         print("Report Retrived for {} with status code {}".format(url,resp.status_code))
-        print(resp)
+        
         response = resp.json()  # getting the scan report.
         # file=open("raw/"+str(url_id)+"_"+str(timestamp)+".txt","w")
         # file.write(str(response))
@@ -55,4 +54,3 @@ def vt_scan_and_get_report(url,url_id,timestamp):
     except Exception as e:
         print(e)
 
-vt_scan_and_get_report("http://moonbirds2022.com",12345,45678)

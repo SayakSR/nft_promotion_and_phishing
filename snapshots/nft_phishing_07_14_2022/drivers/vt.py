@@ -25,7 +25,7 @@ from pathlib import Path
 def vt_scan_and_get_report(url_id,url,current_time):
     URL_ = 'https://www.virustotal.com/vtapi/v2/url/scan' # vtotal url where we scan URLs  
     URL_r = 'https://www.virustotal.com/vtapi/v2/url/report'  # to get report.
-    key = 'd80137e9f5e82896483095b49a7f0e73b5fd0dbc7bd98f1d418ff3ae9c83951e'
+    key = 'aeaa9656525c9a1b99a3f8a4754457beb784b39e0aeb87ef24b6b79613d03339'
     tc = -1 # initialize threatcount value to be -1 
    
     params = {'apikey': key, 'resource': url}  # parameters needed for vtotal API call. 
@@ -35,7 +35,7 @@ def vt_scan_and_get_report(url_id,url,current_time):
     # scan the URL first. 
 
     try:  
-        resp = requests.post(URL_, params = params)
+        resp = requests.get(URL_, params = params)
         if(resp.status_code==200):
             print("URL sent for scan.")
         
