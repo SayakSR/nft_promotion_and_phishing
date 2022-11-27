@@ -52,6 +52,7 @@ def get_balances(eth_addresses, is_mp=False):
 # Write the balances to file
 def write_balances(balances, output_file):
     with open(output_file, 'w') as f:
+        f.write('eth_address,eth_balance,tx_count\n')
         for balance in balances:
             f.write(f'{balance[0]},{balance[1]},{balance[2]}\n')
 
