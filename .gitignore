@@ -1,5 +1,5 @@
 env
-misc
+out
 **/find_promoter_accounts/backup/
 **/find_promoter_accounts/user_metadata/
 **/find_promoter_accounts/timelines/
