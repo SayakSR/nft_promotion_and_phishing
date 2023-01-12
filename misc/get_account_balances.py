@@ -90,16 +90,28 @@ def get_total_phishing_sales(contract_addresses_file, output_file):
 # Query the database to get the total amount of ETH sent through both
 # internal and external transactions to a specific contract address
 #
-# Dune Analytics (dune.com) equivalent query:
+# Dune Analytics (dune.com) query:
 #
 # SELECT 
-#   ROUND(SUM(ethereum.transactions.value) / 1000000000000000000, 3) AS eth
+#     ROUND(SUM(ethereum.transactions.value) / 1000000000000000000, 3) AS eth,
+#     COUNT(*) AS tx
 # FROM ethereum.traces
 # INNER JOIN ethereum.transactions
 # ON ethereum.transactions.hash = ethereum.traces.tx_hash
 # WHERE ethereum.traces.to = '\xbCe3781ae7Ca1a5e050Bd9C4c77369867eBc307e';
 # -- AND ethereum.traces.trace_address = '{}';
 # -- Checking for empty INTEGER ARRAY to identify associated external transaction
+#
+# Merged query to compute ETH sent to multiple contract addresess
+#
+# SELECT
+#    ethereum.traces.to,
+#    ROUND(SUM(ethereum.transactions.value) / 1000000000000000000, 3) AS eth,
+#    COUNT(*) AS tx
+# FROM ethereum.traces
+# INNER JOIN ethereum.transactions ON ethereum.transactions.hash = ethereum.traces.tx_hash
+# WHERE ethereum.traces.to IN (...)
+# GROUP BY ethereum.traces.to;
 def get_eth_sent_thru_int_tx(eth_address):
     print(eth_address)
     query = f"SELECT \
